@@ -2548,16 +2548,19 @@
     <bcf:citekey order="58" intorder="1">Lu2022rpm</bcf:citekey>
     <bcf:citekey order="59" intorder="1">Ilyasov2023pinn</bcf:citekey>
     <bcf:citekey order="60" intorder="1">Kobzar2006</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">Sidorenko2026</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">Gu2024</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">Burri2016</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">Sidorenko2026</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">holybro_x500</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">mission_gen_v2</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">mamba_ssm</bcf:citekey>
-    <bcf:citekey order="67" intorder="2">mamba_pinn_ours</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">pinn_physics_loss</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">inertial_nav_drift</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">deep_inertial_odometry</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">inertial_nav_titterton</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">Sidorenko2026</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">Gu2024</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">Burri2016</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">Sidorenko2026</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">holybro_x500</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">mission_gen_v2</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">mamba_ssm</bcf:citekey>
+    <bcf:citekey order="69" intorder="2">mamba_pinn_ours</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">pinn_physics_loss</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">inertial_nav_drift</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">AIIO2026</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

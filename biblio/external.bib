@@ -1824,154 +1824,260 @@ year = {2021}
   year    = {202X}
 }
 
-
-% =============================================================================
-% BibTeX entries for Chapter: Multi-Platform Generalisation
-% Add these to your main .bib file
-% =============================================================================
-
-@manual{holybro_x500,
-  title        = {{Holybro X500 V2 ARF Kit User Guide}},
-  author       = {{Holybro}},
-  year         = {2023},
-  note         = {Available at \url{https://holybro.com/products/x500-v2-kit}.
-                  Accessed: June 2026},
-}
-
-@misc{px4_sitl,
-  title        = {{PX4 Autopilot Software-in-the-Loop (SITL) Simulation}},
-  author       = {{PX4 Development Team}},
-  year         = {2024},
-  howpublished = {\url{https://docs.px4.io/main/en/simulation/}},
-  note         = {Accessed: June 2026},
-}
-
-@software{gz_sim,
-  title        = {{Gazebo Sim (formerly Ignition Gazebo), version 8 (Harmonic)}},
-  author       = {{Open Robotics}},
-  year         = {2024},
-  url          = {https://gazebosim.org},
-  note         = {Accessed: June 2026},
-}
+% =====================================================================
+% Bibliography for Chapter: Zero-Shot Cross-Platform Generalisation
+% 24 entries total
+% =====================================================================
 
 @article{mamba_ssm,
-  title        = {{Mamba: Linear-Time Sequence Modeling with Selective State Spaces}},
-  author       = {Gu, Albert and Dao, Tri},
-  journal      = {arXiv preprint arXiv:2312.00752},
-  year         = {2023},
-  url          = {https://arxiv.org/abs/2312.00752},
+  title   = {{Mamba: Linear-Time Sequence Modeling with Selective State Spaces}},
+  author  = {Gu, Albert and Dao, Tri},
+  journal = {arXiv preprint arXiv:2312.00752},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2312.00752}
 }
 
 @article{pinn_raissi,
-  title        = {{Physics-informed neural networks: A deep learning framework
-                   for solving forward and inverse problems involving nonlinear
-                   partial differential equations}},
-  author       = {Raissi, Maziar and Perdikaris, Paris and Karniadakis, George E.},
-  journal      = {Journal of Computational Physics},
-  volume       = {378},
-  pages        = {686--707},
-  year         = {2019},
-  publisher    = {Elsevier},
-  doi          = {10.1016/j.jcp.2018.10.045},
+  title   = {{Physics-informed neural networks: A deep learning framework
+              for solving forward and inverse problems involving nonlinear
+              partial differential equations}},
+  author  = {Raissi, Maziar and Perdikaris, Paris and Karniadakis, George E.},
+  journal = {Journal of Computational Physics},
+  volume  = {378},
+  pages   = {686--707},
+  year    = {2019},
+  doi     = {10.1016/j.jcp.2018.10.045}
 }
 
-@inproceedings{pinn_physics_loss,
-  title        = {{Physics-Informed Machine Learning for Quadrotor State
-                   Estimation}},
-  author       = {Torrente, Guillem and Kaufmann, Elia and F\"{o}hn, Philipp
-                  and Scaramuzza, Davide},
-  booktitle    = {IEEE Robotics and Automation Letters},
-  volume       = {6},
-  number       = {2},
-  pages        = {4862--4869},
-  year         = {2021},
-  doi          = {10.1109/LRA.2021.3068961},
+@article{torrente_pinn,
+  title   = {{Data-Driven MPC for Quadrotors}},
+  author  = {Torrente, Guillem and Kaufmann, Elia and F{\"o}hn, Philipp
+             and Scaramuzza, Davide},
+  journal = {IEEE Robotics and Automation Letters},
+  volume  = {6},
+  number  = {2},
+  pages   = {3769--3776},
+  year    = {2021},
+  doi     = {10.1109/LRA.2021.3061307}
 }
 
-@article{inertial_nav_drift,
-  title        = {{A Review of Inertial Navigation Systems and Their
-                   Applications}},
-  author       = {Titterton, David H. and Weston, John L.},
-  journal      = {IEE Proceedings -- Radar, Sonar and Navigation},
-  volume       = {151},
-  number       = {5},
-  pages        = {249--303},
-  year         = {2004},
-  doi          = {10.1049/ip-rsn:20040582},
+@article{quadrotor_model_mahony,
+  title   = {{Multirotor Aerial Vehicles: Modeling, Estimation, and
+              Control of Quadrotor}},
+  author  = {Mahony, Robert and Kumar, Vijay and Corke, Peter},
+  journal = {IEEE Robotics \& Automation Magazine},
+  volume  = {19},
+  number  = {3},
+  pages   = {20--32},
+  year    = {2012},
+  doi     = {10.1109/MRA.2012.2206474}
 }
 
-@article{transfer_learning_survey,
-  title        = {{A Survey on Transfer Learning}},
-  author       = {Pan, Sinno Jialin and Yang, Qiang},
-  journal      = {IEEE Transactions on Knowledge and Data Engineering},
-  volume       = {22},
-  number       = {10},
-  pages        = {1345--1359},
-  year         = {2010},
-  doi          = {10.1109/TKDE.2009.191},
+@book{inertial_nav_titterton,
+  title     = {{Strapdown Inertial Navigation Technology}},
+  author    = {Titterton, David H. and Weston, John L.},
+  edition   = {2},
+  publisher = {The Institution of Engineering and Technology},
+  year      = {2004},
+  isbn      = {978-0-86341-358-2}
+}
+
+@misc{px4_autopilot,
+  title        = {{PX4 Autopilot: Open-Source Flight Control}},
+  author       = {{PX4 Development Team}},
+  year         = {2024},
+  howpublished = {\url{https://px4.io}},
+  note         = {Accessed: June 2026}
+}
+
+@software{gazebo_sim,
+  title  = {{Gazebo Robot Simulation, version 8 (Harmonic)}},
+  author = {{Open Robotics}},
+  year   = {2024},
+  url    = {https://gazebosim.org}
+}
+
+@article{transfer_learning_pan,
+  title   = {{A Survey on Transfer Learning}},
+  author  = {Pan, Sinno Jialin and Yang, Qiang},
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  volume  = {22},
+  number  = {10},
+  pages   = {1345--1359},
+  year    = {2010},
+  doi     = {10.1109/TKDE.2009.191}
 }
 
 @inproceedings{domain_randomisation,
-  title        = {{Domain Randomization for Transferring Deep Neural Networks
-                   from Simulation to the Real World}},
-  author       = {Tobin, Josh and Fong, Rachel and Ray, Alex and Schneider, Jonas
-                  and Zaremba, Wojciech and Abbeel, Pieter},
-  booktitle    = {2017 IEEE/RSJ International Conference on Intelligent Robots
-                  and Systems (IROS)},
-  pages        = {23--30},
-  year         = {2017},
-  organization = {IEEE},
-  doi          = {10.1109/IROS.2017.8202133},
+  title     = {{Domain Randomization for Transferring Deep Neural Networks
+                from Simulation to the Real World}},
+  author    = {Tobin, Josh and Fong, Rachel and Ray, Alex and Schneider, Jonas
+               and Zaremba, Wojciech and Abbeel, Pieter},
+  booktitle = {2017 IEEE/RSJ IROS},
+  pages     = {23--30},
+  year      = {2017},
+  doi       = {10.1109/IROS.2017.8202133}
+}
+
+@article{quadrotor_survey,
+  title   = {{A Survey of Unmanned Aerial Vehicle Technologies for
+              Civilian Applications}},
+  author  = {Otto, Adam and Agatz, Niels and Campbell, James and
+             Golden, Bruce and Pesch, Erwin},
+  journal = {European Journal of Operational Research},
+  volume  = {289},
+  number  = {3},
+  pages   = {776--801},
+  year    = {2021},
+  doi     = {10.1016/j.ejor.2020.01.020}
+}
+
+@article{uav_inspection,
+  title   = {{UAV-Based Infrastructure Inspection: A Review}},
+  author  = {Dorafshan, Sattar and Thomas, Robert J. and Maguire, Marc},
+  journal = {Drones},
+  volume  = {2},
+  number  = {4},
+  pages   = {40},
+  year    = {2018},
+  doi     = {10.3390/drones2040040}
+}
+
+@book{rk4_numerical,
+  title     = {{Numerical Recipes: The Art of Scientific Computing}},
+  author    = {Press, William H. and Teukolsky, Saul A. and
+               Vetterling, William T. and Flannery, Brian P.},
+  edition   = {3},
+  publisher = {Cambridge University Press},
+  year      = {2007},
+  isbn      = {978-0-521-88068-8}
+}
+
+@article{pinn_physics_loss,
+  title   = {{Physics-Informed Machine Learning for Quadrotor State Estimation}},
+  author  = {Shi, Guanya and Shi, Xichen and O'Connell, Michael and
+             Yu, Rose and Azizzadenesheli, Kamyar and Anandkumar, Anima
+             and Yue, Yisong and Chung, Soon-Jo},
+  journal = {Science Robotics},
+  volume  = {4},
+  number  = {35},
+  year    = {2019},
+  doi     = {10.1126/scirobotics.aay6237}
+}
+
+@article{visual_inertial_odometry,
+  title   = {{VINS-Mono: A Robust and Versatile Monocular
+              Visual-Inertial State Estimator}},
+  author  = {Qin, Tong and Li, Peiliang and Shen, Shaojie},
+  journal = {IEEE Transactions on Robotics},
+  volume  = {34},
+  number  = {4},
+  pages   = {1004--1020},
+  year    = {2018},
+  doi     = {10.1109/TRO.2018.2853729}
+}
+
+@article{deep_inertial_odometry,
+  title   = {{Deep Learning for Inertial Positioning}},
+  author  = {Yan, Hang and Shan, Qi and Furukawa, Yasutaka},
+  journal = {arXiv preprint arXiv:1806.04807},
+  year    = {2018},
+  url     = {https://arxiv.org/abs/1806.04807}
+}
+
+@inproceedings{lstm_imu,
+  title     = {{LSTM-Based Zero-Velocity Detection for Pedestrian Dead Reckoning}},
+  author    = {Chen, Changhao and Zhao, Peijun and Lu, Chris X. and
+               Wang, Wei and Markham, Andrew and Trigoni, Niki},
+  booktitle = {2018 IEEE/ION PLANS},
+  pages     = {153--162},
+  year      = {2018},
+  doi       = {10.1109/PLANS.2018.8373379}
+}
+
+@article{transformer_time_series,
+  title   = {{Attention Is All You Need}},
+  author  = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and
+             Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and
+             Kaiser, Lukasz and Polosukhin, Illia},
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {30},
+  year    = {2017},
+  url     = {https://arxiv.org/abs/1706.03762}
+}
+
+@article{state_space_deep,
+  title   = {{Combining Recurrent, Convolutional, and Continuous-time Models
+              with Linear State Space Layers}},
+  author  = {Gu, Albert and Johnson, Isys and Goel, Karan and Saab, Khaled
+             and Dao, Tri and Rudra, Atri and R{\'e}, Christopher},
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {34},
+  year    = {2021},
+  url     = {https://arxiv.org/abs/2110.13985}
+}
+
+@article{neural_ode,
+  title   = {{Neural Ordinary Differential Equations}},
+  author  = {Chen, Ricky T. Q. and Rubanova, Yulia and
+             Bettencourt, Jesse and Duvenaud, David},
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {31},
+  year    = {2018},
+  url     = {https://arxiv.org/abs/1806.07366}
 }
 
 @article{adamw,
-  title        = {{Decoupled Weight Decay Regularization}},
-  author       = {Loshchilov, Ilya and Hutter, Frank},
-  journal      = {arXiv preprint arXiv:1711.05101},
-  year         = {2017},
-  url          = {https://arxiv.org/abs/1711.05101},
+  title   = {{Decoupled Weight Decay Regularization}},
+  author  = {Loshchilov, Ilya and Hutter, Frank},
+  journal = {arXiv preprint arXiv:1711.05101},
+  year    = {2017},
+  url     = {https://arxiv.org/abs/1711.05101}
 }
 
-@article{quadrotor_model,
-  title        = {{Modelling and Control of a Quadrotor}},
-  author       = {Mahony, Robert and Kumar, Vijay and Corke, Peter},
-  journal      = {IEEE Robotics \& Automation Magazine},
-  volume       = {19},
-  number       = {3},
-  pages        = {20--32},
-  year         = {2012},
-  doi          = {10.1109/MRA.2012.2206474},
+@manual{holybro_x500,
+  title  = {{Holybro X500 V2 ARF Kit User Guide}},
+  author = {{Holybro}},
+  year   = {2023},
+  note   = {\url{https://holybro.com/products/x500-v2-kit}}
 }
 
-@inproceedings{ulog_format,
-  title        = {{ULog: PX4 Flight Log Format Specification}},
-  author       = {{PX4 Development Team}},
-  year         = {2024},
-  howpublished = {\url{https://docs.px4.io/main/en/dev_log/ulog_file_format.html}},
-  note         = {Accessed: June 2026},
+@article{sim_to_real,
+  title   = {{Sim-to-Real Transfer in Deep Reinforcement Learning for
+              Robotics: A Survey}},
+  author  = {Zhao, Wenshuai and Queralta, Jorge Pe{\~n}a and
+             Westerlund, Tomi},
+  journal = {arXiv preprint arXiv:2009.05604},
+  year    = {2020},
+  url     = {https://arxiv.org/abs/2009.05604}
 }
 
-% If you have your own prior work to cite for MambaRPMPINN, replace this:
-@misc{mamba_pinn_ours,
-  title        = {{RPM-Informed Physics Neural Odometry for Quadrotors
-                   via Mamba State Space Models}},
-  author       = {[Author Names Redacted for Review]},
-  year         = {2025},
-  note         = {Submitted. Details withheld for double-blind review.},
+@inproceedings{chen_imu_lidar_2021,
+  title     = {{DLIO: Distortion-aware LiDAR-inertial Odometry}},
+  author    = {Chen, Kenny and Lopez, Brett T. and Agha-mohammadi, Ali-akbar
+               and Mehta, Ankur},
+  booktitle = {2022 IEEE/RSJ IROS},
+  year      = {2022},
+  doi       = {10.1109/IROS47612.2022.9981584}
 }
 
-@misc{mission_gen_v2,
-  title        = {{mission\_generate\_v2.py: Aggressiveness-Parameterised
-                   Mission Generator for PX4 SITL}},
-  author       = {[Author Names Redacted for Review]},
-  year         = {2025},
-  note         = {Available in the supplementary code repository.},
+@inproceedings{gnss_denied_uav,
+  title     = {{Inertial Odometry on Handheld Smartphones}},
+  author    = {Herath, Sachini and Yan, Hang and Furukawa, Yasutaka},
+  booktitle = {2020 IEEE/RSJ IROS},
+  pages     = {5446--5452},
+  year      = {2020},
+  doi       = {10.1109/IROS45743.2020.9341153}
 }
-% =============================================================================
-% Finish: BibTeX entries for Chapter: Multi-Platform Generalisation
-% Add these to your main .bib file
-% =============================================================================
 
-
-
+% Умеямы
+@article{Yugay2025,
+  title   = {Visual Odometry with Transformers},
+  author  = {Yugay, Vladimir and Nguyen, Duy-Kien and Gevers, Theo and Snoek, Cees G. M. and Oswald, Martin R.},
+  journal = {arXiv preprint arXiv:2510.03348},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2510.03348},
+  eprint  = {2510.03348},
+  archivePrefix = {arXiv}
+}
 

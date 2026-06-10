@@ -1,80 +1,91 @@
 \changetocdepth {2}
 \xpg@aux {babelshorthands=true}{russian}
 \tocheader 
-\contentsline {chapter}{Введение}{5}{chapter*.3}%
-\contentsline {section}{\numberline {0.1}Актуальность темы исследования}{5}{section.0.1}%
-\contentsline {section}{\numberline {0.2}Степень разработанности темы исследования}{6}{section.0.2}%
-\contentsline {subsection}{\numberline {0.2.1}Классические методы.}{6}{subsection.0.2.1}%
-\contentsline {subsection}{\numberline {0.2.2}Нейросетевые методы.}{6}{subsection.0.2.2}%
-\contentsline {subsection}{\numberline {0.2.3}Физически информированные нейронные сети PINN}{6}{subsection.0.2.3}%
-\contentsline {section}{\numberline {0.3}Цель и задачи работы}{7}{section.0.3}%
-\contentsline {section}{\numberline {0.4}Научная новизна}{8}{section.0.4}%
-\contentsline {section}{\numberline {0.5}Теоретическая и практическая значимость исследования}{9}{section.0.5}%
-\contentsline {section}{\numberline {0.6}Методология и методы исследования}{10}{section.0.6}%
-\contentsline {section}{\numberline {0.7}Положения, выносимые на защиту}{10}{section.0.7}%
-\contentsline {section}{\numberline {0.8}Степень достоверности полученных результатов}{11}{section.0.8}%
-\contentsline {section}{\numberline {0.9}Личный вклад автора}{11}{section.0.9}%
-\contentsline {section}{\numberline {0.10}Соответствие диссертации паспорту научной специальности}{12}{section.0.10}%
-\contentsline {section}{\numberline {0.11}Структура и объём работы}{12}{section.0.11}%
-\contentsline {section}{\numberline {0.12}Основные публикации по теме диссертации}{12}{section.0.12}%
-\contentsline {chapter}{\chapternumberline {1}Анализ современных методов восстановления траектории мобильных роботов при кратковременных потерях сигнала ГНСС}{14}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Классические методы восстановления траектории}{14}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Нейросетевые методы на основе рекуррентных и трансформерных архитектур}{15}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}TransformerEncoder}{16}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Двунаправленная LSTM}{17}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Физически информированные нейронные сети в задачах восстановления траектории}{17}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Гибридные физически информированные модели на основе последовательностей в задачах инерциальной навигации}{18}{section.1.4}%
-\contentsline {chapter}{\chapternumberline {2}Математическая модель квадрокоптера и разработка физически информированной нейросетевой архитектуры}{22}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Описание платформы и ограничения навигационной системы}{22}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Симуляционная среда с моделями датчиков}{25}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Симулятор Gazebo}{26}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Модели датчиков}{29}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Динамическая модель квадрокоптера и информативность сигнала оборотов несущих винтов}{30}{section.2.3}%
-\contentsline {chapter}{\chapternumberline {3}Разработка методики обучения и дообучения физически информированной нейросетевой системы}{35}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Общая архитектура рассматриваемых нейронных сетей}{35}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Предлагаемая нейронная сеть}{36}{section.3.2}%
-\contentsline {chapter}{\chapternumberline {4}Экспериментальное исследование и сравнительный анализ эффективности предложенной системы}{39}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Эксперимент дообучения рассматриваемых нейронных сетей}{39}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Характеристика экспериментальных данных}{39}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Результаты дообучения при ограниченных данных}{41}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Сводная таблица по всем режимам}{42}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Визуализация результатов}{43}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}Анализ результатов}{43}{subsection.4.1.5}%
-\contentsline {section}{\numberline {4.2}Обсуждение}{45}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Физическая интерпретация результатов}{45}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Сравнение с методами без физического ограничения}{45}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Практическая применимость}{46}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Ограничения и направления верификации}{46}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Многоплатформенное обобщение одометрии на основе физически информированной нейронной сети с использованием оборотов двигателей}{47}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Постановка задачи и исследовательские вопросы}{47}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Описание экспериментальной установки}{48}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Профили полётных миссий}{48}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Архитектура нейронной сети и протокол дообучения}{49}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Протокол оценки}{50}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Сходимость обучения}{50}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Результаты}{51}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Влияние длительности потери сигнала}{51}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Влияние платформенного разрыва (RQ1)}{51}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Влияние профиля полёта (RQ2)}{53}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Сравнение стратегий дообучения (RQ3)}{54}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}Обсуждение}{56}{section.4.6}%
-\contentsline {paragraph}{Обобщаемость на разные платформы.}{56}{section*.23}%
-\contentsline {paragraph}{Роль агрессивности полёта.}{56}{section*.24}%
-\contentsline {paragraph}{Ограничения.}{56}{section*.25}%
-\contentsline {section}{\numberline {4.7}Заключение}{57}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Заключение}{58}{section.4.8}%
-\contentsline {chapter}{Заключение}{60}{chapter*.27}%
-\contentsline {chapter}{Словарь терминов}{61}{chapter*.29}%
-\contentsline {chapter}{Список литературы}{62}{section*.32}%
-\contentsline {chapter}{Список рисунков}{68}{chapter*.33}%
-\contentsline {chapter}{Список таблиц}{70}{chapter*.34}%
-\contentsline {appendix}{\chapternumberline {А}Примеры вставки листингов программного кода}{72}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {Б}Очень длинное название второго приложения, в~котором продемонстрирована работа с~длинными таблицами}{78}{appendix.B}%
-\contentsline {section}{\numberline {Б.1}Подраздел приложения}{78}{section.B.1}%
-\contentsline {section}{\numberline {Б.2}Ещё один подраздел приложения}{80}{section.B.2}%
-\contentsline {section}{\numberline {Б.3}Использование длинных таблиц с окружением \textit {longtblr} из~пакета \texttt {tabularray}}{84}{section.B.3}%
-\contentsline {section}{\numberline {Б.4}Форматирование внутри таблиц}{87}{section.B.4}%
-\contentsline {section}{\numberline {Б.5}Стандартные префиксы ссылок}{89}{section.B.5}%
-\contentsline {section}{\numberline {Б.6}Очередной подраздел приложения}{90}{section.B.6}%
-\contentsline {section}{\numberline {Б.7}И ещё один подраздел приложения}{90}{section.B.7}%
-\contentsline {appendix}{\chapternumberline {В}Чертёж детали}{91}{appendix.C}%
+\contentsline {chapter}{Введение}{3}{chapter*.3}%
+\contentsline {section}{\numberline {0.1}Актуальность темы исследования}{3}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Степень разработанности темы исследования}{4}{section.0.2}%
+\contentsline {subsection}{\numberline {0.2.1}Классические методы.}{4}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {0.2.2}Нейросетевые методы.}{4}{subsection.0.2.2}%
+\contentsline {subsection}{\numberline {0.2.3}Физически информированные нейронные сети PINN}{4}{subsection.0.2.3}%
+\contentsline {section}{\numberline {0.3}Цель и задачи работы}{5}{section.0.3}%
+\contentsline {section}{\numberline {0.4}Научная новизна}{6}{section.0.4}%
+\contentsline {section}{\numberline {0.5}Теоретическая и практическая значимость исследования}{7}{section.0.5}%
+\contentsline {section}{\numberline {0.6}Методология и методы исследования}{8}{section.0.6}%
+\contentsline {section}{\numberline {0.7}Положения, выносимые на защиту}{8}{section.0.7}%
+\contentsline {section}{\numberline {0.8}Степень достоверности полученных результатов}{9}{section.0.8}%
+\contentsline {section}{\numberline {0.9}Личный вклад автора}{9}{section.0.9}%
+\contentsline {section}{\numberline {0.10}Соответствие диссертации паспорту научной специальности}{10}{section.0.10}%
+\contentsline {section}{\numberline {0.11}Структура и объём работы}{10}{section.0.11}%
+\contentsline {section}{\numberline {0.12}Основные публикации по теме диссертации}{10}{section.0.12}%
+\contentsline {chapter}{\chapternumberline {1}Анализ современных методов восстановления траектории мобильных роботов при кратковременных потерях сигнала ГНСС}{12}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Классические методы восстановления траектории}{12}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Нейросетевые методы на основе рекуррентных и трансформерных архитектур}{13}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}TransformerEncoder}{14}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Двунаправленная LSTM}{15}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Физически информированные нейронные сети в задачах восстановления траектории}{15}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Гибридные физически информированные модели на основе последовательностей в задачах инерциальной навигации}{16}{section.1.4}%
+\contentsline {chapter}{\chapternumberline {2}Математическая модель квадрокоптера и разработка физически информированной нейросетевой архитектуры}{20}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Динамическая модель квадрокоптера}{20}{section.2.1}%
+\contentsline {subsubsection}{Уравнения движения твёрдого тела}{20}{section*.4}%
+\contentsline {subsubsection}{Модель сил и моментов несущих винтов}{21}{section*.5}%
+\contentsline {subsubsection}{Связь модели с измерениями БИНС}{22}{section*.6}%
+\contentsline {subsubsection}{Обоснование включения оборотов несущих винтов}{22}{section*.7}%
+\contentsline {section}{\numberline {2.2}Описание платформы и ограничения навигационной системы}{23}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Симуляционная среда с моделями датчиков}{27}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Симулятор Gazebo}{27}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Модели датчиков}{30}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Динамическая модель квадрокоптера и информативность сигнала оборотов несущих винтов}{31}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Метрики оценки точности восстановленной траектории}{35}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Среднеквадратическое отклонение (СКО)}{35}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Абсолютная ошибка траектории (АОТ)}{36}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Особенности вычисления метрик в настоящей работе}{37}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Одновременное использование обеих метрики}{37}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Восстановление траектории по предсказанной скорости}{38}{subsection.2.5.5}%
+\contentsline {subsubsection}{Интегрирование при обучении модели}{39}{section*.12}%
+\contentsline {subsubsection}{Интегрирование при оценке качества модели}{39}{section*.13}%
+\contentsline {subsubsection}{Обоснование выбора метода интегрирования}{40}{section*.14}%
+\contentsline {chapter}{\chapternumberline {3}Разработка методики обучения и дообучения физически информированной нейросетевой системы}{41}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Общая архитектура рассматриваемых нейронных сетей}{41}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Предлагаемая нейронная сеть}{42}{section.3.2}%
+\contentsline {chapter}{\chapternumberline {4}Экспериментальное исследование и сравнительный анализ эффективности предложенной системы}{45}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Эксперимент дообучения рассматриваемых нейронных сетей}{45}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Характеристика экспериментальных данных}{45}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Результаты дообучения при ограниченных данных}{47}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Сводная таблица по всем режимам}{48}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Визуализация результатов}{49}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Анализ результатов}{49}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}Обсуждение}{51}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Физическая интерпретация результатов}{51}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Сравнение с методами без физического ограничения}{51}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Практическая применимость}{52}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Ограничения и направления верификации}{52}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Многоплатформенное обобщение одометрии на основе физически информированной нейронной сети с использованием оборотов двигателей}{53}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Постановка задачи и исследовательские вопросы}{53}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Описание экспериментальной установки}{54}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Профили полётных миссий}{54}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Архитектура нейронной сети и протокол дообучения}{55}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Протокол оценки}{56}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Сходимость обучения}{56}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Результаты}{57}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Влияние длительности потери сигнала}{57}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Влияние платформенного разрыва (RQ1)}{57}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Влияние профиля полёта (RQ2)}{58}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Сравнение стратегий дообучения (RQ3)}{59}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Обсуждение}{60}{section.4.6}%
+\contentsline {paragraph}{Обобщаемость на разные платформы.}{60}{section*.30}%
+\contentsline {paragraph}{Роль агрессивности полёта.}{60}{section*.31}%
+\contentsline {paragraph}{Ограничения.}{61}{section*.32}%
+\contentsline {section}{\numberline {4.7}Заключение}{61}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Обобщение без дообучения ФИ-НС-ПСПС на платформы различной массы и динамики}{63}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Описание экспериментальных платформ}{64}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Профили полётных заданий}{64}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Методика проведения эксперимента}{66}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4.8.4}Результаты эксперимента}{67}{subsection.4.8.4}%
+\contentsline {subsection}{\numberline {4.8.5}Обсуждение результатов}{68}{subsection.4.8.5}%
+\contentsline {subsection}{\numberline {4.8.6}Выводы по разделу}{69}{subsection.4.8.6}%
+\contentsline {section}{\numberline {4.9}`}{70}{section.4.9}%
+\contentsline {chapter}{Заключение}{71}{chapter*.40}%
+\contentsline {chapter}{Словарь терминов}{72}{chapter*.42}%
+\contentsline {chapter}{Список рисунков}{73}{chapter*.43}%
+\contentsline {chapter}{Список таблиц}{74}{chapter*.44}%
+\contentsline {chapter}{Приложение А. Программный код разработанной ФИ НС-ПСПС}{75}{section*.45}%
