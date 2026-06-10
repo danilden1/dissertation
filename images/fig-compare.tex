@@ -1,0 +1,166 @@
+% ================================================
+% fig-compare.tex
+% ================================================
+\tikzset{
+  cmp/inp/.style={
+    rectangle, rounded corners=2pt,
+    fill=blue!15, draw=blue!55, line width=0.7pt,
+    font=\scriptsize\bfseries, align=center,
+    minimum width=1.55cm, minimum height=0.9cm},
+  cmp/rpm/.style={
+    rectangle, rounded corners=2pt,
+    fill=blue!35, draw=blue!70, line width=0.7pt,
+    font=\scriptsize\bfseries, align=center,
+    minimum width=1.55cm, minimum height=0.5cm},
+  cmp/emb/.style={
+    rectangle, rounded corners=2pt,
+    fill=green!18, draw=green!55!black, line width=0.7pt,
+    font=\scriptsize\bfseries, align=center,
+    minimum width=1.2cm, minimum height=0.9cm},
+  cmp/mamba/.style={
+    rectangle, rounded corners=2pt,
+    fill=yellow!30, draw=orange!65, line width=0.7pt,
+    font=\scriptsize\bfseries, align=center,
+    minimum width=1.55cm, minimum height=0.9cm},
+  cmp/attn/.style={
+    rectangle, rounded corners=2pt,
+    fill=purple!15, draw=purple!55, line width=0.7pt,
+    font=\scriptsize\bfseries, align=center,
+    minimum width=1.55cm, minimum height=0.9cm},
+  cmp/out/.style={
+    rectangle, rounded corners=2pt,
+    fill=orange!20, draw=orange!65, line width=0.7pt,
+    font=\scriptsize\bfseries, align=center,
+    minimum width=1.35cm, minimum height=0.9cm},
+  cmp/loss/.style={
+    rectangle, rounded corners=2pt,
+    fill=gray!10, draw=gray!50, line width=0.7pt,
+    font=\scriptsize\bfseries, align=center,
+    minimum width=1.6cm, minimum height=0.9cm},
+  cmp/phy/.style={
+    rectangle, rounded corners=2pt,
+    fill=red!12, draw=red!60, line width=0.8pt,
+    font=\scriptsize\bfseries, align=center,
+    minimum width=1.6cm, minimum height=0.7cm},
+  cmp/physloss/.style={
+    rectangle, rounded corners=2pt,
+    fill=red!12, draw=red!60, line width=0.8pt,
+    font=\scriptsize\bfseries, align=center,
+    minimum width=1.6cm, minimum height=0.9cm},
+  arr/.style={-{Stealth[length=3pt,width=2.5pt]},
+    line width=0.7pt, color=gray!60},
+  rarr/.style={-{Stealth[length=3pt,width=2.5pt]},
+    line width=0.8pt, color=red!60},
+  rdarr/.style={-{Stealth[length=3pt,width=2.5pt]},
+    line width=0.8pt, color=red!60, dashed},
+}
+
+\usetikzlibrary{fit, calc}
+
+\begin{tikzpicture}[every node/.style={font=\small}]
+
+% ── заголовки столбцов ──
+\node[font=\scriptsize\bfseries, text=gray!70] at (2.4,  0.62) {Вход};
+\node[font=\scriptsize\bfseries, text=gray!70] at (4.9,  0.62) {Embed};
+\node[font=\scriptsize\bfseries, text=gray!70] at (7.2,  0.62) {Ядро};
+\node[font=\scriptsize\bfseries, text=gray!70] at (9.4,  0.62) {Выход};
+\node[font=\scriptsize\bfseries, text=gray!70] at (11.8, 0.62) {Функционал};
+
+% ════════════════════════
+% ROW A: Transformer  y=0
+% ════════════════════════
+\node[font=\small\bfseries, anchor=east] at (0.9, 0) {\textbf{Transformer}};
+
+\node[cmp/inp]  (Ai) at (2.4,  0)   {БИНС(9)\\ ГНСС(3)+m(1)};
+\node[cmp/emb]  (Ae) at (4.9,  0)   {Linear\\ Embed};
+\node[cmp/attn] (Ak) at (7.2,  0)   {Transformer\\ {\tiny att.$\times$6}};
+\node[cmp/out]  (Ao) at (9.4,  0)   {$\hat{v}$,\,$\hat{q}$};
+\node[cmp/loss] (Al) at (11.8, 0)   {$\mathcal{L}_{traj}$};
+
+\draw[arr] (Ai)--(Ae); \draw[arr] (Ae)--(Ak);
+\draw[arr] (Ak)--(Ao); \draw[arr] (Ao)--(Al);
+\draw[rdarr] (Al.north)--++(0,0.22)-|(Ak.north);
+
+\draw[gray!25,dashed] (1.0,-0.92)--(13.0,-0.92);
+
+% ════════════════════════
+% ROW B: Базовая НС  y=-1.9
+% ════════════════════════
+\node[font=\small\bfseries, anchor=east] at (0.9,-1.9) {\textbf{Базовая}};
+
+\node[cmp/inp]   (Bi) at (2.4, -1.9) {БИНС(9)\\ ГНСС(3)+m(1)};
+\node[cmp/emb]   (Be) at (4.9, -1.9) {Linear\\ Embed};
+\node[cmp/mamba] (Bk) at (7.2, -1.9) {Mamba\\ {\tiny SSM$\times$3}};
+\node[cmp/out]   (Bo) at (9.4, -1.9) {$\hat{v}$,\,$\hat{q}$};
+\node[cmp/loss]  (Bl) at (11.8,-1.9) {$\mathcal{L}_{traj}$};
+
+\draw[arr] (Bi)--(Be); \draw[arr] (Be)--(Bk);
+\draw[arr] (Bk)--(Bo); \draw[arr] (Bo)--(Bl);
+\draw[rdarr] (Bl.north)--++(0,0.22)-|(Bk.north);
+
+\draw[gray!25,dashed] (1.0,-2.82)--(13.0,-2.82);
+
+% ════════════════════════
+% ROW C: Обобщённая НС  y=-3.75
+% ════════════════════════
+\node[font=\small\bfseries, anchor=east] at (0.9,-3.75) {\textbf{Обобщенная}};
+
+\node[cmp/inp]      (Ci) at (2.4, -3.75) {БИНС(9)\\ ГНСС(3)+m(1)};
+\node[cmp/emb]      (Ce) at (4.9, -3.75) {Linear\\ Embed};
+\node[cmp/mamba]    (Ck) at (7.2, -3.75) {Mamba\\ {\tiny SSM$\times$3}};
+\node[cmp/out]      (Co) at (9.4, -3.75) {$\hat{v}$,\,$\hat{q}$,\,$\hat{a}$};
+\node[cmp/physloss] (Cl) at (11.8,-3.75)
+  {$\mathcal{L}_{traj}$\\$+\lambda\|\varepsilon_{kin}\|^2$};
+
+\draw[arr] (Ci)--(Ce); \draw[arr] (Ce)--(Ck);
+\draw[arr] (Ck)--(Co); \draw[arr] (Co)--(Cl);
+\draw[rdarr] (Cl.north)--++(0,0.22)-|(Ck.north);
+
+\draw[gray!25,dashed] (1.0,-4.72)--(13.0,-4.72);
+
+% ════════════════════════
+% ROW D: Предлагаемая НС  y=-6.1
+% ════════════════════════
+\node[font=\small\bfseries, anchor=east] at (0.9,-6.1) {\textbf{Предлагаемая}};
+
+% два входных блока
+\node[cmp/inp] (DiA) at (2.4,-5.72) {БИНС(9)\\ ГНСС(3)+m(1)};
+\node[cmp/rpm] (DiB) at (2.4,-6.62) {RPM(4)};
+
+% основная цепочка выровнена по y=-6.1
+\node[cmp/emb]      (De)  at (4.9, -6.1)  {Linear\\ Embed};
+\node[cmp/mamba]    (Dk)  at (7.2, -6.1)  {Mamba\\ {\tiny SSM$\times$3}};
+\node[cmp/out]      (Do)  at (9.4, -6.1)
+  {$\hat{v}$,\,$\hat{q}$,\\ $\hat{a}$,\,$\hat{\tau}$};
+\node[cmp/physloss] (Dl)  at (11.8,-6.1)
+  {$\mathcal{L}_{traj}$\\$+\lambda_2\|\varepsilon_F\|^2$\\
+   $+\lambda_3\|\varepsilon_\tau\|^2$};
+
+% физ. модель — под Embed, с достаточным зазором
+\node[cmp/phy] (Dphy) at (4.9,-7.55)
+{Физ. модель\\ $F{=}k\!\sum n_i^2$};
+
+% ── инференс ──
+% БИНС -> Embed: вправо до середины зазора, вниз до уровня De, вправо в De
+\draw[arr] (DiA.east) -- (3.75,-5.72) -- (3.75,-6.1) -- (De.west);
+% RPM -> Embed: вправо до той же вертикали, вверх до уровня De, вправо в De
+\draw[arr] (DiB.east) -- (3.75,-6.62) -- (3.75,-6.1) -- (De.west);
+
+\draw[arr] (De)--(Dk); \draw[arr] (Dk)--(Do); \draw[arr] (Do)--(Dl);
+
+% ── обучение: RPM -> физ. модель (вертикально вниз) ──
+\draw[rarr] (DiB.south) -- (2.4,-7.55) -- (Dphy.west);
+
+% подпись "обучение" — справа от вертикального отрезка, не на блоке
+\node[font=\tiny\bfseries, color=red!60, anchor=west] at (2.48,-7.1)
+  {обучение};
+
+% ── физ. модель -> функционал (горизонтально вправо, снизу) ──
+\draw[rarr] (Dphy.east) -- (11.8,-7.55) -- (Dl.south);
+
+% ── обратное распространение ──
+\draw[rdarr] (Dl.north)--++(0,0.28)-|(Dk.north)
+  node[near start, above, font=\tiny\bfseries, color=red!60,
+       xshift=5pt] {$\nabla\mathcal{L}_{DF}$};
+
+\end{tikzpicture}

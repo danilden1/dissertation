@@ -1,0 +1,87 @@
+% plot.tex — RMSE четырёх моделей при потере сигнала 240 с
+% Подключать как: \resizebox{0.92\linewidth}{!}{\input{../src/plot.tex}}
+% Требует в преамбуле: \usepackage{pgfplots}, \usetikzlibrary{patterns}
+
+\begin{tikzpicture}
+\begin{axis}[
+  ybar,
+  bar width      = 7pt,
+  width          = \linewidth,
+  height         = 7.5cm,
+  legend style   = {at={(0.5,-0.28)}, anchor=north, legend columns=2,
+                    font=\small, draw=black},
+  xlabel         = {Доля обучающих данных, \%},
+  ylabel         = {СКО, м},
+  xlabel style   = {font=\small},
+  ylabel style   = {font=\small},
+  xtick          = {1,2,3,4,5},
+  xticklabels    = {10, 25, 50, 75, 100},
+  xticklabel style = {font=\small},
+  yticklabel style = {font=\small},
+  ymin           = 0,
+  ymax           = 42,
+  ymajorgrids    = true,
+  grid style     = {dashed, gray!40},
+  enlarge x limits = 0.12,
+  nodes near coords,
+  nodes near coords style = {font=\tiny, rotate=90, anchor=west,
+                             xshift=2pt, yshift=0pt},
+  every node near coord/.append style={/pgf/number format/fixed,
+                                        /pgf/number format/precision=1},
+]
+
+% НС ПСПС-ДФ (синий)
+\addplot[
+  fill=blue!60,
+  draw=blue!80!black,
+  line width=0.8pt
+] coordinates {
+  (1, 14.273)
+  (2,  9.409)
+  (3, 10.594)
+  (4, 15.069)
+  (5,  9.734)
+};
+
+% НС ПСПС-КФ (зелёный)
+\addplot[
+  fill=green!55!black,
+  draw=green!70!black,
+  line width=0.8pt
+] coordinates {
+  (1, 19.985)
+  (2,  8.173)
+  (3, 13.412)
+  (4, 20.264)
+  (5, 11.149)
+};
+
+% НС ПСПС-Б (красный)
+\addplot[
+  fill=red!65,
+  draw=red!80!black,
+  line width=0.8pt
+] coordinates {
+  (1, 36.458)
+  (2, 13.016)
+  (3, 21.823)
+  (4, 32.100)
+  (5, 16.978)
+};
+
+% Transformer (оранжевый)
+\addplot[
+  fill=orange!70,
+  draw=orange!90!black,
+  line width=0.8pt
+] coordinates {
+  (1, 22.315)
+  (2, 20.267)
+  (3, 19.593)
+  (4, 20.963)
+  (5, 20.481)
+};
+
+\legend{предлагаемая, обобщенная, базовая, Transformer}
+\end{axis}
+\end{tikzpicture}

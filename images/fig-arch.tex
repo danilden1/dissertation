@@ -1,0 +1,77 @@
+% ================================================
+% fig-arch.tex — Архитектура НС ПСПС-ДФ
+% ================================================
+
+\tikzset{
+  ndinp/.style={rectangle, rounded corners=3pt, fill=blue!15,
+    draw=blue!60, line width=1pt,
+    font=\small\bfseries, text centered,
+    minimum width=1.8cm, minimum height=0.7cm},
+  ndenc/.style={rectangle, rounded corners=3pt, fill=green!15,
+    draw=green!50!black, line width=1pt,
+    font=\small\bfseries, text centered,
+    minimum width=2.0cm, minimum height=0.7cm},
+  ndssm/.style={rectangle, rounded corners=3pt, fill=yellow!25,
+    draw=orange!70, line width=1pt,
+    font=\small\bfseries, text centered,
+    minimum width=2.6cm, minimum height=0.8cm},
+  ndout/.style={rectangle, rounded corners=3pt, fill=orange!20,
+    draw=orange!70!black, line width=1pt,
+    font=\small\bfseries, text centered,
+    minimum width=1.6cm, minimum height=0.65cm},
+  ndphy/.style={rectangle, rounded corners=3pt, fill=red!15,
+    draw=red!70, line width=1.5pt,
+    font=\small\bfseries, text centered,
+    minimum width=2.6cm, minimum height=1.0cm},
+  arr/.style={-{Stealth[length=4pt]}, line width=1pt, color=gray!70!black},
+  redarr/.style={-{Stealth[length=4pt]}, line width=1.2pt, color=red!70},
+  redarrdash/.style={-{Stealth[length=4pt]}, line width=1.2pt,
+    color=red!70, dashed},
+}
+
+\usetikzlibrary{fit}
+
+\begin{tikzpicture}[node distance=0.35cm and 0.4cm, scale=0.8]
+%% ── ВХОДЫ ────────────────────────────────────────────────
+\node[ndinp] (IMU) {БИНС(9)};
+\node[ndinp, below=of IMU] (GPS) {ГНСС(3)+m(1)};
+\node[ndinp, below=of GPS] (RPM) {RPM(4)};
+%% ── ОСНОВНАЯ ЦЕПОЧКА ─────────────────────────────────────
+\node[ndenc, right=0.8cm of GPS] (EMB)
+{\begin{tabular}{c}Linear\\Embedding\\$d=192$\end{tabular}};
+\node[ndenc, right=0.5cm of EMB] (LN1) {LayerNorm};
+\node[ndssm, right=0.5cm of LN1] (SSM)
+{\begin{tabular}{c}Mamba SSM $\times3$\\{\footnotesize state=16, expand=2}\end{tabular}};
+\node[ndenc, right=0.5cm of SSM] (LN2) {LayerNorm};
+%% ── ВЫХОДЫ ───────────────────────────────────────────────
+\node[ndout, right=0.8cm of LN2, yshift=+1.0cm] (Hv) {$\hat{v}$(3)};
+\node[ndout, below=0.25cm of Hv] (Hq) {$\hat{q}$(4)};
+\node[ndout, below=0.25cm of Hq] (Ht) {$\hat{\tau}$(4)};
+\node[ndout, below=0.25cm of Ht] (Ha) {$\hat{a}$(3)};
+\node[draw=red!70, line width=1.2pt, rounded corners=6pt, inner sep=5pt, fit=(Ha) (Ht)] (Hgroup) {};
+
+%% ── ФИЗИКА ───────────────────────────────────────────────
+\node[ndphy, below=0.5cm of EMB] (PHY)
+{\begin{tabular}{c}Физ. модель\\$F=k\sum n_i^2$\\$\tau=B[n_i^2]^\top$\end{tabular}};
+\node[ndphy, below=0.87cm of SSM, xshift=1.0cm] (LOSS)
+{\begin{tabular}{c}$\mathcal{L}_{DF}$\end{tabular}};
+%% ── СТРЕЛКИ: ИНФЕРЕНС ────────────────────────────────────
+\draw[arr] (IMU.east) -- (EMB.north west);
+\draw[arr] (GPS.east) -- (EMB.west);
+\draw[arr] (RPM.east) -- (EMB.south west);
+\draw[arr] (EMB) -- (LN1);
+\draw[arr] (LN1) -- (SSM);
+\draw[arr] (SSM) -- (LN2);
+\draw[arr] (LN2.east) -- (Hv.west);
+\draw[arr] (LN2.east) -- (Hq.west);
+\draw[arr] (LN2.east) -- (Ht.west);
+\draw[arr] (LN2.east) -- (Ha.west);
+%% ── СТРЕЛКИ: ОБУЧЕНИЕ (красные) ─────────────────────────
+\draw[redarr] (RPM.south) |- (PHY.west)
+node[midway, left, font=\footnotesize\bfseries, color=red!70] {обучение};
+\draw[redarr] (PHY.east) -- (LOSS.west);
+\draw[redarr] (Hgroup.west) -- (LOSS.east);
+\draw[redarrdash] (LOSS.north) -- ++(0,0.4) -| (SSM.south)
+node[near start, right, xshift=-165pt, yshift=0pt, font=\footnotesize\bfseries, color=red!70]
+{обратное распространение $\mathcal{L}_{DF}$};
+\end{tikzpicture}

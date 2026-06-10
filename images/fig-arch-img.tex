@@ -1,0 +1,39 @@
+%!TEX encoding = UTF-8 Unicode
+\documentclass[tikz,border=8mm]{standalone}   % border — отступ вокруг рисунка
+
+% ==================== ШРИФТЫ И ЯЗЫК ====================
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont{Courier New}
+\usepackage[english,russian]{babel}
+
+% ==================== ЦВЕТНЫЕ ТАБЛИЦЫ (ОБЯЗАТЕЛЬНО!) ====================
+\usepackage[table]{xcolor}          % ← это и ломалось
+
+% ==================== МАТЕМАТИКА И ТАБЛИЦЫ ====================
+\usepackage{amsmath, amssymb}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{array}
+\usepackage{siunitx}
+
+\sisetup{
+	output-decimal-marker = {,},
+	input-decimal-markers = {.,,},
+	group-separator = {\,},
+	detect-weight = true,
+	detect-family = true
+}
+
+% ==================== TIKZ И PGFPLOTS ====================
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, fit, backgrounds, patterns}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+% ==================== САМ РИСУНОК ====================
+\begin{document}
+	\input{fig-arch.tex}   % здесь должна быть только tikz-картинка, без \documentclass!
+\end{document}
