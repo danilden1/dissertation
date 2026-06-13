@@ -1,0 +1,264 @@
+% ================================================
+% fig_dataflow_final.tex — Финальная чистая версия
+% MambaRPMPINN / ФИ-НС-ПСПС
+% Максимально разнесена по вертикали, тёмный текст, минимум наложений
+% ================================================
+
+\usetikzlibrary{arrows.meta, positioning, fit, calc, backgrounds}
+
+\tikzset{
+	%% === Стили узлов ===
+	ndsens/.style={
+		rectangle, rounded corners=4pt,
+		fill=blue!12, draw=blue!55, line width=1pt,
+		font=\small\bfseries, text centered,
+		minimum width=2.7cm, minimum height=1.0cm},
+	ndinput/.style={
+		rectangle, rounded corners=4pt,
+		fill=gray!10, draw=gray!55, line width=1pt,
+		font=\footnotesize, text centered,
+		minimum width=13.0cm, minimum height=1.45cm},
+	ndmodel/.style={
+		rectangle, rounded corners=4pt,
+		fill=violet!12, draw=violet!60, line width=1pt,
+		font=\small\bfseries, text centered,
+		minimum width=2.9cm, minimum height=1.0cm},
+	ndhead/.style={
+		rectangle, rounded corners=3pt,
+		fill=teal!12, draw=teal!60, line width=1pt,
+		font=\small\bfseries, text centered,
+		minimum width=2.3cm, minimum height=0.82cm},
+	ndphyshead/.style={
+		rectangle, rounded corners=3pt,
+		fill=red!8, draw=red!50, line width=0.9pt,
+		font=\small\bfseries, text centered,
+		minimum width=2.3cm, minimum height=0.82cm},
+	nddenorm/.style={
+		rectangle, rounded corners=4pt,
+		fill=teal!18, draw=teal!65, line width=1pt,
+		font=\small\bfseries, text centered,
+		minimum width=6.2cm, minimum height=1.0cm},
+	ndboundary/.style={
+		rectangle, rounded corners=4pt,
+		fill=blue!15, draw=blue!60, line width=1pt,
+		font=\small\bfseries, text centered,
+		minimum width=3.6cm, minimum height=1.0cm},
+	ndinteg/.style={
+		rectangle, rounded corners=5pt,
+		fill=green!12, draw=green!60!black, line width=1pt,
+		font=\small\bfseries, text centered,
+		minimum width=6.2cm, minimum height=1.35cm},
+	ndblend/.style={
+		rectangle, rounded corners=5pt,
+		fill=amber!10, draw=yellow!60!black, line width=1pt,
+		font=\small\bfseries, text centered,
+		minimum width=6.6cm, minimum height=1.25cm},
+	ndresult/.style={
+		rectangle, rounded corners=5pt,
+		fill=teal!20, draw=teal!70, line width=1.5pt,
+		font=\small\bfseries, text centered,
+		minimum width=7.4cm, minimum height=1.25cm},
+	ndloss/.style={
+		rectangle, rounded corners=4pt,
+		fill=red!12, draw=red!60, line width=1.2pt,
+		font=\small\bfseries, text centered,
+		minimum width=5.0cm, minimum height=1.25cm},
+	ndstore/.style={
+		rectangle, rounded corners=4pt,
+		fill=yellow!10, draw=yellow!60!black, line width=0.9pt, dashed,
+		font=\footnotesize, text centered,
+		minimum width=4.4cm, minimum height=1.0cm},
+	%% === Стрелки ===
+	arr/.style={-{Stealth[length=4.5pt]}, line width=1.1pt, color=gray!75!black},
+	arrinf/.style={-{Stealth[length=4.5pt]}, line width=1.2pt, color=teal!80!black},
+	arrred/.style={-{Stealth[length=4.5pt]}, line width=1.2pt, color=red!75},
+	arrdashr/.style={-{Stealth[length=4pt]}, line width=1.1pt, color=red!65, dashed},
+	arrdashs/.style={-{Stealth[length=4pt]}, line width=1.0pt, color=gray!70, dashed},
+	zone/.style={
+		draw=gray!45, line width=0.8pt, dashed,
+		rounded corners=8pt, inner sep=8pt, fill=gray!2},
+}
+
+\begin{tikzpicture}[
+	node distance=0.65cm and 0.70cm,
+	scale=0.84, transform shape
+	]
+	
+	%% ===================== ЗОНА 1 — ДАТЧИКИ =====================
+	\node[ndsens] (IMU) {\begin{tabular}{c}БИНС\\{\footnotesize гироскоп · акселерометр · магнитометр}\end{tabular}};
+	\node[ndsens, right=0.65cm of IMU] (GPS) {\begin{tabular}{c}ГНСС\\{\footnotesize $p_x^g\, p_y^g\, p_z^g$}\end{tabular}};
+	\node[ndsens, right=0.65cm of GPS] (ROT) {\begin{tabular}{c}Роторы $\times$4\\{\footnotesize $\omega_1\,\omega_2\,\omega_3\,\omega_4$}\end{tabular}};
+	\node[ndsens, right=0.65cm of ROT] (ATT) {\begin{tabular}{c}Ориентация\\{\footnotesize кватернион $q_{0..3}$}\end{tabular}};
+	\node[ndsens, right=0.65cm of ATT] (MASK) {\begin{tabular}{c}Маска потери ГНСС\\{\footnotesize $m_t \in \{0,1\}$}\end{tabular}};
+	
+	\begin{scope}[on background layer]
+		\node[zone, fit=(IMU)(GPS)(ROT)(ATT)(MASK),
+		label={[font=\footnotesize\bfseries, color=black!70]above left:\textcircled{1} Датчики и исполнительные механизмы (100\,Гц)}] (Z1) {};
+	\end{scope}
+	
+	%% ===================== ЗОНА 2 — ВХОДНОЙ ВЕКТОР =====================
+	\node[ndinput, below=1.25cm of GPS, xshift=2.1cm] (XVEC)
+	{$\mathbf{x}_t = [\underbrace{\omega_x,\omega_y,\omega_z,a_x,a_y,a_z,B_x,B_y,B_z}_{\text{БИНС (9)}},\;
+		\underbrace{p_x^g,p_y^g,p_z^g}_{\text{ГНСС (3)}},\;
+		\underbrace{\omega_1,\omega_2,\omega_3,\omega_4}_{\text{Обороты роторов (4)}},\;
+		\underbrace{m_t}_{\text{маска}}] \in \mathbb{R}^{17}$};
+	
+	\node[font=\footnotesize, below=0.18cm of XVEC, color=black!75, text centered]
+	{каждый канал нормализован: $\tilde{x} = (x - \mu)/\sigma$ \quad (статистика из обучающего датасета)};
+	
+	\begin{scope}[on background layer]
+		\node[zone, fit=(XVEC),
+		label={[font=\footnotesize\bfseries, color=black!70]above left:\textcircled{2} Входной вектор $\mathbf{x}_t \in \mathbb{R}^{17}$}] (Z2) {};
+	\end{scope}
+	
+	%% Стрелки от датчиков
+	\draw[arr] (IMU.south) |- ([yshift=3pt]XVEC.west);
+	\draw[arr] (GPS.south) -- ++(0,-0.45) -| ([xshift=-1.4cm]XVEC.north);
+	\draw[arr] (ROT.south) -- ++(0,-0.45) -| ([xshift=+0.75cm]XVEC.north);
+	\draw[arr] (ATT.south) -- ++(0,-0.45) -| ([xshift=+2.2cm]XVEC.north);
+	\draw[arr] (MASK.south) -- ++(0,-0.45) -| (XVEC.east);
+	
+	%% ===================== ЗОНА 3 — НЕЙРОННАЯ МОДЕЛЬ =====================
+	% Левая цепочка
+	\node[ndmodel, below=2.1cm of XVEC, xshift=-4.3cm] (EMB)
+	{\begin{tabular}{c}Линейное встраивание\\$\mathbb{R}^{17} \to \mathbb{R}^{192}$\end{tabular}};
+	
+	\node[ndmodel, below=0.75cm of EMB] (LN1) {Слой нормализации};
+	\node[ndmodel, below=0.75cm of LN1] (SSM)
+	{\begin{tabular}{c}Mamba SSM $\times 3$\\{\footnotesize state=16, expand=2, $O(T)$}\end{tabular}};
+	\node[ndmodel, below=0.75cm of SSM] (LN2) {Слой нормализации};
+	
+	% Головы — сильно разнесены по вертикали
+	\node[ndhead, right=0.95cm of LN2, yshift=+3.1cm] (Hv) {$\hat{v}_x \hat{v}_y \hat{v}_z$ (3)};
+	\node[ndhead, below=0.48cm of Hv] (Hq) {$\hat{q}_{0..3}$ (4)};
+	\node[ndphyshead, below=0.48cm of Hq] (Ht)
+	{$\hat{\tau}$ (4)\quad{\footnotesize только обучение}};
+	\node[ndphyshead, below=0.48cm of Ht] (Ha)
+	{$\hat{a}_x \hat{a}_y \hat{a}_z$\quad{\footnotesize только обучение}};
+	
+	% Красная рамка
+	\node[draw=red!55, line width=0.95pt, rounded corners=5pt, dashed,
+	inner sep=5pt, fit=(Ht)(Ha),
+	label={[font=\tiny, color=red!70]right:только при обучении}] (PHYSBOX) {};
+	
+	% Стрелки
+	\draw[arr] (EMB) -- (LN1);
+	\draw[arr] (LN1) -- (SSM);
+	\draw[arr] (SSM) -- (LN2);
+	\draw[arr] (LN2.east) -- ++(0.45,0) |- (Hv.west);
+	\draw[arr] (LN2.east) -- ++(0.45,0) |- (Hq.west);
+	\draw[arr] (LN2.east) -- ++(0.45,0) |- (Ht.west);
+	\draw[arr] (LN2.east) -- ++(0.45,0) |- (Ha.west);
+	
+	\draw[arr] (XVEC.south) -- ++(0,-0.5) -| (EMB.north);
+	
+	% Физическая потеря — сильно ниже
+	\node[ndloss, below=1.1cm of SSM, xshift=+2.9cm] (LOSS)
+	{\begin{tabular}{c}Невязка по второму закону Ньютона\\
+			$\mathcal{L}_\text{phys} = \|m\hat{a} - F_\text{тяги} - F_\text{сопротивления} - mg\|$
+	\end{tabular}};
+	
+	\node[font=\footnotesize, color=red!75, below=0.22cm of LOSS, text centered]
+	{$F = k_T \sum_i \omega_i^2$,\quad буферы $m, k_T, l$ патчатся под платформу};
+	
+	% Красные стрелки к loss
+	\draw[arrred] (Ht.south) |- (LOSS.west);
+	\draw[arrred] (Ha.south) |- (LOSS.west);
+	\draw[arrred] (ROT.south) -- ++(0,-0.85)
+	node[midway, right, font=\footnotesize\bfseries, color=red!75]{обучение}
+	-| (LOSS.north);
+	\draw[arrdashr] (LOSS.north west) -- ++(0,0.45)
+	-| (SSM.south)
+	node[near start, right, xshift=-72pt, yshift=3pt,
+	font=\footnotesize\bfseries, color=red!75]
+	{$\nabla \mathcal{L}_\text{phys}$ back-prop};
+	
+	\begin{scope}[on background layer]
+		\node[zone, fit=(EMB)(LN1)(SSM)(LN2)(Hv)(Hq)(PHYSBOX)(LOSS),
+		label={[font=\footnotesize\bfseries, color=black!70]above left:
+			\textcircled{3} MambaRPMPINN — обработка всего сегмента потери за один проход}] (Z3) {};
+	\end{scope}
+	
+	%% ===================== ЗОНА 4 — ДЕНОРМАЛИЗАЦИЯ =====================
+	\node[nddenorm, below=1.7cm of LN2, xshift=-1.9cm] (DENORM)
+	{Денормализация скорости:\quad
+		$\hat{\mathbf{v}}_\text{raw} = \hat{\mathbf{v}} \cdot \sigma_v + \mu_v$ [м/с]};
+	
+	\draw[arrinf] (Hv.south) -- ++(0,-0.55) -| (DENORM.east);
+	
+	%% ===================== ЗОНА 5 — ГРАНИЧНЫЕ УСЛОВИЯ =====================
+	\node[ndboundary, below=1.4cm of DENORM, xshift=-4.3cm] (PSTART)
+	{\begin{tabular}{c}$\mathbf{p}_\text{start}$\\
+			{\footnotesize последняя фиксация ГНСС перед потерей}\end{tabular}};
+	
+	\node[ndboundary, right=4.3cm of PSTART] (PEND)
+	{\begin{tabular}{c}$\mathbf{p}_\text{end}$\\
+			{\footnotesize первая фиксация ГНСС после потери}\end{tabular}};
+	
+	\draw[arrdashs] (GPS.south) -- ++(0,-0.6)
+	node[right, font=\footnotesize, color=black!65]{\footnotesize ГНСС доступна}
+	-- ++(0,-0.35) -| (PSTART.north);
+	\draw[arrdashs] (GPS.south) -- ++(0,-0.6) -| (PEND.north);
+	
+	\begin{scope}[on background layer]
+		\node[zone, fit=(PSTART)(PEND),
+		label={[font=\footnotesize\bfseries, color=black!70]above left:
+			\textcircled{4} Граничные условия (привязанные к ГНСС)}] (Z4) {};
+	\end{scope}
+	
+	%% ===================== ЗОНА 6 — ИНТЕГРИРОВАНИЕ РК4 =====================
+	\node[ndinteg, below=1.55cm of PSTART] (FWDRK4)
+	{\begin{tabular}{c}Прямое интегрирование РК4 $\rightarrow$\\[2pt]
+			$\hat{\mathbf{p}}_t^{\rm fwd} = \hat{\mathbf{p}}_{t-1}^{\rm fwd} +
+			\frac{\Delta t}{6}(k_1 + 2k_2 + 2k_3 + k_4)$\\
+			{\footnotesize привязано к $\mathbf{p}_\text{start}$}\end{tabular}};
+	
+	\node[ndinteg, below=1.55cm of PEND] (BWDRK4)
+	{\begin{tabular}{c}$\leftarrow$ Обратное интегрирование РК4\\[2pt]
+			$\hat{\mathbf{p}}_t^{\rm bwd} = \hat{\mathbf{p}}_{t+1}^{\rm bwd} -
+			\frac{\Delta t}{6}(k_1 + 2k_2 + 2k_3 + k_4)$\\
+			{\footnotesize привязано к $\mathbf{p}_\text{end}$}\end{tabular}};
+	
+	\draw[arrinf] (DENORM.south) -- ++(0,-0.5) -| (FWDRK4.north);
+	\draw[arrinf] (DENORM.south) -- ++(0,-0.5) -| (BWDRK4.north);
+	\draw[arr] (PSTART.south) -- (FWDRK4.north west);
+	\draw[arr] (PEND.south)   -- (BWDRK4.north east);
+	
+	\begin{scope}[on background layer]
+		\node[zone, fit=(FWDRK4)(BWDRK4),
+		label={[font=\footnotesize\bfseries, color=black!70]above left:
+			\textcircled{5} Двунаправленное интегрирование РК4 (восстановление положения)}] (Z5) {};
+	\end{scope}
+	
+	%% ===================== ЗОНА 7 — ЛИНЕЙНОЕ СМЕШИВАНИЕ =====================
+	\node[ndblend, below=1.25cm of FWDRK4, xshift=3.4cm] (BLEND)
+	{\begin{tabular}{c}Линейное смешивание\\[2pt]
+			$\hat{\mathbf{p}}_t = w_t \hat{\mathbf{p}}_t^{\rm fwd} + (1-w_t) \hat{\mathbf{p}}_t^{\rm bwd}$\\
+			$w_t = 1 - t/T$ \quad ($w_0=1$, $w_T=0$)\end{tabular}};
+	
+	\draw[arrinf] (FWDRK4.south) -- ++(0,-0.55) -| (BLEND.west)
+	node[near end, above, font=\footnotesize, color=black!70]{$w \to 1$ в начале};
+	\draw[arrinf] (BWDRK4.south) -- ++(0,-0.55) -| (BLEND.east)
+	node[near end, above, font=\footnotesize, color=black!70]{$w \to 0$ в конце};
+	
+	%% ===================== ЗОНА 8 — ХРАНЕНИЕ =====================
+	\node[ndstore, right=0.95cm of BLEND] (STORE)
+	{\begin{tabular}{c}Сохранено на сегмент потери\\
+			{\footnotesize $\mathbf{p}_\text{start}$, $\mathbf{p}_\text{end}$, $\hat{\mathbf{v}}_{1..T}$}\\
+			{\footnotesize replay: повторный расчёт смешивания}\end{tabular}};
+	
+	\draw[arrdashs] (BLEND.east) -- (STORE.west);
+	
+	%% ===================== РЕЗУЛЬТАТ =====================
+	\node[ndresult, below=1.1cm of BLEND] (RESULT)
+	{\begin{tabular}{c}Восстановленная траектория положения $\hat{\mathbf{p}}_{1..T}$\\[2pt]
+			{\footnotesize точное совпадение в $\mathbf{p}_\text{start}$ и $\mathbf{p}_\text{end}$ $\cdot$ RMSE / ATE logged}\end{tabular}};
+	
+	\draw[arrinf, line width=1.45pt] (BLEND.south) -- (RESULT.north);
+	
+	%% Примечание
+	\draw[arrdashs] (RESULT.west) -- ++(-0.65,0)
+	node[left, font=\footnotesize, color=black!70, text width=2.7cm, align=right]
+	{сравнение с\\опорной траекторией};
+	
+\end{tikzpicture}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.1)  10 JUN 2026 22:38
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.1)  13 JUN 2026 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2593,7 +2593,7 @@ Underfull \hbox (badness 1460) in paragraph at lines 206--209
 
 
 
-] [16.16] [17.17] [18.18]) [19.19] [20.20] [21.21] [22.22]
+] [16.16] [17.17] [18.18] [19.19]) [20.20] [21.21] [22.22]
 \openout2 = `Dissertation/02-model.aux'.
 
 
@@ -2604,34 +2604,34 @@ Underfull \hbox (badness 1460) in paragraph at lines 206--209
 
 
 
-] [24.24] [25.25] [26.26] [27.27] [28.28] [29.29] [30.30]
+] [24.24] [25.25] [26.26] [27.27] [28.28] [29.29] [30.30] [31.31]
 File: images/x500_gazebo.jpg Graphic file (type bmp)
 <images/x500_gazebo.jpg>
 File: images/qgc.jpg Graphic file (type bmp)
 <images/qgc.jpg>
- [31.31]
+
 [32.32] [33.33] [34.34] [35.35]
 File: images/two_regimes_comparison.png Graphic file (type bmp)
 <images/two_regimes_comparison.png>
- [36.36] [37.37]
+ [36.36] [37.37] [38.38]
 Missing character: There is no С in font cmr12!
 Missing character: There is no К in font cmr12!
 Missing character: There is no О in font cmr12!
-[38.38]
 Missing character: There is no А in font cmr12!
 Missing character: There is no О in font cmr12!
 Missing character: There is no Т in font cmr12!
+[39.39]
 
-LaTeX Warning: Reference `subsec:mp_model' on page 39 undefined on input line 4
-14.
+LaTeX Warning: Reference `subsec:mp_model' on page 40 undefined on input line 4
+18.
 
-[39.39] [40.40] [41.41]
-Overfull \hbox (0.78911pt too wide) in paragraph at lines 474--475
+[40.40] [41.41] [42.42]
+Overfull \hbox (0.78911pt too wide) in paragraph at lines 478--479
 []\TU/TimesNewRoman(1)/m/n/14.4 Конкретная реализация интегрирования при оценке
  полностью соответству-
  []
 
-[42.42]) [43.43]
+) [43.43]
 \openout2 = `Dissertation/03-architecture.aux'.
 
  (Dissertation/03-architecture.tex
@@ -3266,53 +3266,46 @@ n/14.4 Пяти эпох на примерно 175000 по-
 
 
 ]
-Underfull \hbox (badness 1888) in paragraph at lines 35--35
+Underfull \hbox (badness 1888) in paragraph at lines 36--36
 [][]\TU/TimesNewRoman(1)/m/n/14.4 Таблица 10 [] |Физические и имитационные пара
 метры экспериментальных
  []
 
-
-Overfull \hbox (132.52301pt too wide) in paragraph at lines 38--66
- [][] 
- []
-
-
-Overfull \hbox (286.65155pt too wide) in paragraph at lines 74--83
- [][] 
- []
-
-! Extra }, or forgotten \endgroup.
-l.95 ...tbf{Профиль} & \textbf Max. скорость, м/с}
-                                                   & \textbf Высота, м} &
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten \endgroup.
-l.95 ...f Max. скорость, м/с} & \textbf Высота, м}
-                                                   &
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-Overfull \hbox (182.35004pt too wide) in paragraph at lines 93--103
- [][] 
- []
-
 [68.68] [69.69] [70.70]
 
-LaTeX Warning: Reference `tab:ate_full' on page 71 undefined on input line 140.
+LaTeX Warning: Reference `tab:ate_full' on page 71 undefined on input line 151.
 
 
-[71.71] [72.72] [73.73]) [74.74]
+[71.71]
+File: images/multy_2/plots/rmse_ate_rmse_by_profile.png Graphic file (type bmp)
+
+<images/multy_2/plots/rmse_ate_rmse_by_profile.png>
+File: images/multy_2/plots/rmse_ate_rmse_by_duration.png Graphic file (type bmp
+)
+<images/multy_2/plots/rmse_ate_rmse_by_duration.png>
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228 \item П
+             ри длительности потери ГНСС сигнала 3с и агрессивном режиме пол...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 228
+[][]
+ []
+
+[72.72] [73.73] [74.74]) [75.75]
 \openout2 = `Dissertation/conclusion.aux'.
 
- (Dissertation/conclusion.tex (common/concl.tex)) [75.75
+ (Dissertation/conclusion.tex (common/concl.tex)) [76.76
 
 
 
@@ -3325,7 +3318,7 @@ No file dissertation.nls.
 )
 \openout2 = `Dissertation/dictionary.aux'.
 
- (Dissertation/dictionary.tex) [76.76
+ (Dissertation/dictionary.tex) [77.77
 
 
 
@@ -3352,7 +3345,20 @@ Underfull \hbox (badness 3471) in paragraph at lines 6--6
 ncoder Approach for
  []
 
-[77.77
+
+Underfull \hbox (badness 1558) in paragraph at lines 6--6
+\TU/TimesNewRoman(1)/m/n/14.4 During GNSS Outages: A Preliminary Study on Simpl
+e Trajectories». []
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 6--6
+\TU/TimesNewRoman(1)/m/n/14.4 В: \TU/TimesNewRoman(1)/m/it/14.4 Journal of Posi
+tioning, Navigation, and Timing \TU/TimesNewRoman(1)/m/n/14.4 13.2 (июнь 2024),
+
+ []
+
+[78.78
 
 
 
@@ -3370,20 +3376,20 @@ Underfull \hbox (badness 6412) in paragraph at lines 6--6
 esNet-Transformer
  []
 
-
+[79.79]
 Underfull \hbox (badness 2080) in paragraph at lines 6--6
 \TU/TimesNewRoman(1)/m/n/14.4 modelling of ship maneuvering motion and associat
 ed optimal excitation
  []
 
-[78.78]
+
 Underfull \hbox (badness 1789) in paragraph at lines 6--6
 \TU/TimesNewRoman(1)/m/n/14.4 Measurement». [] В: \TU/TimesNewRoman(1)/m/it/14.
 4 IEEE Robotics and Automation Letters \TU/TimesNewRoman(1)/m/n/14.4 7.3 (2022)
 ,
  []
 
-[79.79]
+[80.80]
 Underfull \hbox (badness 2020) in paragraph at lines 6--6
 []\TU/TimesNewRoman(1)/m/n/14.4 J. Borrego и др. [] «  A generic visual percept
 ion domain randomisation
@@ -3413,13 +3419,13 @@ Underfull \hbox (badness 1622) in paragraph at lines 6--6
 ич Распопов. []
  []
 
-[80.80]
+[81.81]
 Underfull \hbox (badness 2080) in paragraph at lines 6--6
 []\TU/TimesNewRoman(1)/m/n/14.4 David H. Titterton и John L. Weston. [] \TU/Tim
 esNewRoman(1)/m/it/14.4 Strapdown Inertial Navigation
  []
 
-[81.81]) [82.82]
+[82.82]) [83.83]
 \openout2 = `Dissertation/lists.aux'.
 
  (Dissertation/lists.tex (dissertation.lof (common/renames.tex) (Dissertation/r
@@ -3429,26 +3435,27 @@ enames.tex) (common/renames.tex) (Dissertation/renames.tex)
 (common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
 (Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
 (common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
-(Dissertation/renames.tex) [83.83
+(Dissertation/renames.tex) [84.84
 
 
 
 
 ] (common/renames.tex)
-(Dissertation/renames.tex)) [84.84] (dissertation.lot (common/renames.tex)
 (Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
+(common/renames.tex) (Dissertation/renames.tex)) [85.85] (dissertation.lot
 (common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
 (Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
 (common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
 (Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
 (common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
-(Dissertation/renames.tex) [85.85
+(Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
+(common/renames.tex) (Dissertation/renames.tex) [86.86
 
 ] (common/renames.tex)
 (Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
 (common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
 (Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex))
-[86.86])
+[87.87])
 \openout2 = `Dissertation/appendix.aux'.
 
  (Dissertation/appendix.tex
@@ -3488,11 +3495,11 @@ If that doesn't work, type  X <return>  to quit.
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 24.
-[87.87
+[88.88
 
 
 
-]) [88.88]
+]) [89.89]
 
 Package nag Warning: 6 complaints in total.
 
@@ -3731,12 +3738,18 @@ images/fig_dataflow.tex
 Dissertation/04-experiments.tex
 ../src/plot.tex
 Dissertation/05-multy.tex
+images/multy_2/plots/rmse_ate_rmse_by_profile.png
+images/multy_2/plots/rmse_ate_rmse_by_duration.png
 Dissertation/conclusion.tex
 common/concl.tex
 Dissertation/acronyms.tex
 Dissertation/dictionary.tex
 Dissertation/references.tex
 Dissertation/lists.tex
+common/renames.tex
+Dissertation/renames.tex
+common/renames.tex
+Dissertation/renames.tex
 common/renames.tex
 Dissertation/renames.tex
 common/renames.tex
@@ -3813,12 +3826,12 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 82759 strings out of 402982
- 2024285 string characters out of 5448462
- 3587545 words of memory out of 5000000
- 110273 multiletter control sequences out of 15000+600000
- 657340 words of font info for 216 fonts, out of 8000000 for 9000
+ 82799 strings out of 402982
+ 2025899 string characters out of 5448462
+ 3587924 words of memory out of 5000000
+ 110301 multiletter control sequences out of 15000+600000
+ 657348 words of font info for 217 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,19n,98p,1356b,5758s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on dissertation.pdf (88 pages).
+Output written on dissertation.pdf (89 pages).

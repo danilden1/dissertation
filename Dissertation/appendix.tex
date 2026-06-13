@@ -86,3 +86,17 @@
 	pred = torch.cat([vel, quat, accel_nn], dim=-1)
 	return pred, torque_inter
 \end{lstlisting}
+
+\section*{Приложение Б}
+\addcontentsline{toc}{chapter}{Приложение Б. Архитектура потока данных восстановления траектории}
+
+\section{Архитектура потока данных восстановления траектории}
+
+На рисунке \ref{fig:data_flow} представлен полный поток данных с датчиков ГНСС, БИНС, оборотов винтов
+в задаче восстановления траектории с применением ФИ НС-ПСПС. 
+\begin{figure}[htbp]
+	\centering
+	\resizebox{0.92\linewidth}{!}{\input{images/fig_dataflow.tex}}
+	\caption{Архитектура потока данных восстановления траектории.}
+	\label{fig:data_flow}
+\end{figure}
