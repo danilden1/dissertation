@@ -949,6 +949,7 @@
       \strng{authornamehash}{9bf9288dcd9f7eca4afb72d309f75b61}
       \strng{authorfullhash}{184757a1226902fca2ea5e346376dde9}
       \strng{authorfullhashraw}{184757a1226902fca2ea5e346376dde9}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1101,198 +1102,241 @@
       \field{year}{202X}
       \keyw{,biblioexternal,bibliofull}
     \endentry
-    \entry{Stepanov2019}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=fbb241b39daad66b91f3ac8383c26ea2}{%
-           family={Степанов},
-           familyi={С\bibinitperiod},
-           given={Олег\bibnamedelima Анатольевич},
-           giveni={О\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
-      }
-      \strng{namehash}{fbb241b39daad66b91f3ac8383c26ea2}
-      \strng{fullhash}{fbb241b39daad66b91f3ac8383c26ea2}
-      \strng{fullhashraw}{fbb241b39daad66b91f3ac8383c26ea2}
-      \strng{bibnamehash}{fbb241b39daad66b91f3ac8383c26ea2}
-      \strng{authorbibnamehash}{fbb241b39daad66b91f3ac8383c26ea2}
-      \strng{authornamehash}{fbb241b39daad66b91f3ac8383c26ea2}
-      \strng{authorfullhash}{fbb241b39daad66b91f3ac8383c26ea2}
-      \strng{authorfullhashraw}{fbb241b39daad66b91f3ac8383c26ea2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Гироскопия и навигация}
-      \field{number}{4}
-      \field{title}{Оптимальная и адаптивная обработка навигационной информации. Применение теории оценивания к задачам навигации}
-      \field{volume}{27}
-      \field{year}{2019}
-      \field{pages}{3\bibrangedash 24}
-      \range{pages}{22}
-      \verb{doi}
-      \verb 10.17285/0869-7035.2019.27.4.003
-      \endverb
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Akhmedov2022}{article}{}{}
+    \entry{Sidorenko2026}{article}{}{}
       \name{author}{2}{}{%
-        {{hash=f68a428dffc5f203b0aabfe85242e1bb}{%
-           family={Ахмедов},
-           familyi={А\bibinitperiod},
-           given={Ринат\bibnamedelima Ренатович},
-           giveni={Р\bibinitperiod\bibinitdelim Р\bibinitperiod}}}%
-        {{hash=096b8cd70198091578ba02d53b9fc774}{%
-           family={Шаймарданов},
-           familyi={Ш\bibinitperiod},
-           given={Марат\bibnamedelima Рустамович},
-           giveni={М\bibinitperiod\bibinitdelim Р\bibinitperiod}}}%
-      }
-      \strng{namehash}{edaf2cdf6de9cacfc4b39017ef1d10fc}
-      \strng{fullhash}{edaf2cdf6de9cacfc4b39017ef1d10fc}
-      \strng{fullhashraw}{edaf2cdf6de9cacfc4b39017ef1d10fc}
-      \strng{bibnamehash}{edaf2cdf6de9cacfc4b39017ef1d10fc}
-      \strng{authorbibnamehash}{edaf2cdf6de9cacfc4b39017ef1d10fc}
-      \strng{authornamehash}{edaf2cdf6de9cacfc4b39017ef1d10fc}
-      \strng{authorfullhash}{edaf2cdf6de9cacfc4b39017ef1d10fc}
-      \strng{authorfullhashraw}{edaf2cdf6de9cacfc4b39017ef1d10fc}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Вестник Московского авиационного института}
-      \field{number}{4}
-      \field{title}{Применение беспилотных летательных аппаратов для тепловизионного обследования линейных объектов нефтегазовой инфраструктуры}
-      \field{volume}{29}
-      \field{year}{2022}
-      \field{pages}{215\bibrangedash 225}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.34759/vst-2022-4-215-225
-      \endverb
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Sokolov2023gnss}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=2e7e05a0a4865939cc79b58fa6d641c1}{%
-           family={Соколов},
-           familyi={С\bibinitperiod},
-           given={Андрей\bibnamedelima Игоревич},
-           giveni={А\bibinitperiod\bibinitdelim И\bibinitperiod}}}%
-        {{hash=537e5f4c26cb88db4f7f7f32ddc58a0b}{%
-           family={Быков},
-           familyi={Б\bibinitperiod},
-           given={Артём\bibnamedelima Сергеевич},
-           giveni={А\bibinitperiod\bibinitdelim С\bibinitperiod}}}%
-      }
-      \strng{namehash}{a47ac40ed643f85d9bd806c417d970fd}
-      \strng{fullhash}{a47ac40ed643f85d9bd806c417d970fd}
-      \strng{fullhashraw}{a47ac40ed643f85d9bd806c417d970fd}
-      \strng{bibnamehash}{a47ac40ed643f85d9bd806c417d970fd}
-      \strng{authorbibnamehash}{a47ac40ed643f85d9bd806c417d970fd}
-      \strng{authornamehash}{a47ac40ed643f85d9bd806c417d970fd}
-      \strng{authorfullhash}{a47ac40ed643f85d9bd806c417d970fd}
-      \strng{authorfullhashraw}{a47ac40ed643f85d9bd806c417d970fd}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Радиотехника}
-      \field{number}{6}
-      \field{title}{Анализ помехоустойчивости приёмников {ГНСС} при работе вблизи металлоконструкций промышленных объектов}
-      \field{volume}{87}
-      \field{year}{2023}
-      \field{pages}{112\bibrangedash 121}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.18127/j00338486-202306-14
-      \endverb
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Lu2022rpm}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=82c9c43155faccc725f9f4ae355bc1a0}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Guangyu},
-           giveni={G\bibinitperiod}}}%
-        {{hash=bd3953bc59f5715b3898113082a033f8}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Rong},
-           giveni={R\bibinitperiod}}}%
-        {{hash=61ec60cbfd68540f6532bf5e870fcc5a}{%
-           family={Becker},
-           familyi={B\bibinitperiod},
-           given={Moritz},
-           giveni={M\bibinitperiod}}}%
-        {{hash=b5bfea27864db1c0ed528a3bf391f860}{%
-           family={Bülthoff},
-           familyi={B\bibinitperiod},
-           given={Heinrich\bibnamedelima H.},
-           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=71e2ac3866149c5cb628ccd6f1856a79}{%
-           family={Stegagno},
+        {{hash=129300b506210eaa3d14a62841103e90}{%
+           family={Sidorenko},
            familyi={S\bibinitperiod},
-           given={Paolo},
-           giveni={P\bibinitperiod}}}%
+           given={Anton},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ca50b61c6d4e6ff567664ac59d4d3837}{%
+           family={Karaman},
+           familyi={K\bibinitperiod},
+           given={Sertac},
+           giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{faa9e91c94b141cfbd82beaed97ecd97}
-      \strng{fullhash}{2f638806b45d1b6f719510f0c7b9fc9f}
-      \strng{fullhashraw}{2f638806b45d1b6f719510f0c7b9fc9f}
-      \strng{bibnamehash}{faa9e91c94b141cfbd82beaed97ecd97}
-      \strng{authorbibnamehash}{faa9e91c94b141cfbd82beaed97ecd97}
-      \strng{authornamehash}{faa9e91c94b141cfbd82beaed97ecd97}
-      \strng{authorfullhash}{2f638806b45d1b6f719510f0c7b9fc9f}
-      \strng{authorfullhashraw}{2f638806b45d1b6f719510f0c7b9fc9f}
+      \strng{namehash}{0ea7009a5c737b52b51c7c78ef10e7d3}
+      \strng{fullhash}{0ea7009a5c737b52b51c7c78ef10e7d3}
+      \strng{fullhashraw}{0ea7009a5c737b52b51c7c78ef10e7d3}
+      \strng{bibnamehash}{0ea7009a5c737b52b51c7c78ef10e7d3}
+      \strng{authorbibnamehash}{0ea7009a5c737b52b51c7c78ef10e7d3}
+      \strng{authornamehash}{0ea7009a5c737b52b51c7c78ef10e7d3}
+      \strng{authorfullhash}{0ea7009a5c737b52b51c7c78ef10e7d3}
+      \strng{authorfullhashraw}{0ea7009a5c737b52b51c7c78ef10e7d3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Guidance, Control, and Dynamics}
+      \field{number}{2}
+      \field{title}{Real-time Guidance for Low-Thrust Transfers Using Deep Learning}
+      \field{volume}{49}
+      \field{year}{2026}
+      \field{pages}{345\bibrangedash 358}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.2514/1.G006254
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{neurobem2021}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=59afafcd8a1882db2ba4f6af81e0f01a}{%
+           family={Bauersfeld},
+           familyi={B\bibinitperiod},
+           given={Leonard},
+           giveni={L\bibinitperiod}}}%
+        {{hash=67c97d80868fd6b133dedb6e929aac2d}{%
+           family={Kaufmann},
+           familyi={K\bibinitperiod},
+           given={Elia},
+           giveni={E\bibinitperiod}}}%
+        {{hash=edbb932bddb617034f7847aff95366d3}{%
+           family={Foehn},
+           familyi={F\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0fe236fed49efc5e9f26884ac82a3b18}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Sihao},
+           giveni={S\bibinitperiod}}}%
+        {{hash=dac21ab4ede215439fcc6b051be53a11}{%
+           family={Scaramuzza},
+           familyi={S\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{829cf690061d0cb404dd6d3e529bf29d}
+      \strng{fullhash}{577d98ec173c2a946b3dadc58e2f905b}
+      \strng{fullhashraw}{577d98ec173c2a946b3dadc58e2f905b}
+      \strng{bibnamehash}{829cf690061d0cb404dd6d3e529bf29d}
+      \strng{authorbibnamehash}{829cf690061d0cb404dd6d3e529bf29d}
+      \strng{authornamehash}{829cf690061d0cb404dd6d3e529bf29d}
+      \strng{authorfullhash}{577d98ec173c2a946b3dadc58e2f905b}
+      \strng{authorfullhashraw}{577d98ec173c2a946b3dadc58e2f905b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2106.08015}
+      \field{title}{NeuroBEM: Hybrid Aerodynamic Quadrotor Model}
+      \field{year}{2021}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{actuator_informed2022}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=1f26f664835ac6c347db22001b657f1a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c1307f04a2326d8574987ac3a9ef4db}
+      \strng{fullhash}{3c1307f04a2326d8574987ac3a9ef4db}
+      \strng{fullhashraw}{3c1307f04a2326d8574987ac3a9ef4db}
+      \strng{bibnamehash}{3c1307f04a2326d8574987ac3a9ef4db}
+      \strng{authorbibnamehash}{3c1307f04a2326d8574987ac3a9ef4db}
+      \strng{authornamehash}{3c1307f04a2326d8574987ac3a9ef4db}
+      \strng{authorfullhash}{3c1307f04a2326d8574987ac3a9ef4db}
+      \strng{authorfullhashraw}{3c1307f04a2326d8574987ac3a9ef4db}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Robotics and Automation Letters}
       \field{number}{3}
-      \field{title}{Multirotor Motion Enhancement Using Propeller Speed Measurement}
+      \field{title}{Actuator-Informed State Estimation for Quadrotors under Wind Disturbances}
       \field{volume}{7}
       \field{year}{2022}
-      \field{pages}{6942\bibrangedash 6949}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/LRA.2022.3177851
-      \endverb
       \keyw{,biblioexternal,bibliofull}
     \endentry
-    \entry{Petrov2023nn}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=a7a77918e3b826d7dba7d95611a2ec43}{%
-           family={Петров},
-           familyi={П\bibinitperiod},
-           given={Александр\bibnamedelima Владимирович},
-           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
-        {{hash=a03eafc9052ca1e828e752c90957ee89}{%
-           family={Лукьянов},
-           familyi={Л\bibinitperiod},
-           given={Дмитрий\bibnamedelima Владимирович},
-           giveni={Д\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+    \entry{ssm_actuator2025}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=240f15f7d0b589c89d5552453f46785d}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
       }
-      \strng{namehash}{d4d0f076bd6815156f0504965a3fb892}
-      \strng{fullhash}{d4d0f076bd6815156f0504965a3fb892}
-      \strng{fullhashraw}{d4d0f076bd6815156f0504965a3fb892}
-      \strng{bibnamehash}{d4d0f076bd6815156f0504965a3fb892}
-      \strng{authorbibnamehash}{d4d0f076bd6815156f0504965a3fb892}
-      \strng{authornamehash}{d4d0f076bd6815156f0504965a3fb892}
-      \strng{authorfullhash}{d4d0f076bd6815156f0504965a3fb892}
-      \strng{authorfullhashraw}{d4d0f076bd6815156f0504965a3fb892}
+      \strng{namehash}{8e509e5e53b3287487b3d77bfc550fb5}
+      \strng{fullhash}{8e509e5e53b3287487b3d77bfc550fb5}
+      \strng{fullhashraw}{8e509e5e53b3287487b3d77bfc550fb5}
+      \strng{bibnamehash}{8e509e5e53b3287487b3d77bfc550fb5}
+      \strng{authorbibnamehash}{8e509e5e53b3287487b3d77bfc550fb5}
+      \strng{authornamehash}{8e509e5e53b3287487b3d77bfc550fb5}
+      \strng{authorfullhash}{8e509e5e53b3287487b3d77bfc550fb5}
+      \strng{authorfullhashraw}{8e509e5e53b3287487b3d77bfc550fb5}
+      \field{extraname}{2}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Вестник Московского авиационного института}
-      \field{number}{2}
-      \field{title}{Нейросетевые алгоритмы навигации квадрокоптера с использованием телеметрии силовой установки}
-      \field{volume}{30}
+      \field{journaltitle}{IEEE Transactions on Robotics}
+      \field{title}{State Space Models with Actuator Signals for Inertial Navigation of UAVs}
+      \field{volume}{41}
+      \field{year}{2025}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{aiio2026}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=eac0f3c4f9f3abca2f37ed870545fe45}{%
+           family={Team},
+           familyi={T\bibinitperiod},
+           given={SJTU-ViSYS},
+           giveni={S\bibinithyphendelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{eac0f3c4f9f3abca2f37ed870545fe45}
+      \strng{fullhash}{eac0f3c4f9f3abca2f37ed870545fe45}
+      \strng{fullhashraw}{eac0f3c4f9f3abca2f37ed870545fe45}
+      \strng{bibnamehash}{eac0f3c4f9f3abca2f37ed870545fe45}
+      \strng{authorbibnamehash}{eac0f3c4f9f3abca2f37ed870545fe45}
+      \strng{authornamehash}{eac0f3c4f9f3abca2f37ed870545fe45}
+      \strng{authorfullhash}{eac0f3c4f9f3abca2f37ed870545fe45}
+      \strng{authorfullhashraw}{eac0f3c4f9f3abca2f37ed870545fe45}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Dataset v1.0, \url{https://github.com/SJTU-ViSYS-team/AI-IO}}
+      \field{title}{{AI-IO}: A Real-World Quadrotor Dataset with IMU and Rotor Speed Measurements}
+      \field{year}{2026}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{hawad2023}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=39856f0439f35f79a8eed8b12d26166c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{dccaa1dcfd3e42125e7248467021e0d9}
+      \strng{fullhash}{dccaa1dcfd3e42125e7248467021e0d9}
+      \strng{fullhashraw}{dccaa1dcfd3e42125e7248467021e0d9}
+      \strng{bibnamehash}{dccaa1dcfd3e42125e7248467021e0d9}
+      \strng{authorbibnamehash}{dccaa1dcfd3e42125e7248467021e0d9}
+      \strng{authornamehash}{dccaa1dcfd3e42125e7248467021e0d9}
+      \strng{authorfullhash}{dccaa1dcfd3e42125e7248467021e0d9}
+      \strng{authorfullhashraw}{dccaa1dcfd3e42125e7248467021e0d9}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 International Conference on Unmanned Aircraft Systems (ICUAS)}
+      \field{title}{Hybrid Aerodynamic Wind-Aware Modeling for Quadrotor State Estimation}
       \field{year}{2023}
-      \field{pages}{137\bibrangedash 148}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.34759/vst-2023-2-137-148
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Gu2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=aa9ec56190423bb01ead50d96b94ba93}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ede2395a7f566a456448fcb5f8222c99}{%
+           family={Dao},
+           familyi={D\bibinitperiod},
+           given={Tri},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{babde771e7de935487275312d2f755a5}
+      \strng{fullhash}{babde771e7de935487275312d2f755a5}
+      \strng{fullhashraw}{babde771e7de935487275312d2f755a5}
+      \strng{bibnamehash}{babde771e7de935487275312d2f755a5}
+      \strng{authorbibnamehash}{babde771e7de935487275312d2f755a5}
+      \strng{authornamehash}{babde771e7de935487275312d2f755a5}
+      \strng{authorfullhash}{babde771e7de935487275312d2f755a5}
+      \strng{authorfullhashraw}{babde771e7de935487275312d2f755a5}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{number}{Kalman 1960}
+      \field{title}{{Mamba: Linear-Time Sequence Modeling with Selective State Spaces}}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 36}
+      \range{pages}{36}
+      \verb{eprint}
+      \verb 2312.00752
+      \endverb
+      \verb{file}
+      \verb :C\:/Users/danil/OneDrive/Документы/Асп/НИ 6/источники/Mamba Linear-Time Sequence Modeling with Selective State Spaces.pdf:pdf;:C\:/Users/danil/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Gu, Dao - 2024 - Mamba Linear-Time Sequence Modeling with Selective State Spaces.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2312.00752
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2312.00752
       \endverb
       \keyw{,biblioexternal,bibliofull}
     \endentry
@@ -1347,8 +1391,8 @@
       \strng{authornamehash}{f858fba03d82c2829bc4d5aeadc4737d}
       \strng{authorfullhash}{8cc69303f49763400c88f38e29c4479b}
       \strng{authorfullhashraw}{8cc69303f49763400c88f38e29c4479b}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Robotics Research}
@@ -1366,807 +1410,6 @@
       \endverb
       \keyw{,biblioexternal,bibliofull}
     \endentry
-    \entry{Koenig2004}{inproceedings}{}{}
-      \name{author}{2}{}{%
-        {{hash=b36ad28302103ee23f9d095ae271054f}{%
-           family={Koenig},
-           familyi={K\bibinitperiod},
-           given={Nathan},
-           giveni={N\bibinitperiod}}}%
-        {{hash=315c4166fc1f7cb66324a7f0d82827cd}{%
-           family={Howard},
-           familyi={H\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{956b19be78deabb0cea6aa73f05590c0}
-      \strng{fullhash}{956b19be78deabb0cea6aa73f05590c0}
-      \strng{fullhashraw}{956b19be78deabb0cea6aa73f05590c0}
-      \strng{bibnamehash}{956b19be78deabb0cea6aa73f05590c0}
-      \strng{authorbibnamehash}{956b19be78deabb0cea6aa73f05590c0}
-      \strng{authornamehash}{956b19be78deabb0cea6aa73f05590c0}
-      \strng{authorfullhash}{956b19be78deabb0cea6aa73f05590c0}
-      \strng{authorfullhashraw}{956b19be78deabb0cea6aa73f05590c0}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}
-      \field{title}{Design and use paradigms for {Gazebo}, an open-source multi-robot simulator}
-      \field{volume}{3}
-      \field{year}{2004}
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Meyer2012}{inproceedings}{}{}
-      \name{author}{5}{}{%
-        {{hash=4c6fbb7b1952ff20cdfa22d9578da529}{%
-           family={Meyer},
-           familyi={M\bibinitperiod},
-           given={Johannes},
-           giveni={J\bibinitperiod}}}%
-        {{hash=783dbcd31100548c05b1531d1c3932a2}{%
-           family={Sendobry},
-           familyi={S\bibinitperiod},
-           given={Alexander},
-           giveni={A\bibinitperiod}}}%
-        {{hash=ffe8b5a0b01710333e7a1b95c3a23f39}{%
-           family={Kohlbrecher},
-           familyi={K\bibinitperiod},
-           given={Stefan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=1109a766ce930d89772c81ee9e632254}{%
-           family={Klingauf},
-           familyi={K\bibinitperiod},
-           given={Uwe},
-           giveni={U\bibinitperiod}}}%
-        {{hash=9e99f6d0e070b54c0be67b3ca5a5a54e}{%
-           family={Stryk},
-           familyi={S\bibinitperiod},
-           given={Oskar},
-           giveni={O\bibinitperiod},
-           prefix={von},
-           prefixi={v\bibinitperiod}}}%
-      }
-      \strng{namehash}{e8fc5f161bded819682047f46f9e5940}
-      \strng{fullhash}{ff1303969f17cb0049fea1c6babb5c7a}
-      \strng{fullhashraw}{ff1303969f17cb0049fea1c6babb5c7a}
-      \strng{bibnamehash}{e8fc5f161bded819682047f46f9e5940}
-      \strng{authorbibnamehash}{e8fc5f161bded819682047f46f9e5940}
-      \strng{authornamehash}{e8fc5f161bded819682047f46f9e5940}
-      \strng{authorfullhash}{ff1303969f17cb0049fea1c6babb5c7a}
-      \strng{authorfullhashraw}{ff1303969f17cb0049fea1c6babb5c7a}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Lecture Notes in Computer Science}
-      \field{title}{Comprehensive simulation of quadrotor {UAVs} using {ROS} and {Gazebo}}
-      \field{volume}{7628}
-      \field{year}{2012}
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Borrego2018}{inproceedings}{}{}
-      \name{author}{6}{}{%
-        {{hash=1683a7e1016c7d1a2cf19b074188bc9c}{%
-           family={Borrego},
-           familyi={B\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=469704e65322f8158c50d163bdb52c59}{%
-           family={Figueiredo},
-           familyi={F\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=ca033ea72719fd6aa18903ed75cf6089}{%
-           family={Dehban},
-           familyi={D\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=621764690ac47181756903fd9bf96d86}{%
-           family={Moreno},
-           familyi={M\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=60c218d33971e6287d736c1c2b94ffeb}{%
-           family={Bernardino},
-           familyi={B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=0b5300a6e16577e072caa199a5953d7e}{%
-           family={Santos-Victor},
-           familyi={S\bibinithyphendelim V\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{e77ce22c353f13c3f4ff2b9916e75347}
-      \strng{fullhash}{544b29ced41aa864f63d3f460b8fe845}
-      \strng{fullhashraw}{544b29ced41aa864f63d3f460b8fe845}
-      \strng{bibnamehash}{e77ce22c353f13c3f4ff2b9916e75347}
-      \strng{authorbibnamehash}{e77ce22c353f13c3f4ff2b9916e75347}
-      \strng{authornamehash}{e77ce22c353f13c3f4ff2b9916e75347}
-      \strng{authorfullhash}{544b29ced41aa864f63d3f460b8fe845}
-      \strng{authorfullhashraw}{544b29ced41aa864f63d3f460b8fe845}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{18th IEEE International Conference on Autonomous Robot Systems and Competitions (ICARSC)}
-      \field{title}{A generic visual perception domain randomisation framework for {Gazebo}}
-      \field{year}{2018}
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Chikurtev2020}{inproceedings}{}{}
-      \name{author}{1}{}{%
-        {{hash=6929f56f660827433a6b50447922e524}{%
-           family={Chikurtev},
-           familyi={C\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{6929f56f660827433a6b50447922e524}
-      \strng{fullhash}{6929f56f660827433a6b50447922e524}
-      \strng{fullhashraw}{6929f56f660827433a6b50447922e524}
-      \strng{bibnamehash}{6929f56f660827433a6b50447922e524}
-      \strng{authorbibnamehash}{6929f56f660827433a6b50447922e524}
-      \strng{authornamehash}{6929f56f660827433a6b50447922e524}
-      \strng{authorfullhash}{6929f56f660827433a6b50447922e524}
-      \strng{authorfullhashraw}{6929f56f660827433a6b50447922e524}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2020 International Conference on Automatics and Informatics (ICAI)}
-      \field{title}{Mobile Robot Simulation and Navigation in {ROS} and {Gazebo}}
-      \field{year}{2020}
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Salimpour2025}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=4aef7f32ee063966a718447da3970b81}{%
-           family={Salimpour},
-           familyi={S\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=648ec5c821dcc143682b1357aef698c7}{%
-           family={Peña-Queralta},
-           familyi={P\bibinithyphendelim Q\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f70d0c22834635f7c84eec6e8a229257}{%
-           family={Paez-Granados},
-           familyi={P\bibinithyphendelim G\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=54e360ab5b112ce605422b0399c877e0}{%
-           family={Heikkonen},
-           familyi={H\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=a77843e4e6b06c4d7ba73a338d5db323}{%
-           family={Westerlund},
-           familyi={W\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{f9e012760f191d224520448f42c9645c}
-      \strng{fullhash}{405101d0bd05a7acc8cb1ed53386b5c6}
-      \strng{fullhashraw}{405101d0bd05a7acc8cb1ed53386b5c6}
-      \strng{bibnamehash}{f9e012760f191d224520448f42c9645c}
-      \strng{authorbibnamehash}{f9e012760f191d224520448f42c9645c}
-      \strng{authornamehash}{f9e012760f191d224520448f42c9645c}
-      \strng{authorfullhash}{405101d0bd05a7acc8cb1ed53386b5c6}
-      \strng{authorfullhashraw}{405101d0bd05a7acc8cb1ed53386b5c6}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Sim-to-Real Transfer for Mobile Robots with Reinforcement Learning: from {NVIDIA Isaac Sim} to {Gazebo} and Real {ROS} 2 Robots}
-      \field{year}{2025}
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{ZhangPINNPathPlanning}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=24007f156eb06261431b2b25b64844f8}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{24007f156eb06261431b2b25b64844f8}
-      \strng{fullhash}{24007f156eb06261431b2b25b64844f8}
-      \strng{fullhashraw}{24007f156eb06261431b2b25b64844f8}
-      \strng{bibnamehash}{24007f156eb06261431b2b25b64844f8}
-      \strng{authorbibnamehash}{24007f156eb06261431b2b25b64844f8}
-      \strng{authornamehash}{24007f156eb06261431b2b25b64844f8}
-      \strng{authorfullhash}{24007f156eb06261431b2b25b64844f8}
-      \strng{authorfullhashraw}{24007f156eb06261431b2b25b64844f8}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{A Physics-Informed Neural Network Approach for {UAV} Path Planning in Dynamic Environments}
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Gu2024QuadrotorPINN}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=a3b9d9f2677d7168e4eed27cef60be92}{%
-           family={Gu},
-           familyi={G\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-        {{hash=745eeabc4a67a2e3b5cd668fa8146ad8}{%
-           family={Primatesta},
-           familyi={P\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=14f19799c4602a92c0fd0d37d7af46dc}{%
-           family={Rizzo},
-           familyi={R\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{a3ebaf57ed9038885efae93eeed82b4d}
-      \strng{fullhash}{a3ebaf57ed9038885efae93eeed82b4d}
-      \strng{fullhashraw}{a3ebaf57ed9038885efae93eeed82b4d}
-      \strng{bibnamehash}{a3ebaf57ed9038885efae93eeed82b4d}
-      \strng{authorbibnamehash}{a3ebaf57ed9038885efae93eeed82b4d}
-      \strng{authornamehash}{a3ebaf57ed9038885efae93eeed82b4d}
-      \strng{authorfullhash}{a3ebaf57ed9038885efae93eeed82b4d}
-      \strng{authorfullhashraw}{a3ebaf57ed9038885efae93eeed82b4d}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Robotics and Autonomous Systems}
-      \field{title}{Physics-informed Neural Network for Quadrotor Dynamical Modeling}
-      \field{volume}{171}
-      \field{year}{2024}
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Sahoo2025}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=205b3b98157a1af8c94b7493de542e6e}{%
-           family={Sahoo},
-           familyi={S\bibinitperiod},
-           given={A.\bibnamedelimi K.},
-           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=88e643836695fee0370534da329e3b43}{%
-           family={Klein},
-           familyi={K\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{20078b23f3fb7974c1470e679abef295}
-      \strng{fullhash}{20078b23f3fb7974c1470e679abef295}
-      \strng{fullhashraw}{20078b23f3fb7974c1470e679abef295}
-      \strng{bibnamehash}{20078b23f3fb7974c1470e679abef295}
-      \strng{authorbibnamehash}{20078b23f3fb7974c1470e679abef295}
-      \strng{authornamehash}{20078b23f3fb7974c1470e679abef295}
-      \strng{authorfullhash}{20078b23f3fb7974c1470e679abef295}
-      \strng{authorfullhashraw}{20078b23f3fb7974c1470e679abef295}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{MoRPI-PINN}: A Physics-Informed Framework for Mobile Robot Pure Inertial Navigation}
-      \field{year}{2025}
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Nagasawa2021}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=47c4b369b6adec6c3af34e79e4e51773}{%
-           family={Nagasawa},
-           familyi={N\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=ed8404e79b9bf44e953b3219eaf92851}{%
-           family={Mas},
-           familyi={M\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=50c792a785547f3c45d001788a88f3b2}{%
-           family={Moya},
-           familyi={M\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=e0b7ca0fe1ec1bc8509d6b5d864690e5}{%
-           family={Koshimura},
-           familyi={K\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{2b6f06ee48dd59d616766181cb5d05ec}
-      \strng{fullhash}{0a9260d4ab0b122af64a26ffc78515df}
-      \strng{fullhashraw}{0a9260d4ab0b122af64a26ffc78515df}
-      \strng{bibnamehash}{2b6f06ee48dd59d616766181cb5d05ec}
-      \strng{authorbibnamehash}{2b6f06ee48dd59d616766181cb5d05ec}
-      \strng{authornamehash}{2b6f06ee48dd59d616766181cb5d05ec}
-      \strng{authorfullhash}{0a9260d4ab0b122af64a26ffc78515df}
-      \strng{authorfullhashraw}{0a9260d4ab0b122af64a26ffc78515df}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Scientific Reports}
-      \field{number}{1}
-      \field{title}{Model-based analysis of multi-{UAV} path planning for surveying postdisaster building damage}
-      \field{volume}{11}
-      \field{year}{2021}
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Cabreira2019}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=3988eafbb2f776ff35a16dc52dc87c74}{%
-           family={Cabreira},
-           familyi={C\bibinitperiod},
-           given={T.\bibnamedelimi M.},
-           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=9a32d1fc3655bf8ba2f0ccb5f9e9f59c}{%
-           family={Brisolara},
-           familyi={B\bibinitperiod},
-           given={L.\bibnamedelimi B.},
-           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=ce0f5ccfbda837bc4dca94bb11c32105}{%
-           family={Ferreira},
-           familyi={F\bibinitperiod},
-           given={Paulo\bibnamedelima R.},
-           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \strng{namehash}{53e456bf4d657c1cf7d1efbeabcf175e}
-      \strng{fullhash}{53e456bf4d657c1cf7d1efbeabcf175e}
-      \strng{fullhashraw}{53e456bf4d657c1cf7d1efbeabcf175e}
-      \strng{bibnamehash}{53e456bf4d657c1cf7d1efbeabcf175e}
-      \strng{authorbibnamehash}{53e456bf4d657c1cf7d1efbeabcf175e}
-      \strng{authornamehash}{53e456bf4d657c1cf7d1efbeabcf175e}
-      \strng{authorfullhash}{53e456bf4d657c1cf7d1efbeabcf175e}
-      \strng{authorfullhashraw}{53e456bf4d657c1cf7d1efbeabcf175e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Drones}
-      \field{number}{1}
-      \field{title}{Survey on coverage path planning with unmanned aerial vehicles}
-      \field{volume}{3}
-      \field{year}{2019}
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Matveev2020}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=8f79dc6093c7516229f4ac7400f7e900}{%
-           family={Матвеев},
-           familyi={М\bibinitperiod},
-           given={Валерий\bibnamedelima Владимирович},
-           giveni={В\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
-        {{hash=43fec1eb94813178c7b5b96ff5372dcc}{%
-           family={Распопов},
-           familyi={Р\bibinitperiod},
-           given={Владимир\bibnamedelima Яковлевич},
-           giveni={В\bibinitperiod\bibinitdelim Я\bibinitperiod}}}%
-      }
-      \strng{namehash}{85927fe066f6277f5358cb40750668b4}
-      \strng{fullhash}{85927fe066f6277f5358cb40750668b4}
-      \strng{fullhashraw}{85927fe066f6277f5358cb40750668b4}
-      \strng{bibnamehash}{85927fe066f6277f5358cb40750668b4}
-      \strng{authorbibnamehash}{85927fe066f6277f5358cb40750668b4}
-      \strng{authornamehash}{85927fe066f6277f5358cb40750668b4}
-      \strng{authorfullhash}{85927fe066f6277f5358cb40750668b4}
-      \strng{authorfullhashraw}{85927fe066f6277f5358cb40750668b4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Гироскопия и навигация}
-      \field{number}{2}
-      \field{title}{Инерциальные навигационные системы на микромеханических чувствительных элементах: проблемы и решения}
-      \field{volume}{28}
-      \field{year}{2020}
-      \field{pages}{73\bibrangedash 92}
-      \range{pages}{20}
-      \verb{doi}
-      \verb 10.17285/0869-7035.2020.28.2.073
-      \endverb
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Brovko2023}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=dffcb9933270c8cd73068262a646980b}{%
-           family={Бровко},
-           familyi={Б\bibinitperiod},
-           given={Александр\bibnamedelima Викторович},
-           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
-        {{hash=772cdab40418f604a951f9d22ef4a352}{%
-           family={Голован},
-           familyi={Г\bibinitperiod},
-           given={Андрей\bibnamedelima Александрович},
-           giveni={А\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
-      }
-      \strng{namehash}{f98f857e56092eedd48b48ec2ce4d3b2}
-      \strng{fullhash}{f98f857e56092eedd48b48ec2ce4d3b2}
-      \strng{fullhashraw}{f98f857e56092eedd48b48ec2ce4d3b2}
-      \strng{bibnamehash}{f98f857e56092eedd48b48ec2ce4d3b2}
-      \strng{authorbibnamehash}{f98f857e56092eedd48b48ec2ce4d3b2}
-      \strng{authornamehash}{f98f857e56092eedd48b48ec2ce4d3b2}
-      \strng{authorfullhash}{f98f857e56092eedd48b48ec2ce4d3b2}
-      \strng{authorfullhashraw}{f98f857e56092eedd48b48ec2ce4d3b2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Гироскопия и навигация}
-      \field{number}{1}
-      \field{title}{Глубокое обучение для компенсации дрейфа {МЭМС}-гироскопов в задачах бесплатформенной инерциальной навигации}
-      \field{volume}{31}
-      \field{year}{2023}
-      \field{pages}{44\bibrangedash 58}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.17285/0869-7035.2023.31.1.044
-      \endverb
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Kuznetsov2022}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=a98b35beb6e52f8a87171013b35e7eaf}{%
-           family={Кузнецов},
-           familyi={К\bibinitperiod},
-           given={Павел\bibnamedelima Михайлович},
-           giveni={П\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
-        {{hash=6f8011a892abd220b3da26d38a94b7ba}{%
-           family={Крылов},
-           familyi={К\bibinitperiod},
-           given={Игорь\bibnamedelima Олегович},
-           giveni={И\bibinitperiod\bibinitdelim О\bibinitperiod}}}%
-      }
-      \strng{namehash}{c4c1ef04000e850d504b86436612f547}
-      \strng{fullhash}{c4c1ef04000e850d504b86436612f547}
-      \strng{fullhashraw}{c4c1ef04000e850d504b86436612f547}
-      \strng{bibnamehash}{c4c1ef04000e850d504b86436612f547}
-      \strng{authorbibnamehash}{c4c1ef04000e850d504b86436612f547}
-      \strng{authornamehash}{c4c1ef04000e850d504b86436612f547}
-      \strng{authorfullhash}{c4c1ef04000e850d504b86436612f547}
-      \strng{authorfullhashraw}{c4c1ef04000e850d504b86436612f547}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Вестник Московского авиационного института}
-      \field{number}{3}
-      \field{title}{Нейросетевая коррекция инерциальной навигационной системы мобильного робота в зонах потери сигнала {ГНСС}}
-      \field{volume}{29}
-      \field{year}{2022}
-      \field{pages}{190\bibrangedash 201}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.34759/vst-2022-3-190-201
-      \endverb
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Mahony2012}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=523f1624940e07366b63a96872ddb4be}{%
-           family={Mahony},
-           familyi={M\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod}}}%
-        {{hash=3c2a6a0658f1ad90e7d4a83eef9c3841}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Vijay},
-           giveni={V\bibinitperiod}}}%
-        {{hash=c0e503339314930d140b67b5e7c55c3e}{%
-           family={Corke},
-           familyi={C\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{c72b6af88df31e595e84c356067cc6a4}
-      \strng{fullhash}{c72b6af88df31e595e84c356067cc6a4}
-      \strng{fullhashraw}{c72b6af88df31e595e84c356067cc6a4}
-      \strng{bibnamehash}{c72b6af88df31e595e84c356067cc6a4}
-      \strng{authorbibnamehash}{c72b6af88df31e595e84c356067cc6a4}
-      \strng{authornamehash}{c72b6af88df31e595e84c356067cc6a4}
-      \strng{authorfullhash}{c72b6af88df31e595e84c356067cc6a4}
-      \strng{authorfullhashraw}{c72b6af88df31e595e84c356067cc6a4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Robotics \& Automation Magazine}
-      \field{month}{9}
-      \field{number}{3}
-      \field{title}{Multirotor Aerial Vehicles: Modeling, Estimation, and Control of Quadrotor}
-      \field{volume}{19}
-      \field{year}{2012}
-      \field{pages}{20\bibrangedash 32}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1109/MRA.2012.2206474
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/MRA.2012.2206474
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/MRA.2012.2206474
-      \endverb
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Faessler2018}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=a27fb89a95764f23d84f4fde3ae7ff85}{%
-           family={Faessler},
-           familyi={F\bibinitperiod},
-           given={Matthias},
-           giveni={M\bibinitperiod}}}%
-        {{hash=e2d5101dede6f001543008c6863bd385}{%
-           family={Franchi},
-           familyi={F\bibinitperiod},
-           given={Antonio},
-           giveni={A\bibinitperiod}}}%
-        {{hash=dac21ab4ede215439fcc6b051be53a11}{%
-           family={Scaramuzza},
-           familyi={S\bibinitperiod},
-           given={Davide},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{366424b029e37c6cd9f6bea04af79c57}
-      \strng{fullhash}{366424b029e37c6cd9f6bea04af79c57}
-      \strng{fullhashraw}{366424b029e37c6cd9f6bea04af79c57}
-      \strng{bibnamehash}{366424b029e37c6cd9f6bea04af79c57}
-      \strng{authorbibnamehash}{366424b029e37c6cd9f6bea04af79c57}
-      \strng{authornamehash}{366424b029e37c6cd9f6bea04af79c57}
-      \strng{authorfullhash}{366424b029e37c6cd9f6bea04af79c57}
-      \strng{authorfullhashraw}{366424b029e37c6cd9f6bea04af79c57}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Robotics and Automation Letters}
-      \field{number}{2}
-      \field{title}{Differential Flatness of Quadrotor Dynamics Subject to Rotor Drag for Accurate Tracking of High-Speed Trajectories}
-      \field{volume}{3}
-      \field{year}{2018}
-      \field{pages}{620\bibrangedash 626}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1109/LRA.2017.2776353
-      \endverb
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Ilyasov2023pinn}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=446c4bbac623c2bd14170195abee4049}{%
-           family={Ильясов},
-           familyi={И\bibinitperiod},
-           given={Борис\bibnamedelima Георгиевич},
-           giveni={Б\bibinitperiod\bibinitdelim Г\bibinitperiod}}}%
-        {{hash=471717fabc4e2fb9e6752cd7fb632727}{%
-           family={Гатауллин},
-           familyi={Г\bibinitperiod},
-           given={Ришат\bibnamedelima Маратович},
-           giveni={Р\bibinitperiod\bibinitdelim М\bibinitperiod}}}%
-        {{hash=524eee0d1653f6221208052ac9b8f613}{%
-           family={Саитова},
-           familyi={С\bibinitperiod},
-           given={Гузель\bibnamedelima Асфандияровна},
-           giveni={Г\bibinitperiod\bibinitdelim А\bibinitperiod}}}%
-      }
-      \strng{namehash}{73dcbd63887b877de1b2e4e65f87806a}
-      \strng{fullhash}{73dcbd63887b877de1b2e4e65f87806a}
-      \strng{fullhashraw}{73dcbd63887b877de1b2e4e65f87806a}
-      \strng{bibnamehash}{73dcbd63887b877de1b2e4e65f87806a}
-      \strng{authorbibnamehash}{73dcbd63887b877de1b2e4e65f87806a}
-      \strng{authornamehash}{73dcbd63887b877de1b2e4e65f87806a}
-      \strng{authorfullhash}{73dcbd63887b877de1b2e4e65f87806a}
-      \strng{authorfullhashraw}{73dcbd63887b877de1b2e4e65f87806a}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Известия Самарского научного центра {РАН}}
-      \field{number}{5}
-      \field{title}{Физически информированные нейронные сети для оценки состояния беспилотного летательного аппарата}
-      \field{volume}{25}
-      \field{year}{2023}
-      \field{pages}{47\bibrangedash 56}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.37313/1990-5378-2023-25-5-47-56
-      \endverb
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Kobzar2006}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=5d162f081c04263208b7f81d6e296961}{%
-           family={Кобзарь},
-           familyi={К\bibinitperiod},
-           given={Александр\bibnamedelima Иванович},
-           giveni={А\bibinitperiod\bibinitdelim И\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Москва}%
-      }
-      \list{publisher}{1}{%
-        {ФИЗМАТЛИТ}%
-      }
-      \strng{namehash}{5d162f081c04263208b7f81d6e296961}
-      \strng{fullhash}{5d162f081c04263208b7f81d6e296961}
-      \strng{fullhashraw}{5d162f081c04263208b7f81d6e296961}
-      \strng{bibnamehash}{5d162f081c04263208b7f81d6e296961}
-      \strng{authorbibnamehash}{5d162f081c04263208b7f81d6e296961}
-      \strng{authornamehash}{5d162f081c04263208b7f81d6e296961}
-      \strng{authorfullhash}{5d162f081c04263208b7f81d6e296961}
-      \strng{authorfullhashraw}{5d162f081c04263208b7f81d6e296961}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{5-9221-0707-9}
-      \field{title}{Прикладная математическая статистика. Для инженеров и научных работников}
-      \field{year}{2006}
-      \field{pages}{816}
-      \range{pages}{1}
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{deep_inertial_odometry}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=01eef5a5963e8ce47b3691a0a6438241}{%
-           family={Yan},
-           familyi={Y\bibinitperiod},
-           given={Hang},
-           giveni={H\bibinitperiod}}}%
-        {{hash=9840f48d663b0588d0472cdeddacbbcd}{%
-           family={Shan},
-           familyi={S\bibinitperiod},
-           given={Qi},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=352b1ed7e14d74b1f159928c01ed9078}{%
-           family={Furukawa},
-           familyi={F\bibinitperiod},
-           given={Yasutaka},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{6a4546c3fe6402e4673cf5275e1f0db4}
-      \strng{fullhash}{6a4546c3fe6402e4673cf5275e1f0db4}
-      \strng{fullhashraw}{6a4546c3fe6402e4673cf5275e1f0db4}
-      \strng{bibnamehash}{6a4546c3fe6402e4673cf5275e1f0db4}
-      \strng{authorbibnamehash}{6a4546c3fe6402e4673cf5275e1f0db4}
-      \strng{authornamehash}{6a4546c3fe6402e4673cf5275e1f0db4}
-      \strng{authorfullhash}{6a4546c3fe6402e4673cf5275e1f0db4}
-      \strng{authorfullhashraw}{6a4546c3fe6402e4673cf5275e1f0db4}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:1806.04807}
-      \field{title}{{Deep Learning for Inertial Positioning}}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/1806.04807
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/1806.04807
-      \endverb
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{inertial_nav_titterton}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=aa8885e4cab910cb5bd4e47aa5564107}{%
-           family={Titterton},
-           familyi={T\bibinitperiod},
-           given={David\bibnamedelima H.},
-           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=c674d8d435fcb8f524e10624ccd539ab}{%
-           family={Weston},
-           familyi={W\bibinitperiod},
-           given={John\bibnamedelima L.},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {The Institution of Engineering}%
-        {Technology}%
-      }
-      \strng{namehash}{fee234c323b4ce30f8fb56b9f8764e96}
-      \strng{fullhash}{fee234c323b4ce30f8fb56b9f8764e96}
-      \strng{fullhashraw}{fee234c323b4ce30f8fb56b9f8764e96}
-      \strng{bibnamehash}{fee234c323b4ce30f8fb56b9f8764e96}
-      \strng{authorbibnamehash}{fee234c323b4ce30f8fb56b9f8764e96}
-      \strng{authornamehash}{fee234c323b4ce30f8fb56b9f8764e96}
-      \strng{authorfullhash}{fee234c323b4ce30f8fb56b9f8764e96}
-      \strng{authorfullhashraw}{fee234c323b4ce30f8fb56b9f8764e96}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{isbn}{978-0-86341-358-2}
-      \field{title}{{Strapdown Inertial Navigation Technology}}
-      \field{year}{2004}
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Sidorenko2026}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=129300b506210eaa3d14a62841103e90}{%
-           family={Sidorenko},
-           familyi={S\bibinitperiod},
-           given={Anton},
-           giveni={A\bibinitperiod}}}%
-        {{hash=ca50b61c6d4e6ff567664ac59d4d3837}{%
-           family={Karaman},
-           familyi={K\bibinitperiod},
-           given={Sertac},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{0ea7009a5c737b52b51c7c78ef10e7d3}
-      \strng{fullhash}{0ea7009a5c737b52b51c7c78ef10e7d3}
-      \strng{fullhashraw}{0ea7009a5c737b52b51c7c78ef10e7d3}
-      \strng{bibnamehash}{0ea7009a5c737b52b51c7c78ef10e7d3}
-      \strng{authorbibnamehash}{0ea7009a5c737b52b51c7c78ef10e7d3}
-      \strng{authornamehash}{0ea7009a5c737b52b51c7c78ef10e7d3}
-      \strng{authorfullhash}{0ea7009a5c737b52b51c7c78ef10e7d3}
-      \strng{authorfullhashraw}{0ea7009a5c737b52b51c7c78ef10e7d3}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Guidance, Control, and Dynamics}
-      \field{number}{2}
-      \field{title}{Real-time Guidance for Low-Thrust Transfers Using Deep Learning}
-      \field{volume}{49}
-      \field{year}{2026}
-      \field{pages}{345\bibrangedash 358}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.2514/1.G006254
-      \endverb
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
-    \entry{Gu2024}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=aa9ec56190423bb01ead50d96b94ba93}{%
-           family={Gu},
-           familyi={G\bibinitperiod},
-           given={Albert},
-           giveni={A\bibinitperiod}}}%
-        {{hash=ede2395a7f566a456448fcb5f8222c99}{%
-           family={Dao},
-           familyi={D\bibinitperiod},
-           given={Tri},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{babde771e7de935487275312d2f755a5}
-      \strng{fullhash}{babde771e7de935487275312d2f755a5}
-      \strng{fullhashraw}{babde771e7de935487275312d2f755a5}
-      \strng{bibnamehash}{babde771e7de935487275312d2f755a5}
-      \strng{authorbibnamehash}{babde771e7de935487275312d2f755a5}
-      \strng{authornamehash}{babde771e7de935487275312d2f755a5}
-      \strng{authorfullhash}{babde771e7de935487275312d2f755a5}
-      \strng{authorfullhashraw}{babde771e7de935487275312d2f755a5}
-      \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
-      \field{number}{Kalman 1960}
-      \field{title}{{Mamba: Linear-Time Sequence Modeling with Selective State Spaces}}
-      \field{year}{2024}
-      \field{pages}{1\bibrangedash 36}
-      \range{pages}{36}
-      \verb{eprint}
-      \verb 2312.00752
-      \endverb
-      \verb{file}
-      \verb :C\:/Users/danil/OneDrive/Документы/Асп/НИ 6/источники/Mamba Linear-Time Sequence Modeling with Selective State Spaces.pdf:pdf;:C\:/Users/danil/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Gu, Dao - 2024 - Mamba Linear-Time Sequence Modeling with Selective State Spaces.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2312.00752
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2312.00752
-      \endverb
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
     \entry{holybro_x500}{manual}{}{}
       \name{author}{1}{}{%
         {{hash=d46501ffe44acace5a42144aac4ae5ca}{%
@@ -2181,8 +1424,8 @@
       \strng{authornamehash}{d46501ffe44acace5a42144aac4ae5ca}
       \strng{authorfullhash}{d46501ffe44acace5a42144aac4ae5ca}
       \strng{authorfullhashraw}{d46501ffe44acace5a42144aac4ae5ca}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{\url{https://holybro.com/products/x500-v2-kit}}
@@ -2212,8 +1455,8 @@
       \strng{authorfullhash}{babde771e7de935487275312d2f755a5}
       \strng{authorfullhashraw}{babde771e7de935487275312d2f755a5}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2312.00752}
@@ -2278,8 +1521,8 @@
       \strng{authornamehash}{24a8a831b5ead72d9fa40fd4da1e2b35}
       \strng{authorfullhash}{f361b03b8179010be5c47f5579a085f3}
       \strng{authorfullhashraw}{f361b03b8179010be5c47f5579a085f3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science Robotics}
@@ -2328,8 +1571,8 @@
       \strng{authornamehash}{8bdbb8b4165cd9527e4b8d770eea95df}
       \strng{authorfullhash}{ce8333c2ffbf5a70a370eb79f1b0ba56}
       \strng{authorfullhashraw}{ce8333c2ffbf5a70a370eb79f1b0ba56}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2603.00597}
