@@ -2511,22 +2511,34 @@
     <bcf:citekey order="25" intorder="1">Shurin2022</bcf:citekey>
     <bcf:citekey order="26" intorder="1">Sivtsov2025</bcf:citekey>
     <bcf:citekey order="27" intorder="1">Fu202X</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">Sidorenko2026</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">neurobem2021</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">actuator_informed2022</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">ssm_actuator2025</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">aiio2026</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">hawad2023</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">Gu2024</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">Burri2016</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">Sidorenko2026</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">holybro_x500</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">mission_gen_v2</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">mamba_ssm</bcf:citekey>
-    <bcf:citekey order="39" intorder="2">mamba_pinn_ours</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">pinn_physics_loss</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">inertial_nav_drift</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">AIIO2026</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">Cahyadi2023</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">Pang2024</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">Fang2020</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">Guang2021</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">Almassri2022</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">Guyard2025</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Bianchi2024</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">Tan2023</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">Gu2024</bcf:citekey>
+    <bcf:citekey order="36" intorder="2">Tsuji2025</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">Wang2025</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">Niu2026</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">Sidorenko2026</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">neurobem2021</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">actuator_informed2022</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">ssm_actuator2025</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">aiio2026</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">hawad2023</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">Gu2024</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">Burri2016</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">Sidorenko2026</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">holybro_x500</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">mission_gen_v2</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">mamba_ssm</bcf:citekey>
+    <bcf:citekey order="50" intorder="2">mamba_pinn_ours</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">pinn_physics_loss</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">inertial_nav_drift</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">AIIO2026</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
