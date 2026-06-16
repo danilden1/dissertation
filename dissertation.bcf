@@ -2645,11 +2645,9 @@
     <bcf:citekey order="100" intorder="1">Gu2024</bcf:citekey>
     <bcf:citekey order="101" intorder="1">AIIO2026</bcf:citekey>
     <bcf:citekey order="102" intorder="1">Burri2016</bcf:citekey>
-    <bcf:citekey order="103" intorder="1">eq:sko</bcf:citekey>
-    <bcf:citekey order="104" intorder="1">eq:aot</bcf:citekey>
-    <bcf:citekey order="105" intorder="1">AIIO2026</bcf:citekey>
-    <bcf:citekey order="106" intorder="1">CuiAIIO2026</bcf:citekey>
-    <bcf:citekey order="107" intorder="1">Burri2016</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">AIIO2026</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">CuiAIIO2026</bcf:citekey>
+    <bcf:citekey order="105" intorder="1">Burri2016</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
