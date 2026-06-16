@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.1)  16 JUN 2026 21:48
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.1)  16 JUN 2026 23:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2442,15 +2442,7 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'dissertation.bbl' found.
- (dissertation.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Lu2022
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (dissertation.bbl)
 Package biblatex Info: Reference section=0 on input line 56.
 Package biblatex Info: Reference segment=0 on input line 56.
 Package nag Info: Command \captionabove not defined, skipping amendment on inpu
@@ -2463,7 +2455,8 @@ Package nag Info: Command \topcaption not defined, skipping amendment on input
 line 56.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
 
- (C:\Users\danil\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+(C:\Users\danil\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
@@ -2514,43 +2507,43 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-] [7.7]
-Underfull \hbox (badness 3668) in paragraph at lines 73--74
-[]\TU/TimesNewRoman(1)/m/n/14.4 Разработать эффективную модель НС ПСПС с линейн
-ой сложно-
+]
+Underfull \hbox (badness 2050) in paragraph at lines 53--58
+\TU/TimesNewRoman(1)/m/n/14.4 селективными пространствами состояний [5] обеспеч
+ивает линейную слож-
  []
 
-[8.8] [9.9]
-Underfull \hbox (badness 4673) in paragraph at lines 105--106
+[7.7]
+Underfull \hbox (badness 5302) in paragraph at lines 70--73
+[]\TU/TimesNewRoman(1)/m/n/14.4 Разработать физически информированную модель на
+ основе про-
+ []
+
+[8.8]
+Underfull \hbox (badness 4673) in paragraph at lines 101--102
 []\TU/TimesNewRoman(1)/b/n/14.4 5. \TU/TimesNewRoman(1)/m/n/14.4 Проведено иссл
 едование обобщающей способности разработанной
  []
 
-
-Underfull \hbox (badness 4024) in paragraph at lines 109--121
+[9.9]
+Underfull \hbox (badness 4024) in paragraph at lines 105--117
 []\TU/TimesNewRoman(1)/b/n/14.4 Теоретическая значимость \TU/TimesNewRoman(1)/m
 /n/14.4 исследования заключается в следующем.
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 109--121
+Underfull \hbox (badness 1708) in paragraph at lines 105--117
 \TU/TimesNewRoman(1)/m/n/14.4 намического режима платформы. Предложенная архите
-ктура ФИ-НС ПСПС
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 109--121
-\TU/TimesNewRoman(1)/m/n/14.4 направление совместного применения физических огр
-аничений и последо-
+ктура ФИ НС-ПСПС
  []
 
 [10.10] [11.11] [12.12]
-Underfull \hbox (badness 1460) in paragraph at lines 206--209
+Underfull \hbox (badness 1460) in paragraph at lines 202--205
 \TU/TimesNewRoman(1)/m/it/14.4 ления роботами, робототехническими и мехатронным
 и системами,
  []
 
-[13.13])
+)
 \@c=\count690
 \@last=\count691
 \@pnul=\count692
@@ -2569,24 +2562,30 @@ Underfull \hbox (badness 1460) in paragraph at lines 206--209
 \@c=\count705
 \@last=\count706
 \@pnul=\count707
-) [14.14]
+) [13.13]
 \openout2 = `Dissertation/01-literature.aux'.
 
  (Dissertation/01-literature.tex
 Глава 1.
 
-Underfull \hbox (badness 2573) in paragraph at lines 12--13
-\TU/TimesNewRoman(1)/m/n/14.4 сигналы спутников, делая позиционирование нестаби
-льным на протяжении
+Underfull \hbox (badness 1859) in paragraph at lines 12--13
+\TU/TimesNewRoman(1)/m/n/14.4 ла носит системный характер. При термокартографир
+овании трубопроводов
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 12--13
-\TU/TimesNewRoman(1)/m/n/14.4 значительных участков маршрута [6, 5]. При картог
-рафировании заброшен-
+Underfull \hbox (badness 2772) in paragraph at lines 12--13
+\TU/TimesNewRoman(1)/m/n/14.4 и энергетических объектов БПЛА вынужден длительно
+е время находиться
  []
 
-[15.15
+
+Underfull \hbox (badness 1577) in paragraph at lines 12--13
+\TU/TimesNewRoman(1)/m/n/14.4 в непосредственной близости от металлических конс
+трукций [8, 10, 11]. В
+ []
+
+[14.14
 
 
 
@@ -2597,34 +2596,43 @@ Underfull \hbox (badness 4569) in paragraph at lines 14--15
 -первых, необходимо
  []
 
-[16.16]
+
+Underfull \hbox (badness 4686) in paragraph at lines 18--19
+\TU/TimesNewRoman(1)/m/n/14.4 что разработка методов восстановления траектории,
+ способных эффектив-
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 18--19
+\TU/TimesNewRoman(1)/m/n/14.4 сигнала ГНСС в промышленных и природных средах, о
+стаётся актуальной
+ []
+
+[15.15]
 Underfull \hbox (badness 2213) in paragraph at lines 33--34
 []\TU/TimesNewRoman(1)/m/n/14.4 Бессигматурынй фильтр Калмана (БФК) вместо якоб
 ианов использует
  []
 
-[17.17] [18.18] [19.19]
+[16.16] [17.17] [18.18]
 Underfull \hbox (badness 1490) in paragraph at lines 78--79
 []\TU/TimesNewRoman(1)/m/n/14.4 Комбинация ограничений по количеству обучающих 
 данных и слабой
  []
 
-[20.20]
+[19.19] [20.20]
+Underfull \hbox (badness 1430) in paragraph at lines 100--101
+[]\TU/TimesNewRoman(1)/m/n/14.4 В работе [15] показано, что включение уравнений
+ Ньютона–Эйлера в
+ []
 
-LaTeX Warning: Reference `sec:1.2, sec:1.3' on page 21 undefined on input line 
-85.
-
-[21.21] [22.22] [23.23]
+[21.21] [22.22]
 Underfull \hbox (badness 1460) in paragraph at lines 141--142
 \TU/TimesNewRoman(1)/m/n/14.4 интерес представляет телеметрия оборотов несущих 
 винтов (RPM), доступ-
  []
 
-[24.24]
-
-LaTeX Warning: Citation 'Lu2022' on page 25 undefined on input line 145.
-
-[25.25] [26.26]
+[23.23] [24.24] [25.25]
 Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Инспекция трубо-
  []
@@ -2862,12 +2870,18 @@ Underfull \hbox (badness 2189) in paragraph at lines 240--240
 
 LaTeX Warning: Float too large for page by 23.66696pt on input line 241.
 
-[27.27] [28.28]) [29.29]
+
+Underfull \hbox (badness 1789) in paragraph at lines 248--249
+[]\TU/TimesNewRoman(1)/m/n/14.4 Классические вероятностные фильтры обеспечивают
+ приемлемую точ-
+ []
+
+[26.26] [27.27]) [28.28]
 \openout2 = `Dissertation/02-model.aux'.
 
  (Dissertation/02-model.tex
 Глава 2.
-[30.30
+[29.29
 
 
 
@@ -2878,78 +2892,78 @@ z/libraries\tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@layerbox@background=\box126
 \pgf@layerboxsaved@background=\box127
-)) [31.31]
-Underfull \hbox (badness 7576) in paragraph at lines 74--76
+)) [30.30] [31.31]
+Underfull \hbox (badness 7576) in paragraph at lines 71--73
 \TU/TimesNewRoman(1)/m/n/14.4 ставление обеспечивает численную устойчивость при
  интегрировании на
  []
 
-[32.32]
-Underfull \hbox (badness 4096) in paragraph at lines 84--85
+
+Underfull \hbox (badness 4096) in paragraph at lines 81--82
 []\TU/TimesNewRoman(1)/m/n/14.4 Динамика поступательного и вращательного движен
 ия квадрокоптера
  []
 
-[33.33] [34.34] [35.35]
-Underfull \hbox (badness 1521) in paragraph at lines 147--148
+[32.32] [33.33] [34.34]
+Underfull \hbox (badness 1521) in paragraph at lines 143--144
 \TU/TimesNewRoman(1)/m/n/14.4 оборотов несущих винтов. Все модели датчиков реал
 изованы в симуляторе
  []
 
-[36.36]
-Overfull \hbox (5.41635pt too wide) in paragraph at lines 172--187
+[35.35]
+Overfull \hbox (5.41635pt too wide) in paragraph at lines 168--183
  [][] 
  []
 
-[37.37] [38.38]
-Underfull \hbox (badness 3965) in paragraph at lines 205--206
+[36.36] [37.37]
+Underfull \hbox (badness 3965) in paragraph at lines 201--202
 \TU/TimesNewRoman(1)/m/n/14.4 может служить надёжным источником визуальной одом
 етрии: ме-
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 205--206
+Underfull \hbox (badness 1661) in paragraph at lines 201--202
 \TU/TimesNewRoman(1)/m/n/14.4 таллические поверхности промышленных объектов хар
 актеризуются
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 205--206
+Underfull \hbox (badness 1478) in paragraph at lines 201--202
 \TU/TimesNewRoman(1)/m/n/14.4 нородности прерывает поток данных, делая визуальн
 ую одометрию
  []
 
 
-Underfull \hbox (badness 2644) in paragraph at lines 209--210
+Underfull \hbox (badness 2644) in paragraph at lines 205--206
 []\TU/TimesNewRoman(1)/m/n/14.4 В отсутствие внешней коррекции от ГНСС потребит
 ельские МЭМС-
  []
 
-[39.39]
-Underfull \hbox (badness 6641) in paragraph at lines 221--222
+[38.38]
+Underfull \hbox (badness 6641) in paragraph at lines 217--218
 \TU/TimesNewRoman(1)/m/n/14.4 ностью идентичный по архитектуре и алгоритмам упр
 авления реальным
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 221--222
+Underfull \hbox (badness 2073) in paragraph at lines 217--218
 \TU/TimesNewRoman(1)/m/n/14.4 чающую аэродинамические взаимодействия несущих ви
 нтов, силу тяжести,
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 221--222
+Underfull \hbox (badness 2617) in paragraph at lines 217--218
 \TU/TimesNewRoman(1)/m/n/14.4 аэродинамическое сопротивление корпуса и реалисти
 чные модели порывов
  []
 
-[40.40]
-Overfull \hbox (0.48096pt too wide) in paragraph at lines 242--243
+[39.39]
+Overfull \hbox (0.48096pt too wide) in paragraph at lines 238--239
 \TU/TimesNewRoman(1)/m/n/14.4 четание физической достоверности, синхронизации д
 анных и масштабируемости,
  []
 
-[41.41]) [42.42]
+[40.40]) [41.41]
 \openout2 = `Dissertation/03-architecture.aux'.
 
  (Dissertation/03-architecture.tex
@@ -2961,57 +2975,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--22
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
 []\TU/TimesNewRoman(1)/m/n/14.4 Нейронная сеть на основе последовательностей с 
 селективными
  []
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 22--27
-\TU/TimesNewRoman(1)/m/n/14.4 ограничений отсутствует. Кратко обозначим как \TU
-/TimesNewRoman(1)/b/n/14.4 НС-ПСПС \TU/TimesNewRoman(1)/m/n/14.4 Кратко
- []
-
-
-LaTeX Warning: Reference `eq:thrust' on page 43 undefined on input line 46.
 
 (images/fig-compare.tex
 (C:\Users\danil\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)) [43.43
+)) [42.42
 
 
 
 
-]
+] [43.43] [44.44] [45.45]
 
-LaTeX Warning: Reference `sec:kinematics, dynamics_rigid' on page 44 undefined 
-on input line 91.
-
-[44.44] [45.45]
-
-LaTeX Warning: Reference `eq:thrust' on page 46 undefined on input line 106.
-
-
-LaTeX Warning: Reference `eq:thrust' on page 46 undefined on input line 118.
-
-
-LaTeX Warning: Reference `eq:tau_hyp' on page 46 undefined on input line 118.
-
-[46.46]
-
-LaTeX Warning: Reference `eq:tau_hyp' on page 47 undefined on input line 141.
+LaTeX Warning: Reference `eq:tau_hyp' on page 46 undefined on input line 140.
 
 File: images/two_regimes_comparison.png Graphic file (type bmp)
 <images/two_regimes_comparison.png>
 
-LaTeX Warning: Reference `eq:thrust' on page 47 undefined on input line 198.
+LaTeX Warning: Reference `eq:thrust' on page 46 undefined on input line 197.
 
-[47.47] [48.48] [49.49] [50.50] [51.51]
+[46.46] [47.47] [48.48] [49.49] [50.50]
 File: images/fig-arch.png Graphic file (type bmp)
 <images/fig-arch.png>
-) [52.52]
+) [51.51]
 \openout2 = `Dissertation/04-experiments_v1.aux'.
 
 
@@ -3023,25 +3013,18 @@ l.18 \end{enumerate}}
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-[53.53
+[52.52
 
 
 
 
-] [54.54]
-
-LaTeX Warning: Reference `eq:sko' on page 55 undefined on input line 114.
-
-
-LaTeX Warning: Reference `eq:aot' on page 55 undefined on input line 115.
-
-
+] [53.53]
 Underfull \hbox (badness 2005) in paragraph at lines 136--136
 \TU/TimesNewRoman(1)/m/n/14.4 форм. Параметры, отличающиеся от базовой, выделен
 ы жирным шрифтом.
  []
 
-[55.55] [56.56] [57.57] (images/fig-inference-time.tex
+[54.54] [55.55] [56.56] (images/fig-inference-time.tex
 
 ! Package pgfkeys Error: I do not know the key '/pgfplots/bar width', to which 
 you passed '0.4cm', and I am going to ignore it. Perhaps you misspelled it.
@@ -3063,8 +3046,8 @@ Package pgfplots info on input line 62: Using 'lua backend=false' for axis: x c
 oord trafo unsupported.
 Package pgfplots info on input line 85: Using 'lua backend=false' for axis: x c
 oord trafo unsupported.
-) [58.58] [59.59] [60.60] [61.61] (../src/plot.tex) [62.62] [63.63]
-(images/fig-aiio-bar.tex) [64.64] [65.65]
+) [57.57] [58.58] [59.59] [60.60] (../src/plot.tex) [61.61] [62.62]
+(images/fig-aiio-bar.tex) [63.63] [64.64]
 File: images/multy_2/plots/rmse_ate_rmse_by_profile.png Graphic file (type bmp)
 
 <images/multy_2/plots/rmse_ate_rmse_by_profile.png>
@@ -3073,11 +3056,11 @@ File: images/multy_2/plots/rmse_ate_rmse_by_duration.png Graphic file (type bmp
 <images/multy_2/plots/rmse_ate_rmse_by_duration.png>
 File: images/multy_2/plots/rmse_vs_duration.png Graphic file (type bmp)
 <images/multy_2/plots/rmse_vs_duration.png>
- [66.66] [67.67] [68.68] [69.69]
-[70.70]) [71.71]
+ [65.65] [66.66] [67.67] [68.68]
+[69.69]) [70.70]
 \openout2 = `Dissertation/conclusion.aux'.
 
- (Dissertation/conclusion.tex (common/concl.tex)) [72.72
+ (Dissertation/conclusion.tex (common/concl.tex)) [71.71
 
 
 
@@ -3091,7 +3074,7 @@ No file dissertation.nls.
 )
 \openout2 = `Dissertation/dictionary.aux'.
 
- (Dissertation/dictionary.tex) [73.73
+ (Dissertation/dictionary.tex) [72.72
 
 
 
@@ -3124,7 +3107,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--6
 sion for Reliable
  []
 
-[74.74
+[73.73
 
 
 
@@ -3155,7 +3138,7 @@ tioning, Navigation, and Timing \TU/TimesNewRoman(1)/m/n/14.4 13.2 (июнь 202
 
  []
 
-[75.75]
+[74.74]
 Underfull \hbox (badness 3128) in paragraph at lines 6--6
 []\TU/TimesNewRoman(1)/m/n/14.4 Tian Sun и др. [] «  Learning Spatio-Temporal D
 ynamics for Trajectory
@@ -3173,13 +3156,13 @@ Underfull \hbox (badness 7256) in paragraph at lines 6--6
  and Parallel/Distributed
  []
 
-[76.76]
+[75.75]
 Underfull \hbox (badness 2080) in paragraph at lines 6--6
 \TU/TimesNewRoman(1)/m/n/14.4 modelling of ship maneuvering motion and associat
 ed optimal excitation
  []
 
-[77.77]
+[76.76]
 Underfull \hbox (badness 2884) in paragraph at lines 6--6
 []\TU/TimesNewRoman(1)/m/n/14.4 Toshiaki Tsuji. [] «  Mamba as a Motion Encoder
  for Robotic Imitation
@@ -3192,7 +3175,7 @@ Underfull \hbox (badness 1789) in paragraph at lines 6--6
 ,
  []
 
-[78.78]) [79.79]
+[77.77]) [78.78]
 \openout2 = `Dissertation/lists.aux'.
 
  (Dissertation/lists.tex (dissertation.lof (common/renames.tex) (Dissertation/r
@@ -3203,7 +3186,7 @@ enames.tex) (common/renames.tex) (Dissertation/renames.tex)
 (Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
 (common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
 (Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex))
-[80.80
+[79.79
 
 
 
@@ -3217,7 +3200,7 @@ enames.tex) (common/renames.tex) (Dissertation/renames.tex)
 (Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
 (common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
 (Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
-(common/renames.tex) (Dissertation/renames.tex)) [81.81
+(common/renames.tex) (Dissertation/renames.tex)) [80.80
 
 ])
 \openout2 = `Dissertation/appendix.aux'.
@@ -3260,7 +3243,7 @@ If that doesn't work, type  X <return>  to quit.
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 24.
-[82.82
+[81.81
 
 
 
@@ -3526,7 +3509,7 @@ l.237 ...$ \quad ($w_0=1$, $w_T=0$)\end{tabular}};
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-)) [83.83] [84.84]
+)) [82.82] [83.83]
 
 Package caption Warning: Unused \captionsetup[subfloat] on input line 62.
 See the caption package documentation for explanation.
@@ -3842,12 +3825,12 @@ Package logreq Info: Writing requests to 'dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 82506 strings out of 402982
- 2012343 string characters out of 5448462
- 3579048 words of memory out of 5000000
- 110024 multiletter control sequences out of 15000+600000
+ 82504 strings out of 402982
+ 2012399 string characters out of 5448462
+ 3579089 words of memory out of 5000000
+ 110022 multiletter control sequences out of 15000+600000
  655347 words of font info for 202 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,19n,98p,1287b,5765s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,19n,98p,1287b,5767s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on dissertation.pdf (84 pages).
+Output written on dissertation.pdf (83 pages).

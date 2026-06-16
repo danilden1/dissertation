@@ -16,63 +16,63 @@
 \contentsline {section}{\numberline {0.9}Личный вклад автора}{12}{section.0.9}%
 \contentsline {section}{\numberline {0.10}Соответствие диссертации паспорту научной специальности}{13}{section.0.10}%
 \contentsline {section}{\numberline {0.11}Основные публикации по теме диссертации}{13}{section.0.11}%
-\contentsline {chapter}{\chapternumberline {1}Анализ современных методов восстановления траектории мобильных роботов при кратковременных потерях сигнала ГНСС}{15}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Задачи навигации мобильных роботов и беспилотных летательных аппаратов в условиях деградации и потери сигнала глобальной навигационной спутниковой системы}{15}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Классические методы восстановления траектории при кратковременных потерях сигнала глобальной навигационной спутниковой системы}{17}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Нейросетевые подходы к восстановлению траектории основанные на данных}{19}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Физически информированные нейронные сети в задачах оценки состояния и навигации роботов и беспилотных летательных аппаратов}{21}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Архитектуры селективных последовательностей состояний}{23}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Использование телеметрии актуаторов как дополнительного источника навигационной информации}{24}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Гибридные физически информированные модели на основе последовательностей в задачах инерциальной навигации}{25}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Анализ публикационной активности и выявление пробелов в литературе}{26}{section.1.8}%
-\contentsline {section}{\numberline {1.9}Выводы по главе}{29}{section.1.9}%
-\contentsline {chapter}{\chapternumberline {2}Математическая модель квадрокоптера}{30}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Введение}{30}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Кинематическая модель квадрокоптера как твёрдого тела}{31}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Динамическая модель твёрдого тела}{33}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Подробная модель сил и моментов несущих винтов}{35}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Модели датчиков и телеметрии}{36}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Описание экспериментальной платформы Holybro X500 V2 и ограничения навигационной системы}{38}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Симуляционная среда PX4/Gazebo с плагином RotorS}{40}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Вывод раздела}{42}{subsection.2.7.1}%
-\contentsline {chapter}{\chapternumberline {3}Разработка методики обучения и дообучения физически информированной нейросетевой системы}{43}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Общая архитектура рассматриваемых нейронных сетей}{43}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Анализ вычислительной сложности}{44}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Обоснование применимости телеметрии оборотов несущих винтов как дополнительного источника навигационной информации}{45}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Физическое обоснование}{45}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Статистическое обоснование}{46}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Обзор релевантной литературы}{49}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Предлагаемая нейронная сеть}{50}{section.3.3}%
-\contentsline {chapter}{\chapternumberline {4}Экспериментальное исследование и сравнительный анализ эффективности предложенной системы}{53}{chapter.4}%
-\contentsline {subsection}{\numberline {4.0.1}Введение}{53}{subsection.4.0.1}%
-\contentsline {section}{\numberline {4.1}Описание экспериментальных данных и протокол оценки}{53}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Датасеты}{53}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Метрики оценки и протокол}{55}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Сравниваемые платформы для эксперимента по кросс-платформенному обобщению}{55}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Вычислительные характеристики архитектуры ФИ НС-ПСПС}{56}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Сравнение архитектур по теоретической сложности}{57}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Результаты обучения}{57}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Время предсказания траектории}{57}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Дообучение на ограниченном объёме данных}{60}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Протокол дообучения}{60}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Результаты при потере сигнала 60~с}{60}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Результаты при потере сигнала 240~с}{61}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Сводная таблица}{61}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Визуализация и анализ}{62}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Валидация на реальном датасете AI-IO}{63}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Описание датасета AI-IO}{63}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Результаты}{64}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Кросс-платформенное обобщение без дообучения}{65}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Описание эксперимента}{66}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Результаты}{66}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Обсуждение результатов}{66}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Выводы по разделу}{70}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}Выводы по главе}{70}{section.4.6}%
-\contentsline {chapter}{Заключение}{72}{chapter*.29}%
-\contentsline {chapter}{Словарь терминов}{73}{chapter*.31}%
-\contentsline {chapter}{Список литературы}{74}{section*.34}%
-\contentsline {chapter}{Список рисунков}{80}{chapter*.35}%
-\contentsline {chapter}{Список таблиц}{81}{chapter*.36}%
-\contentsline {chapter}{Приложение А. Программный код разработанной ФИ НС-ПСПС}{82}{section*.37}%
-\contentsline {chapter}{Приложение Б. Архитектура потока данных восстановления траектории}{83}{section*.38}%
-\contentsline {section}{\numberline {.1}Архитектура потока данных восстановления траектории}{83}{section.Alph0.1}%
+\contentsline {chapter}{\chapternumberline {1}Анализ современных методов восстановления траектории мобильных роботов при кратковременных потерях сигнала ГНСС}{14}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Задачи навигации мобильных роботов и беспилотных летательных аппаратов в условиях деградации и потери сигнала глобальной навигационной спутниковой системы}{14}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Классические методы восстановления траектории при кратковременных потерях сигнала глобальной навигационной спутниковой системы}{16}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Нейросетевые подходы к восстановлению траектории основанные на данных}{18}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Физически информированные нейронные сети в задачах оценки состояния и навигации роботов и беспилотных летательных аппаратов}{20}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Архитектуры селективных последовательностей состояний}{22}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Использование телеметрии актуаторов как дополнительного источника навигационной информации}{23}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Гибридные физически информированные модели на основе последовательностей в задачах инерциальной навигации}{24}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Анализ публикационной активности и выявление пробелов в литературе}{25}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Выводы по главе}{26}{section.1.9}%
+\contentsline {chapter}{\chapternumberline {2}Математическая модель квадрокоптера}{29}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Введение}{29}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Кинематическая модель квадрокоптера как твёрдого тела}{30}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Динамическая модель твёрдого тела}{32}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Подробная модель сил и моментов несущих винтов}{34}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Модели датчиков и телеметрии}{35}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Описание экспериментальной платформы Holybro X500 V2 и ограничения навигационной системы}{37}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Симуляционная среда PX4/Gazebo с плагином RotorS}{39}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Вывод раздела}{40}{subsection.2.7.1}%
+\contentsline {chapter}{\chapternumberline {3}Разработка методики обучения и дообучения физически информированной нейросетевой системы}{42}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Общая архитектура рассматриваемых нейронных сетей}{42}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Анализ вычислительной сложности}{43}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Обоснование применимости телеметрии оборотов несущих винтов как дополнительного источника навигационной информации}{44}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Физическое обоснование}{44}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Статистическое обоснование}{45}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Обзор релевантной литературы}{48}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Предлагаемая нейронная сеть}{49}{section.3.3}%
+\contentsline {chapter}{\chapternumberline {4}Экспериментальное исследование и сравнительный анализ эффективности предложенной системы}{52}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}Введение}{52}{subsection.4.0.1}%
+\contentsline {section}{\numberline {4.1}Описание экспериментальных данных и протокол оценки}{52}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Датасеты}{52}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Метрики оценки и протокол}{54}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Сравниваемые платформы для эксперимента по кросс-платформенному обобщению}{54}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Вычислительные характеристики архитектуры ФИ НС-ПСПС}{55}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Сравнение архитектур по теоретической сложности}{56}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Результаты обучения}{56}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Время предсказания траектории}{56}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Дообучение на ограниченном объёме данных}{59}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Протокол дообучения}{59}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Результаты при потере сигнала 60~с}{59}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Результаты при потере сигнала 240~с}{60}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Сводная таблица}{60}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Визуализация и анализ}{61}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Валидация на реальном датасете AI-IO}{62}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Описание датасета AI-IO}{62}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Результаты}{63}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Кросс-платформенное обобщение без дообучения}{64}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Описание эксперимента}{65}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Результаты}{65}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Обсуждение результатов}{65}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Выводы по разделу}{69}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Выводы по главе}{69}{section.4.6}%
+\contentsline {chapter}{Заключение}{71}{chapter*.29}%
+\contentsline {chapter}{Словарь терминов}{72}{chapter*.31}%
+\contentsline {chapter}{Список литературы}{73}{section*.34}%
+\contentsline {chapter}{Список рисунков}{79}{chapter*.35}%
+\contentsline {chapter}{Список таблиц}{80}{chapter*.36}%
+\contentsline {chapter}{Приложение А. Программный код разработанной ФИ НС-ПСПС}{81}{section*.37}%
+\contentsline {chapter}{Приложение Б. Архитектура потока данных восстановления траектории}{82}{section*.38}%
+\contentsline {section}{\numberline {.1}Архитектура потока данных восстановления траектории}{82}{section.Alph0.1}%

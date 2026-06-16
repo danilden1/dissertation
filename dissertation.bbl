@@ -206,6 +206,43 @@
       \endverb
       \keyw{,biblioexternal,bibliofull}
     \endentry
+    \entry{mamba_ssm}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=aa9ec56190423bb01ead50d96b94ba93}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ede2395a7f566a456448fcb5f8222c99}{%
+           family={Dao},
+           familyi={D\bibinitperiod},
+           given={Tri},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{babde771e7de935487275312d2f755a5}
+      \strng{fullhash}{babde771e7de935487275312d2f755a5}
+      \strng{fullhashraw}{babde771e7de935487275312d2f755a5}
+      \strng{bibnamehash}{babde771e7de935487275312d2f755a5}
+      \strng{authorbibnamehash}{babde771e7de935487275312d2f755a5}
+      \strng{authornamehash}{babde771e7de935487275312d2f755a5}
+      \strng{authorfullhash}{babde771e7de935487275312d2f755a5}
+      \strng{authorfullhashraw}{babde771e7de935487275312d2f755a5}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2312.00752}
+      \field{title}{{Mamba: Linear-Time Sequence Modeling with Selective State Spaces}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2312.00752
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2312.00752
+      \endverb
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
     \entry{Tavasci2024}{article}{}{}
       \name{author}{3}{}{%
         {{hash=9205de215abeba236111dee5ed87590a}{%
@@ -232,8 +269,8 @@
       \strng{authornamehash}{f57b03268eb5239e53ad4f57dc2d8f4e}
       \strng{authorfullhash}{f57b03268eb5239e53ad4f57dc2d8f4e}
       \strng{authorfullhashraw}{f57b03268eb5239e53ad4f57dc2d8f4e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sensors}
@@ -295,8 +332,8 @@
       \strng{authornamehash}{297943b8ca7ed3d478137a82f5958d7a}
       \strng{authorfullhash}{1fdad3ca783f484f052ba8d58ccdfcb0}
       \strng{authorfullhashraw}{1fdad3ca783f484f052ba8d58ccdfcb0}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sensors}
@@ -343,8 +380,8 @@
       \strng{authornamehash}{a91c483cc8af1f9f9dc592411f85f4e9}
       \strng{authorfullhash}{700ddeb36efebea43774b7aac14ea9d5}
       \strng{authorfullhashraw}{700ddeb36efebea43774b7aac14ea9d5}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sensors}
@@ -376,8 +413,8 @@
       \strng{authornamehash}{d47f26279de17c376ad91471153725e9}
       \strng{authorfullhash}{d47f26279de17c376ad91471153725e9}
       \strng{authorfullhashraw}{d47f26279de17c376ad91471153725e9}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -418,8 +455,8 @@
       \strng{authornamehash}{9fe6facdff8576a2c2be2b348425e899}
       \strng{authorfullhash}{9fe6facdff8576a2c2be2b348425e899}
       \strng{authorfullhashraw}{9fe6facdff8576a2c2be2b348425e899}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Electronics (Switzerland)}
@@ -461,8 +498,8 @@
       \strng{authornamehash}{71557268d9ee2ab0a9c9bd8d8a79a298}
       \strng{authorfullhash}{71557268d9ee2ab0a9c9bd8d8a79a298}
       \strng{authorfullhashraw}{71557268d9ee2ab0a9c9bd8d8a79a298}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Drones}
@@ -498,8 +535,8 @@
       \strng{authornamehash}{c5f1dfd5474a1d682a5bf7ca2acdb254}
       \strng{authorfullhash}{c5f1dfd5474a1d682a5bf7ca2acdb254}
       \strng{authorfullhashraw}{c5f1dfd5474a1d682a5bf7ca2acdb254}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Geomatics}
@@ -598,8 +635,8 @@
       \strng{authornamehash}{fdc4046279aa8b7ea448fbb381d25554}
       \strng{authorfullhash}{896189a57a0451ab29bec4cb0794b6a4}
       \strng{authorfullhashraw}{896189a57a0451ab29bec4cb0794b6a4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Positioning, Navigation, and Timing}
@@ -925,8 +962,8 @@
       \strng{authornamehash}{79418dfd5571472603d0f22d68fbdf44}
       \strng{authorfullhash}{79418dfd5571472603d0f22d68fbdf44}
       \strng{authorfullhashraw}{79418dfd5571472603d0f22d68fbdf44}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Engineering}
@@ -977,8 +1014,8 @@
       \strng{authornamehash}{6d3c9473bd129ba85492eb7d3743c904}
       \strng{authorfullhash}{5d29e53011e6f9899fa1ea8db7f167ba}
       \strng{authorfullhashraw}{5d29e53011e6f9899fa1ea8db7f167ba}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Indian Journal of Science and Technology}
@@ -1039,8 +1076,8 @@
       \strng{authornamehash}{f858fba03d82c2829bc4d5aeadc4737d}
       \strng{authorfullhash}{8cc69303f49763400c88f38e29c4479b}
       \strng{authorfullhashraw}{8cc69303f49763400c88f38e29c4479b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Robotics Research}
@@ -1812,8 +1849,8 @@
       \strng{authornamehash}{47566de7f374197eaa4dfccaae609f68}
       \strng{authorfullhash}{47566de7f374197eaa4dfccaae609f68}
       \strng{authorfullhashraw}{47566de7f374197eaa4dfccaae609f68}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Engineering Applications of Computational Fluid Mechanics}
@@ -1845,6 +1882,7 @@
       \strng{authornamehash}{babde771e7de935487275312d2f755a5}
       \strng{authorfullhash}{babde771e7de935487275312d2f755a5}
       \strng{authorfullhashraw}{babde771e7de935487275312d2f755a5}
+      \field{extraname}{2}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
@@ -1955,6 +1993,58 @@
       \field{labeltitlesource}{title}
       \field{title}{Physics-informed Diffusion Mamba Transformer for Real-world Driving}
       \field{year}{2026}
+      \keyw{,biblioexternal,bibliofull}
+    \endentry
+    \entry{Lu2022rpm}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=82c9c43155faccc725f9f4ae355bc1a0}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Guangyu},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bd3953bc59f5715b3898113082a033f8}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Rong},
+           giveni={R\bibinitperiod}}}%
+        {{hash=61ec60cbfd68540f6532bf5e870fcc5a}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b5bfea27864db1c0ed528a3bf391f860}{%
+           family={Bülthoff},
+           familyi={B\bibinitperiod},
+           given={Heinrich\bibnamedelima H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=71e2ac3866149c5cb628ccd6f1856a79}{%
+           family={Stegagno},
+           familyi={S\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{faa9e91c94b141cfbd82beaed97ecd97}
+      \strng{fullhash}{2f638806b45d1b6f719510f0c7b9fc9f}
+      \strng{fullhashraw}{2f638806b45d1b6f719510f0c7b9fc9f}
+      \strng{bibnamehash}{faa9e91c94b141cfbd82beaed97ecd97}
+      \strng{authorbibnamehash}{faa9e91c94b141cfbd82beaed97ecd97}
+      \strng{authornamehash}{faa9e91c94b141cfbd82beaed97ecd97}
+      \strng{authorfullhash}{2f638806b45d1b6f719510f0c7b9fc9f}
+      \strng{authorfullhashraw}{2f638806b45d1b6f719510f0c7b9fc9f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Robotics and Automation Letters}
+      \field{number}{3}
+      \field{title}{Multirotor Motion Enhancement Using Propeller Speed Measurement}
+      \field{volume}{7}
+      \field{year}{2022}
+      \field{pages}{6942\bibrangedash 6949}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/LRA.2022.3177851
+      \endverb
       \keyw{,biblioexternal,bibliofull}
     \endentry
     \entry{aiio2026}{article}{}{}
@@ -2129,58 +2219,6 @@
       \endverb
       \keyw{,biblioexternal,bibliofull}
     \endentry
-    \entry{Lu2022rpm}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=82c9c43155faccc725f9f4ae355bc1a0}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Guangyu},
-           giveni={G\bibinitperiod}}}%
-        {{hash=bd3953bc59f5715b3898113082a033f8}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Rong},
-           giveni={R\bibinitperiod}}}%
-        {{hash=61ec60cbfd68540f6532bf5e870fcc5a}{%
-           family={Becker},
-           familyi={B\bibinitperiod},
-           given={Moritz},
-           giveni={M\bibinitperiod}}}%
-        {{hash=b5bfea27864db1c0ed528a3bf391f860}{%
-           family={Bülthoff},
-           familyi={B\bibinitperiod},
-           given={Heinrich\bibnamedelima H.},
-           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=71e2ac3866149c5cb628ccd6f1856a79}{%
-           family={Stegagno},
-           familyi={S\bibinitperiod},
-           given={Paolo},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{faa9e91c94b141cfbd82beaed97ecd97}
-      \strng{fullhash}{2f638806b45d1b6f719510f0c7b9fc9f}
-      \strng{fullhashraw}{2f638806b45d1b6f719510f0c7b9fc9f}
-      \strng{bibnamehash}{faa9e91c94b141cfbd82beaed97ecd97}
-      \strng{authorbibnamehash}{faa9e91c94b141cfbd82beaed97ecd97}
-      \strng{authornamehash}{faa9e91c94b141cfbd82beaed97ecd97}
-      \strng{authorfullhash}{2f638806b45d1b6f719510f0c7b9fc9f}
-      \strng{authorfullhashraw}{2f638806b45d1b6f719510f0c7b9fc9f}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Robotics and Automation Letters}
-      \field{number}{3}
-      \field{title}{Multirotor Motion Enhancement Using Propeller Speed Measurement}
-      \field{volume}{7}
-      \field{year}{2022}
-      \field{pages}{6942\bibrangedash 6949}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/LRA.2022.3177851
-      \endverb
-      \keyw{,biblioexternal,bibliofull}
-    \endentry
     \entry{Ilyasov2023pinn}{article}{}{}
       \name{author}{3}{}{%
         {{hash=446c4bbac623c2bd14170195abee4049}{%
@@ -2274,8 +2312,8 @@
       \strng{authornamehash}{dccaa1dcfd3e42125e7248467021e0d9}
       \strng{authorfullhash}{dccaa1dcfd3e42125e7248467021e0d9}
       \strng{authorfullhashraw}{dccaa1dcfd3e42125e7248467021e0d9}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2023 International Conference on Unmanned Aircraft Systems (ICUAS)}
@@ -2388,7 +2426,6 @@
       \keyw{,biblioexternal,bibliofull}
     \endentry
   \enddatalist
-  \missing{Lu2022}
 \endrefsection
 \endinput
 

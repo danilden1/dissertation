@@ -1,18 +1,18 @@
 \addvspace {10pt}
-\contentsline {table}{\numberline {1}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces Сравнительный анализ методов восстановления траектории при потерях сигнала ГНСС}}{28}{table.caption.4}%
+\contentsline {table}{\numberline {1}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces Сравнительный анализ методов восстановления траектории при потерях сигнала ГНСС}}{27}{table.caption.4}%
 \addvspace {10pt}
-\contentsline {table}{\numberline {2}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces Характеристики датчиков и телеметрии, используемых в работе}}{38}{table.caption.6}%
+\contentsline {table}{\numberline {2}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces Характеристики датчиков и телеметрии, используемых в работе}}{37}{table.caption.6}%
 \addvspace {10pt}
-\contentsline {table}{\numberline {3}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces Сравнительный анализ вычислительной сложности моделей на этапе инференса}}{45}{table.caption.8}%
-\contentsline {table}{\numberline {4}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces Сравнение спокойного режима и режима компенсации порывов ветра}}{47}{table.caption.10}%
+\contentsline {table}{\numberline {3}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces Сравнительный анализ вычислительной сложности моделей на этапе инференса}}{44}{table.caption.8}%
+\contentsline {table}{\numberline {4}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces Сравнение спокойного режима и режима компенсации порывов ветра}}{46}{table.caption.10}%
 \addvspace {10pt}
-\contentsline {table}{\numberline {5}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces Сравнение статистических характеристик датасетов~A и~B}}{54}{table.caption.12}%
-\contentsline {table}{\numberline {6}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces Физические и имитационные параметры экспериментальных платформ. Параметры, отличающиеся от базовой, выделены жирным шрифтом. Разрыв платформы $\Delta = m / m_{\mathrm {base}}$.}}{56}{table.caption.13}%
-\contentsline {table}{\numberline {7}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces СКО (м), АОТ (м) и время инференса $t_{\text {инф}}$ (с) для НС-ПСПС, Transformer и Bi-LSTM}}{58}{table.caption.14}%
-\contentsline {table}{\numberline {8}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces СКО (м) при дообучении на подмножествах, потеря сигнала ГНСС 60~с}}{60}{table.caption.16}%
-\contentsline {table}{\numberline {9}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces СКО (м) при дообучении на подмножествах, потеря сигнала ГНСС 240~с}}{61}{table.caption.17}%
-\contentsline {table}{\numberline {10}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces СКО (м) ФИ НС-ПСПС по всем длинам потери сигнала и долям датасета}}{62}{table.caption.18}%
-\contentsline {table}{\numberline {11}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces СКО (м) восстановления траектории на реальном датасете AI-IO при различных длительностях потери сигнала ГНСС}}{64}{table.caption.20}%
-\contentsline {table}{\numberline {12}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces Объёмы датасетов после предобработки}}{66}{table.caption.22}%
-\contentsline {table}{\numberline {13}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces СКО (м) для всех комбинаций платформа--профиль и длительностей перерывов ГНСС. Обобщение без дообучения. Лучшее значение в каждом столбле подчёркнуто.}}{67}{table.caption.23}%
-\contentsline {table}{\numberline {14}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces СКО (м) при спокойном профиле полёта. Разброс (максимум минус минимум) не превышает 0{,}5~м при перерыве до 60~с.}}{67}{table.caption.24}%
+\contentsline {table}{\numberline {5}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces Сравнение статистических характеристик датасетов~A и~B}}{53}{table.caption.12}%
+\contentsline {table}{\numberline {6}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces Физические и имитационные параметры экспериментальных платформ. Параметры, отличающиеся от базовой, выделены жирным шрифтом. Разрыв платформы $\Delta = m / m_{\mathrm {base}}$.}}{55}{table.caption.13}%
+\contentsline {table}{\numberline {7}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces СКО (м), АОТ (м) и время инференса $t_{\text {инф}}$ (с) для НС-ПСПС, Transformer и Bi-LSTM}}{57}{table.caption.14}%
+\contentsline {table}{\numberline {8}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces СКО (м) при дообучении на подмножествах, потеря сигнала ГНСС 60~с}}{59}{table.caption.16}%
+\contentsline {table}{\numberline {9}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces СКО (м) при дообучении на подмножествах, потеря сигнала ГНСС 240~с}}{60}{table.caption.17}%
+\contentsline {table}{\numberline {10}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces СКО (м) ФИ НС-ПСПС по всем длинам потери сигнала и долям датасета}}{61}{table.caption.18}%
+\contentsline {table}{\numberline {11}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces СКО (м) восстановления траектории на реальном датасете AI-IO при различных длительностях потери сигнала ГНСС}}{63}{table.caption.20}%
+\contentsline {table}{\numberline {12}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces Объёмы датасетов после предобработки}}{65}{table.caption.22}%
+\contentsline {table}{\numberline {13}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces СКО (м) для всех комбинаций платформа--профиль и длительностей перерывов ГНСС. Обобщение без дообучения. Лучшее значение в каждом столбле подчёркнуто.}}{66}{table.caption.23}%
+\contentsline {table}{\numberline {14}{\ignorespaces \xpg@aux {babelshorthands=true}{russian}\ignorespaces СКО (м) при спокойном профиле полёта. Разброс (максимум минус минимум) не превышает 0{,}5~м при перерыве до 60~с.}}{66}{table.caption.24}%
