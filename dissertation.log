@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.1)  13 JUN 2026 22:12
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.1)  16 JUN 2026 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1712,11 +1712,6 @@ Package cleveref Info: `aliascnt' support loaded on input line 3193.
 ==> First Aid for cleveref.sty applied!
 (C:\Users\danil\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
-)
-(C:\Users\danil\AppData\Local\Programs\MiKTeX\tex/latex/draftwatermark\draftwat
-ermark.sty
-Package: draftwatermark 2024/03/04 3.3 Put a gray textual watermark on document
- pages
 )) (Dissertation/dispackages.tex
 (C:\Users\danil\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
@@ -2320,76 +2315,10 @@ Package csquotes Info: Redefining alias 'default' -> 'russian'.
 (dissertation.aux (Dissertation/title.aux) (Dissertation/contents.aux)
 (Dissertation/introduction.aux) (Dissertation/01-literature.aux)
 (Dissertation/02-model.aux) (Dissertation/03-architecture.aux)
-(Dissertation/04-experiments.aux
-
-LaTeX Warning: Label `tab:dataset_sizes' multiply defined.
-
-
-LaTeX Warning: Label `tab:dataset_sizes@cref' multiply defined.
-
-
-LaTeX Warning: Label `sec:mp_crossplatform' multiply defined.
-
-
-LaTeX Warning: Label `sec:mp_crossplatform@cref' multiply defined.
-
-
-LaTeX Warning: Label `eq:newton_full' multiply defined.
-
-
-LaTeX Warning: Label `eq:newton_full@cref' multiply defined.
-
-
-LaTeX Warning: Label `tab:platforms_full' multiply defined.
-
-
-LaTeX Warning: Label `tab:platforms_full@cref' multiply defined.
-
-
-LaTeX Warning: Label `tab:platform_realworld' multiply defined.
-
-
-LaTeX Warning: Label `tab:platform_realworld@cref' multiply defined.
-
-
-LaTeX Warning: Label `tab:mission_profiles' multiply defined.
-
-
-LaTeX Warning: Label `tab:mission_profiles@cref' multiply defined.
-
-
-LaTeX Warning: Label `tab:dataset_sizes' multiply defined.
-
-
-LaTeX Warning: Label `tab:dataset_sizes@cref' multiply defined.
-
-
-LaTeX Warning: Label `tab:rmse_full' multiply defined.
-
-
-LaTeX Warning: Label `tab:rmse_full@cref' multiply defined.
-
-
-LaTeX Warning: Label `tab:calm_crossplatform' multiply defined.
-
-
-LaTeX Warning: Label `tab:calm_crossplatform@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:multy_rmse_profile' multiply defined.
-
-
-LaTeX Warning: Label `fig:multy_rmse_profile@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:multy_rmse_duration' multiply defined.
-
-
-LaTeX Warning: Label `fig:multy_rmse_duration@cref' multiply defined.
-
-) (Dissertation/conclusion.aux) (Dissertation/acronyms.aux)
-(Dissertation/dictionary.aux) (Dissertation/references.aux)
-(Dissertation/lists.aux) (Dissertation/appendix.aux)
+(Dissertation/04-experiments_v1.aux) (Dissertation/conclusion.aux)
+(Dissertation/acronyms.aux) (Dissertation/dictionary.aux)
+(Dissertation/references.aux) (Dissertation/lists.aux)
+(Dissertation/appendix.aux)
 \c@totalcount@figure@totc=\count682
 \c@totalcount@table@totc=\count683
 \c@TotPages@totc=\count684
@@ -2517,21 +2446,21 @@ Package biblatex Info: ... file 'dissertation.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                inertial_nav_drift
+(biblatex)                Lu2022
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                mamba_pinn_ours
+(biblatex)                eq:aot
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                mission_gen_v2
+(biblatex)                eq:sko
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2564,10 +2493,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout2 = `Dissertation/title.aux'.
 
  (Dissertation/title.tex
-File: images/logo.pdf Graphic file (type pdf)
-<use images/logo.pdf>
-)
-[1.1
+
+! LaTeX Error: File `logo' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 }
+      
+I could not locate the file with any of these extensions:
+.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
+,.ps,.PS,.eps,.EPS,.mps,.MPS
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) [1.1
 
 
 ]
@@ -2594,6 +2535,12 @@ Underfull \hbox (badness 3668) in paragraph at lines 73--74
  []
 
 [8.8] [9.9]
+Underfull \hbox (badness 4673) in paragraph at lines 105--106
+[]\TU/TimesNewRoman(1)/b/n/14.4 5. \TU/TimesNewRoman(1)/m/n/14.4 Проведено иссл
+едование обобщающей способности разработанной
+ []
+
+
 Underfull \hbox (badness 4024) in paragraph at lines 109--121
 []\TU/TimesNewRoman(1)/b/n/14.4 Теоретическая значимость \TU/TimesNewRoman(1)/m
 /n/14.4 исследования заключается в следующем.
@@ -2617,7 +2564,7 @@ Underfull \hbox (badness 1460) in paragraph at lines 206--209
 и системами,
  []
 
-)
+[13.13])
 \@c=\count690
 \@last=\count691
 \@pnul=\count692
@@ -2636,466 +2583,387 @@ Underfull \hbox (badness 1460) in paragraph at lines 206--209
 \@c=\count705
 \@last=\count706
 \@pnul=\count707
-) [13.13] [14.14]
+) [14.14]
 \openout2 = `Dissertation/01-literature.aux'.
 
  (Dissertation/01-literature.tex
 Глава 1.
+
+Underfull \hbox (badness 2573) in paragraph at lines 12--13
+\TU/TimesNewRoman(1)/m/n/14.4 сигналы спутников, делая позиционирование нестаби
+льным на протяжении
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 12--13
+\TU/TimesNewRoman(1)/m/n/14.4 значительных участков маршрута [6, 5]. При картог
+рафировании заброшен-
+ []
+
 [15.15
 
 
 
 
-] [16.16] [17.17] [18.18] [19.19] [20.20] [21.21]
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+]
+Underfull \hbox (badness 4569) in paragraph at lines 14--15
+\TU/TimesNewRoman(1)/m/n/14.4 вигационных систем две взаимосвязанные задачи. Во
+-первых, необходимо
+ []
+
+[16.16]
+Underfull \hbox (badness 2213) in paragraph at lines 33--34
+[]\TU/TimesNewRoman(1)/m/n/14.4 Бессигматурынй фильтр Калмана (БФК) вместо якоб
+ианов использует
+ []
+
+[17.17] [18.18] [19.19]
+Underfull \hbox (badness 1490) in paragraph at lines 78--79
+[]\TU/TimesNewRoman(1)/m/n/14.4 Комбинация ограничений по количеству обучающих 
+данных и слабой
+ []
+
+[20.20]
+
+LaTeX Warning: Reference `sec:1.2, sec:1.3' on page 21 undefined on input line 
+85.
+
+[21.21] [22.22] [23.23]
+Underfull \hbox (badness 1460) in paragraph at lines 141--142
+\TU/TimesNewRoman(1)/m/n/14.4 интерес представляет телеметрия оборотов несущих 
+винтов (RPM), доступ-
+ []
+
+[24.24]
+
+LaTeX Warning: Citation 'Lu2022' on page 25 undefined on input line 145.
+
+[25.25] [26.26]
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Инспекция трубо-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 проводов, ЛЭП,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Хорошая при
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 ный дрейф при
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Ошибки линеаризации, чув-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Поисково-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
+[]|\TU/TimesNewRoman(1)/m/n/10.95 RTS Smoother
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Реконструкция тра-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 екторий БПЛА с
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 133--133
+Underfull \hbox (badness 2189) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Высокая точность
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Оффлайн-метод, сложен для
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 LSTM (IMU +
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 133--133
+Underfull \hbox (badness 3333) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Навигация БПЛА и
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 наземных роботов
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 CNN-LSTM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Motion tracking,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 indoor навигация,
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 133--133
+Underfull \hbox (badness 3954) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 детектирование пат-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 в зашумлённых
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Сложная архитектура, требу-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Transformer /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 CNN-Transformer
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 133--133
+Underfull \hbox (badness 2894) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 тельности IMU при
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 стояния БПЛА)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Идентификация
  []
 
 
-Underfull \hbox (badness 5203) in paragraph at lines 133--133
+Underfull \hbox (badness 5203) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 динамики квадроко-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 птеров в условиях
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 133--133
+Underfull \hbox (badness 2781) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Устойчивость при
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Hybrid PINN +
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 133--133
+Underfull \hbox (badness 2189) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Высокая точность
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Mamba (SSM)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Обработка
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 длинных IMU-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 последовательностей
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Линейная слож-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 ность, хорошее
  []
 
 
-Underfull \hbox (badness 7168) in paragraph at lines 133--133
+Underfull \hbox (badness 7168) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Меньше накопленного опыта
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 GC-LSTM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 (pipeline robot)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Инспекция трубо-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Max deviation
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 133--133
+Underfull \hbox (badness 2772) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Специализирован под геомет-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 TCN-BiLSTM +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Наземные плат-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 формы, sustained
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 \TU/TimesNewRoman(1)/m/n/10.95 positioning при
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 133--133
+Underfull \hbox (badness 2189) in paragraph at lines 240--240
 []|\TU/TimesNewRoman(1)/m/n/10.95 Высокая точность
  []
 
 
-LaTeX Warning: Float too large for page by 23.66696pt on input line 134.
+LaTeX Warning: Float too large for page by 23.66696pt on input line 241.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]|\TU/TimesNewRoman(1)/b/n/10.95 Точность при
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\TU/TimesNewRoman(1)/b/n/10.95 длительных
- []
-
-
-Overfull \hbox (6.63704pt too wide) in paragraph at lines 145--145
-[]|\TU/TimesNewRoman(1)/b/n/10.95 Сложность| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]|\TU/TimesNewRoman(1)/b/n/10.95 Физ. согла-
- []
-
-
-Underfull \hbox (badness 2088) in paragraph at lines 145--146
-[]|\TU/TimesNewRoman(1)/b/n/10.95 Учёт RPM /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]|\TU/TimesNewRoman(1)/m/n/10.95 Классические
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]|\TU/TimesNewRoman(1)/m/n/10.95 EKF,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-[]|\TU/TimesNewRoman(1)/m/n/10.95 LSTM,
- []
-
-
-Overfull \hbox (3.12325pt too wide) in paragraph at lines 148--148
-\TU/TimesNewRoman(1)/m/n/10.95 Transformer| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-[]|\TU/TimesNewRoman(1)/m/n/10.95 Хорошая на
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-\TU/TimesNewRoman(1)/m/n/10.95 данных, де-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-\TU/TimesNewRoman(1)/m/n/10.95 градация при
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-[]|\TU/TimesNewRoman(1)/m/n/10.95 Средняя–
- []
-
-
-Overfull \hbox (7.48079pt too wide) in paragraph at lines 149--149
-[]|\TU/TimesNewRoman(1)/m/n/10.95 Bianchi2024,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
-[]|\TU/TimesNewRoman(1)/m/n/10.95 SSM + PINN
- []
-
-
-Overfull \hbox (2.97308pt too wide) in paragraph at lines 151--151
-[]|\TU/TimesNewRoman(1)/b/n/10.95 Предлагаемый
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]|\TU/TimesNewRoman(1)/b/n/10.95 ФИ-НС-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-\TU/TimesNewRoman(1)/b/n/10.95 ПСПС
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-\TU/TimesNewRoman(1)/b/n/10.95 (Mamba
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-\TU/TimesNewRoman(1)/b/n/10.95 + RPM-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]|\TU/TimesNewRoman(1)/b/n/10.95 Лучшая при
- []
-
-
-Underfull \hbox (badness 4872) in paragraph at lines 151--152
-[]|\TU/TimesNewRoman(1)/b/n/10.95 Да (динами-
- []
-
-) [22.22] [23.23] [24.24]
+[27.27] [28.28]) [29.29]
 \openout2 = `Dissertation/02-model.aux'.
 
  (Dissertation/02-model.tex
 Глава 2.
-[25.25
+[30.30
 
 
 
 
-]
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 \usepackage
-                {tikz}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 \usepackage
-                {amsmath}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-(C:\Users\danil\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.markings.code.tex
-(C:\Users\danil\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
-ions\pgflibrarydecorations.markings.code.tex))
+] (images/fig_quadrotor_dynamics.tex
 (C:\Users\danil\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@layerbox@background=\box126
 \pgf@layerboxsaved@background=\box127
-) (images/fig_quadrotor_dynamics.tex) [26.26] [27.27]
+)) [31.31]
 Underfull \hbox (badness 7576) in paragraph at lines 74--76
 \TU/TimesNewRoman(1)/m/n/14.4 ставление обеспечивает численную устойчивость при
  интегрировании на
  []
 
-
+[32.32]
 Underfull \hbox (badness 4096) in paragraph at lines 84--85
 []\TU/TimesNewRoman(1)/m/n/14.4 Динамика поступательного и вращательного движен
 ия квадрокоптера
  []
 
-[28.28] [29.29] [30.30]
+[33.33] [34.34] [35.35]
 Underfull \hbox (badness 1521) in paragraph at lines 147--148
 \TU/TimesNewRoman(1)/m/n/14.4 оборотов несущих винтов. Все модели датчиков реал
 изованы в симуляторе
  []
 
-[31.31] [32.32]
-Overfull \hbox (61.81154pt too wide) in paragraph at lines 171--182
+[36.36]
+Overfull \hbox (5.41635pt too wide) in paragraph at lines 172--187
  [][] 
  []
 
-[33.33]
-Underfull \hbox (badness 2644) in paragraph at lines 199--200
+[37.37] [38.38]
+Underfull \hbox (badness 3965) in paragraph at lines 205--206
+\TU/TimesNewRoman(1)/m/n/14.4 может служить надёжным источником визуальной одом
+етрии: ме-
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 205--206
+\TU/TimesNewRoman(1)/m/n/14.4 таллические поверхности промышленных объектов хар
+актеризуются
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 205--206
+\TU/TimesNewRoman(1)/m/n/14.4 нородности прерывает поток данных, делая визуальн
+ую одометрию
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 209--210
 []\TU/TimesNewRoman(1)/m/n/14.4 В отсутствие внешней коррекции от ГНСС потребит
 ельские МЭМС-
  []
 
-[34.34]
-Underfull \hbox (badness 6641) in paragraph at lines 211--212
+[39.39]
+Underfull \hbox (badness 6641) in paragraph at lines 221--222
 \TU/TimesNewRoman(1)/m/n/14.4 ностью идентичный по архитектуре и алгоритмам упр
 авления реальным
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 211--212
+Underfull \hbox (badness 2073) in paragraph at lines 221--222
 \TU/TimesNewRoman(1)/m/n/14.4 чающую аэродинамические взаимодействия несущих ви
 нтов, силу тяжести,
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 211--212
+Underfull \hbox (badness 2617) in paragraph at lines 221--222
 \TU/TimesNewRoman(1)/m/n/14.4 аэродинамическое сопротивление корпуса и реалисти
 чные модели порывов
  []
 
-
-Underfull \hbox (badness 2626) in paragraph at lines 213--214
-[]\TU/TimesNewRoman(1)/m/n/14.4 Важным преимуществом симулятора является возмож
-ность генерации
- []
-
-[35.35]
-Overfull \hbox (0.48096pt too wide) in paragraph at lines 221--222
+[40.40]
+Overfull \hbox (0.48096pt too wide) in paragraph at lines 242--243
 \TU/TimesNewRoman(1)/m/n/14.4 четание физической достоверности, синхронизации д
 анных и масштабируемости,
  []
 
-[36.36]) [37.37]
+[41.41]) [42.42]
 \openout2 = `Dissertation/03-architecture.aux'.
 
  (Dissertation/03-architecture.tex
@@ -3119,27 +2987,43 @@ Underfull \hbox (badness 1924) in paragraph at lines 22--27
  []
 
 
-LaTeX Warning: Reference `eq:thrust' on page 38 undefined on input line 46.
+LaTeX Warning: Reference `eq:thrust' on page 43 undefined on input line 46.
 
 (images/fig-compare.tex
 (C:\Users\danil\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)) [38.38
+)) [43.43
 
 
 
 
-]
+] [44.44]
 
-LaTeX Warning: Reference `sec:kinematics, dynamics_rigid' on page 39 undefined 
-on input line 62.
+LaTeX Warning: Reference `sec:kinematics, dynamics_rigid' on page 45 undefined 
+on input line 105.
 
-[39.39]
+[45.45]
 
-LaTeX Warning: Reference `eq:pearson' on page 40 undefined on input line 77.
+LaTeX Warning: Reference `eq:thrust' on page 46 undefined on input line 120.
 
-[40.40] [41.41] [42.42] [43.43] (images/fig-arch.tex
+
+LaTeX Warning: Reference `eq:thrust' on page 46 undefined on input line 132.
+
+
+LaTeX Warning: Reference `eq:tau_hyp' on page 46 undefined on input line 132.
+
+
+LaTeX Warning: Reference `eq:tau_hyp' on page 46 undefined on input line 155.
+
+[46.46]
+File: images/two_regimes_comparison.png Graphic file (type bmp)
+<images/two_regimes_comparison.png>
+
+
+LaTeX Warning: Reference `eq:thrust' on page 47 undefined on input line 212.
+
+[47.47] [48.48] [49.49] (images/fig-arch.tex
 
 ! Package pgfkeys Error: I do not know the key '/tikz/fit', to which you passed
  '(Ha) (Ht)', and I am going to ignore it. Perhaps you misspelled it.
@@ -3155,467 +3039,105 @@ command, so I can't give any explicit help.
 Pretend that you're Hercule Poirot: Examine all clues,
 and deduce the truth by order and method.
 
-)) [44.44]
-\openout2 = `Dissertation/04-experiments.aux'.
+)) [50.50]
+\openout2 = `Dissertation/04-experiments_v1.aux'.
 
- (Dissertation/04-experiments.tex
+ (Dissertation/04-experiments_v1.tex
 Глава 4.
-[45.45
+! Too many }'s.
+l.18 \end{enumerate}}
+                     
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+[51.51
 
 
 
 
-] [46.46] [47.47] [48.48] (../src/plot.tex) [49.49] [50.50] [51.51]
-Underfull \hbox (badness 2662) in paragraph at lines 308--315
-[]\TU/TimesNewRoman(1)/m/n/14.4 Результаты эксперимента позволяют сформулироват
-ь конкретный опе-
- []
+]
+
+LaTeX Warning: Citation 'eq:sko' on page 52 undefined on input line 103.
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 308--315
-\TU/TimesNewRoman(1)/m/n/14.4 рационный протокол. Перед выполнением инспекционн
-ой миссии в новом
- []
-
-
-Underfull \hbox (badness 2326) in paragraph at lines 308--315
-\TU/TimesNewRoman(1)/b/n/14.4 должительностью 2 мин\TU/TimesNewRoman(1)/m/n/14.
-4 . Этого достаточно для дообучения предлагаемой
- []
-
-
-Underfull \hbox (badness 4403) in paragraph at lines 316--319
-[]\TU/TimesNewRoman(1)/m/n/14.4 Стоимость вычислений при 2000 шагах оптимизации
- не превышает
- []
+LaTeX Warning: Citation 'eq:aot' on page 52 undefined on input line 104.
 
 [52.52]
-
-Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 366.
+Underfull \hbox (badness 2005) in paragraph at lines 135--135
+\TU/TimesNewRoman(1)/m/n/14.4 форм. Параметры, отличающиеся от базовой, выделен
+ы жирным шрифтом.
+ []
 
 [53.53]
-Overfull \hbox (202.2048pt too wide) in paragraph at lines 384--396
+Overfull \hbox (45.60396pt too wide) in paragraph at lines 194--207
  [][] 
  []
 
+[54.54] (images/fig-inference-time.tex
 
-LaTeX Warning: Citation 'mission_gen_v2' on page 54 undefined on input line 405
-.
-
-Missing character: There is no ° in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no ° in font cmr12!
-
-Underfull \hbox (badness 6063) in paragraph at lines 405--409
-[]\TU/TimesNewRoman(1)/m/n/14.4 Три профиля полётных миссий сгенерированы с пом
-ощью скрипта
- []
-
-[54.54]
-
-LaTeX Warning: Citation 'mamba_pinn_ours' on page 55 undefined on input line 43
-2.
-
-
-LaTeX Warning: Reference `eq:rmse' on page 55 undefined on input line 448.
-
-
-LaTeX Warning: Reference `eq:ate' on page 55 undefined on input line 448.
-
-[55.55] [56.56]
-
-LaTeX Warning: Citation 'inertial_nav_drift' on page 57 undefined on input line
- 490.
-
-
-! LaTeX Error: File `figures/rmse_per_robot' not found.
+! LaTeX Error: Can be used only in preamble.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.495 ...width=\linewidth]{figures/rmse_per_robot}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.6 \usepackage
+               {pgfplots}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-! LaTeX Error: File `figures/rmse_combined' not found.
+! LaTeX Error: Not in outer par mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.504 ...[width=\linewidth]{figures/rmse_combined}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
+l.17 \begin{figure}[htbp]
+                         
+You've lost some text.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[57.57]
 
-! LaTeX Error: File `figures/platform_gap_dur10' not found.
+! Package pgfkeys Error: I do not know the key '/pgfplots/bar width', to which 
+you passed '0.45cm', and I am going to ignore it. Perhaps you misspelled it.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.522 ...h=\linewidth]{figures/platform_gap_dur10}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.37 ^^I^^I}
+            
+(That was another \errmessage.)
 
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 523.
-
-! LaTeX Error: File `figures/platform_gap_dur30' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.527 ...h=\linewidth]{figures/platform_gap_dur30}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `figures/platform_gap_dur60' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.533 ...h=\linewidth]{figures/platform_gap_dur60}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `figures/profile_effect_per_robot_dur10' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.555 ...]{figures/profile_effect_per_robot_dur10}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `figures/profile_effect_per_robot_dur30' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.560 ...]{figures/profile_effect_per_robot_dur30}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `figures/profile_effect_per_robot_dur60' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.566 ...]{figures/profile_effect_per_robot_dur60}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP
-,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[58.58]
-Overfull \hbox (216.07024pt too wide) in paragraph at lines 594--619
+Package pgfplots info on input line 60: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+Package pgfplots info on input line 77: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+Package pgfplots info on input line 99: Using 'lua backend=false' for axis: ymo
+de=log unsupported (yet).
+Package pgfplots info on input line 99: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+) [55.55] [56.56] [57.57] (../src/plot.tex) [58.58] [59.59]
+Overfull \hbox (28.8766pt too wide) in paragraph at lines 509--521
  [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 631--632
-[]\TU/TimesNewRoman(1)/b/n/14.4 Обобщаемость на разные платформы.[] \TU/TimesNe
-wRoman(1)/m/n/14.4 Результаты демонстрируют, что
- []
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 631--632
-\TU/TimesNewRoman(1)/m/n/14.4 MambaRPMPINN, предобученная на одной платформе ма
-ссой [][], может
- []
-
-[59.59]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.641 ^^I
-         
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no п in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no р in font cmmi12!
-Missing character: There is no а in font cmmi12!
-Missing character: There is no в in font cmmi12!
-Missing character: There is no н in font cmmi12!
-Missing character: There is no е in font cmmi12!
-Missing character: There is no н in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no ю in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no п in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no к in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no й in font cmmi12!
-Missing character: There is no н in font cmmi12!
-Missing character: There is no ы in font cmmi12!
-Missing character: There is no м in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no м in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no я in font cmmi12!
-Missing character: There is no м in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no п in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no к in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no л in font cmmi12!
-Missing character: There is no ь in font cmmi12!
-Missing character: There is no к in font cmmi12!
-Missing character: There is no у in font cmmi12!
-Missing character: There is no б in font cmmi12!
-Missing character: There is no ы in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no т in font cmmi12!
-Missing character: There is no р in font cmmi12!
-Missing character: There is no ы in font cmmi12!
-Missing character: There is no е in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no м in font cmmi12!
-Missing character: There is no е in font cmmi12!
-Missing character: There is no н in font cmmi12!
-Missing character: There is no ы in font cmmi12!
-Missing character: There is no н in font cmmi12!
-Missing character: There is no а in font cmmi12!
-Missing character: There is no п in font cmmi12!
-Missing character: There is no р in font cmmi12!
-Missing character: There is no а in font cmmi12!
-Missing character: There is no в in font cmmi12!
-Missing character: There is no л in font cmmi12!
-Missing character: There is no е in font cmmi12!
-Missing character: There is no н in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no я in font cmmi12!
-Missing character: There is no у in font cmmi12!
-Missing character: There is no в in font cmmi12!
-Missing character: There is no е in font cmmi12!
-Missing character: There is no л in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no ч in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no в in font cmmi12!
-Missing character: There is no а in font cmmi12!
-Missing character: There is no ю in font cmmi12!
-Missing character: There is no т in font cmmi12!
-Missing character: There is no н in font cmmi12!
-Missing character: There is no е in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no п in font cmmi12!
-Missing character: There is no р in font cmmi12!
-Missing character: There is no е in font cmmi12!
-Missing character: There is no д in font cmmi12!
-Missing character: There is no е in font cmmi12!
-Missing character: There is no л in font cmmi12!
-Missing character: There is no ё in font cmmi12!
-Missing character: There is no н in font cmmi12!
-Missing character: There is no н in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no т in font cmmi12!
-Missing character: There is no ь in font cmmi12!
-Missing character: There is no п in font cmmi12!
-Missing character: There is no р in font cmmi12!
-Missing character: There is no е in font cmmi12!
-Missing character: There is no д in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no к in font cmmi12!
-Missing character: There is no а in font cmmi12!
-Missing character: There is no з in font cmmi12!
-Missing character: There is no а in font cmmi12!
-Missing character: There is no н in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no я in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no к in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no р in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no т in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no к in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no т in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no р in font cmmi12!
-Missing character: There is no а in font cmmi12!
-Missing character: There is no я in font cmmi12!
-Missing character: There is no н in font cmmi12!
-Missing character: There is no а in font cmmi12!
-Missing character: There is no к in font cmmi12!
-Missing character: There is no а in font cmmi12!
-Missing character: There is no п in font cmmi12!
-Missing character: There is no л in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no в in font cmmi12!
-Missing character: There is no а in font cmmi12!
-Missing character: There is no е in font cmmi12!
-Missing character: There is no т in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no я in font cmmi12!
-Missing character: There is no п in font cmmi12!
-Missing character: There is no р in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no м in font cmmi12!
-Missing character: There is no ё in font cmmi12!
-Missing character: There is no р in font cmmi12!
-Missing character: There is no т in font cmmi12!
-Missing character: There is no в in font cmmi12!
-Missing character: There is no о in font cmmi12!
-Missing character: There is no м in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no ч in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no с in font cmmi12!
-Missing character: There is no л in font cmmi12!
-Missing character: There is no е in font cmmi12!
-Missing character: There is no н in font cmmi12!
-Missing character: There is no и in font cmmi12!
-Missing character: There is no и in font cmmi12!
 [60.60] [61.61]
-Underfull \hbox (badness 1888) in paragraph at lines 678--678
-[][]\TU/TimesNewRoman(1)/m/n/14.4 Таблица 12 [] |Физические и имитационные пара
-метры экспериментальных
- []
-
-[62.62] [63.63] [64.64]
-
-LaTeX Warning: Reference `tab:ate_full' on page 65 undefined on input line 793.
-
-
-[65.65]
-File: images/multy_2/plots/rmse_ate_rmse_by_profile.png Graphic file (type bmp)
-
-<images/multy_2/plots/rmse_ate_rmse_by_profile.png>
- [66.66]
-File: images/multy_2/plots/rmse_ate_rmse_by_duration.png Graphic file (type bmp
-)
-<images/multy_2/plots/rmse_ate_rmse_by_duration.png>
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.870 \item П
-             ри длительности потери ГНСС сигнала 3с и агрессивном режиме пол...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 870
-[][]
- []
-
-[67.67] [68.68] [69.69]
-Underfull \hbox (badness 3690) in paragraph at lines 919--921
-[]\TU/TimesNewRoman(1)/b/n/14.4 Дообучение под конкретную платформу эффективно 
-и требует
- []
-
-
-Underfull \hbox (badness 2221) in paragraph at lines 919--921
-\TU/TimesNewRoman(1)/b/n/14.4 небольшого объёма данных. \TU/TimesNewRoman(1)/m/
-n/14.4 Пяти эпох на примерно 175000 по-
- []
-
-[70.70] [71.71]
-Underfull \hbox (badness 1888) in paragraph at lines 965--965
-[][]\TU/TimesNewRoman(1)/m/n/14.4 Таблица 18 [] |Физические и имитационные пара
-метры экспериментальных
- []
-
-[72.72] [73.73] [74.74]
-
-LaTeX Warning: Reference `tab:ate_full' on page 75 undefined on input line 1080
-.
-
-[75.75]
 File: images/multy_2/plots/rmse_ate_rmse_by_profile.png Graphic file (type bmp)
 
 <images/multy_2/plots/rmse_ate_rmse_by_profile.png>
 File: images/multy_2/plots/rmse_ate_rmse_by_duration.png Graphic file (type bmp
 )
 <images/multy_2/plots/rmse_ate_rmse_by_duration.png>
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1157 \item П
-              ри длительности потери ГНСС сигнала 3с и агрессивном режиме по...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 1157
-[][]
- []
-
-[76.76] [77.77] [78.78]) [79.79]
+File: images/multy_2/plots/rmse_vs_duration.png Graphic file (type bmp)
+<images/multy_2/plots/rmse_vs_duration.png>
+ [62.62] [63.63] [64.64] [65.65] [66.66]) [67.67]
 \openout2 = `Dissertation/conclusion.aux'.
 
- (Dissertation/conclusion.tex (common/concl.tex)) [80.80
+
+(Dissertation/conclusion.tex (common/concl.tex)) [68.68
 
 
 
@@ -3623,12 +3145,13 @@ Underfull \hbox (badness 10000) detected at line 1157
 ]
 \openout2 = `Dissertation/acronyms.aux'.
 
- (Dissertation/acronyms.tex
+
+(Dissertation/acronyms.tex
 No file dissertation.nls.
 )
 \openout2 = `Dissertation/dictionary.aux'.
 
- (Dissertation/dictionary.tex) [81.81
+ (Dissertation/dictionary.tex) [69.69
 
 
 
@@ -3656,6 +3179,30 @@ ncoder Approach for
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+[]\TU/TimesNewRoman(1)/m/n/14.4 Simegnew Yihunie Alaba. [] «  GPS-IMU Sensor Fu
+sion for Reliable
+ []
+
+[70.70
+
+
+
+
+
+]
+Underfull \hbox (badness 4556) in paragraph at lines 6--6
+[]\TU/TimesNewRoman(1)/m/n/14.4 Sattar Dorafshan, Robert J. Thomas и Marc Magui
+re. [] «  UAV-Based
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 6--6
+[]\TU/TimesNewRoman(1)/m/n/14.4 Siyandza M. Dlamini и Yashon O. Ouma. [] «  Lar
+ge-Scale Topographic
+ []
+
+
 Underfull \hbox (badness 1558) in paragraph at lines 6--6
 \TU/TimesNewRoman(1)/m/n/14.4 During GNSS Outages: A Preliminary Study on Simpl
 e Trajectories». []
@@ -3668,37 +3215,44 @@ tioning, Navigation, and Timing \TU/TimesNewRoman(1)/m/n/14.4 13.2 (июнь 202
 
  []
 
-[82.82
-
-
-
-
-
-]
-Underfull \hbox (badness 1648) in paragraph at lines 6--6
-[]\TU/TimesNewRoman(1)/m/n/14.4 J. Varey и др. [] «  Physics-Informed Neural Ne
-tworks for Satellite State
+[71.71]
+Underfull \hbox (badness 3128) in paragraph at lines 6--6
+[]\TU/TimesNewRoman(1)/m/n/14.4 Tian Sun и др. [] «  Learning Spatio-Temporal D
+ynamics for Trajectory
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 6--6
-[]\TU/TimesNewRoman(1)/m/n/14.4 Yanping Zhu и др. [] «  ResT-IMU: A Two-Stage R
-esNet-Transformer
+Underfull \hbox (badness 2073) in paragraph at lines 6--6
+\TU/TimesNewRoman(1)/m/n/14.4 В: \TU/TimesNewRoman(1)/m/it/14.4 Proceedings - 2
+2nd IEEE/ACIS International Conference on Software
  []
 
-[83.83]
+
+Underfull \hbox (badness 7256) in paragraph at lines 6--6
+\TU/TimesNewRoman(1)/m/it/14.4 Engineering, Artificial Intelligence, Networking
+ and Parallel/Distributed
+ []
+
+[72.72]
 Underfull \hbox (badness 2080) in paragraph at lines 6--6
 \TU/TimesNewRoman(1)/m/n/14.4 modelling of ship maneuvering motion and associat
 ed optimal excitation
  []
 
-
+[73.73]
 Underfull \hbox (badness 2884) in paragraph at lines 6--6
 []\TU/TimesNewRoman(1)/m/n/14.4 Toshiaki Tsuji. [] «  Mamba as a Motion Encoder
  for Robotic Imitation
  []
 
-[84.84]) [85.85]
+
+Underfull \hbox (badness 1789) in paragraph at lines 6--6
+\TU/TimesNewRoman(1)/m/n/14.4 Measurement». [] В: \TU/TimesNewRoman(1)/m/it/14.
+4 IEEE Robotics and Automation Letters \TU/TimesNewRoman(1)/m/n/14.4 7.3 (2022)
+,
+ []
+
+[74.74]) [75.75]
 \openout2 = `Dissertation/lists.aux'.
 
  (Dissertation/lists.tex (dissertation.lof (common/renames.tex) (Dissertation/r
@@ -3706,16 +3260,15 @@ enames.tex) (common/renames.tex) (Dissertation/renames.tex)
 (common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
 (Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
 (common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
-(Dissertation/renames.tex) [86.86
+(Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
+(common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
+(Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex))
+[76.76
 
 
 
 
-] (common/renames.tex)
-(Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
-(common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
-(Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
-(common/renames.tex) (Dissertation/renames.tex)) [87.87] (dissertation.lot
+] (dissertation.lot (common/renames.tex) (Dissertation/renames.tex)
 (common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
 (Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
 (common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
@@ -3723,21 +3276,14 @@ enames.tex) (common/renames.tex) (Dissertation/renames.tex)
 (common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
 (Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
 (common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
-(Dissertation/renames.tex) [88.88
+(Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
+(common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
+(Dissertation/renames.tex)) [77.77
 
-] (common/renames.tex)
-(Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
-(common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
-(Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
-(common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
-(Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
-(common/renames.tex) (Dissertation/renames.tex) (common/renames.tex)
-(Dissertation/renames.tex) (common/renames.tex) (Dissertation/renames.tex)
-[89.89] (common/renames.tex) (Dissertation/renames.tex)) [90.90])
+])
 \openout2 = `Dissertation/appendix.aux'.
 
-
-(Dissertation/appendix.tex
+ (Dissertation/appendix.tex
 (C:\Users\danil\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
@@ -3774,11 +3320,23 @@ If that doesn't work, type  X <return>  to quit.
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 24.
-[91.91
+[78.78
 
 
 
 ] (images/fig_dataflow.tex
+
+! Package pgfkeys Error: I do not know the key '/tikz/on background layer' and 
+I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 ^^I\begin{scope}[on background layer]
+                                          
+(That was another \errmessage.)
+
 
 ! Package pgfkeys Error: I do not know the key '/tikz/fit', to which you passed
  '(IMU)(GPS)(ROT)(ATT)(MASK)', and I am going to ignore it. Perhaps you misspel
@@ -3801,6 +3359,18 @@ LaTeX Font Info:    No file OMSTimesNewRoman(1).fd. on input line 96.
 
 LaTeX Font Warning: Font shape `OMS/TimesNewRoman(1)/b/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead on input line 96.
+
+
+! Package pgfkeys Error: I do not know the key '/tikz/on background layer' and 
+I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ^^I\begin{scope}[on background layer]
+                                           
+(That was another \errmessage.)
 
 
 ! Package pgfkeys Error: I do not know the key '/tikz/fit', to which you passed
@@ -3827,6 +3397,18 @@ l.142 ... color=red!70]right:только при обучении}]
 (That was another \errmessage.)
 
 
+! Package pgfkeys Error: I do not know the key '/tikz/on background layer' and 
+I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ^^I\begin{scope}[on background layer]
+                                           
+(That was another \errmessage.)
+
+
 ! Package pgfkeys Error: I do not know the key '/tikz/fit', to which you passed
  '(EMB)(LN1)(SSM)(LN2)(Hv)(Hq)(PHYSBOX)(LOSS)', and I am going to ignore it. Pe
 rhaps you misspelled it.
@@ -3837,6 +3419,18 @@ Type  H <return>  for immediate help.
                                                   
 l.179 ...ка всего сегмента потери за один проход}]
                                                    (Z3) {};
+(That was another \errmessage.)
+
+
+! Package pgfkeys Error: I do not know the key '/tikz/on background layer' and 
+I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 ^^I\begin{scope}[on background layer]
+                                           
 (That was another \errmessage.)
 
 
@@ -3914,6 +3508,18 @@ l.218 ...t^{\rm bwd} = \hat{\mathbf{p}}_{t+1}^{\rm
 Use \textrm, or \rmfamily{...}, or the oldfontcommands option
 
 
+! Package pgfkeys Error: I do not know the key '/tikz/on background layer' and 
+I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 ^^I\begin{scope}[on background layer]
+                                           
+(That was another \errmessage.)
+
+
 ! Package pgfkeys Error: I do not know the key '/tikz/fit', to which you passed
  '(FWDRK4)(BWDRK4)', and I am going to ignore it. Perhaps you misspelled it.
 
@@ -3980,7 +3586,11 @@ l.237 ...$ \quad ($w_0=1$, $w_T=0$)\end{tabular}};
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-)) [92.92] [93.93]
+)) [79.79] [80.80]
+
+Package caption Warning: Unused \captionsetup[subfloat] on input line 62.
+See the caption package documentation for explanation.
+
 
 Package nag Warning: 6 complaints in total.
 
@@ -3996,7 +3606,7 @@ Package nag Warning: 6 complaints in total.
 (dissertation.aux (Dissertation/title.aux) (Dissertation/contents.aux)
 (Dissertation/introduction.aux) (Dissertation/01-literature.aux)
 (Dissertation/02-model.aux) (Dissertation/03-architecture.aux)
-(Dissertation/04-experiments.aux) (Dissertation/conclusion.aux)
+(Dissertation/04-experiments_v1.aux) (Dissertation/conclusion.aux)
 (Dissertation/acronyms.aux) (Dissertation/dictionary.aux)
 (Dissertation/references.aux) (Dissertation/lists.aux)
 (Dissertation/appendix.aux))
@@ -4146,8 +3756,6 @@ totpages.sty    2005/09/19 v2.00 Totpages Package (muewi)
 everyshi.sty    2020/11/18 v4.00 EveryShipout Package
 cleveref.sty    2018/03/27 v0.21.4 Intelligent cross-referencing
 placeins.sty    2005/04/18  v 2.2
-draftwatermark.sty    2024/03/04 3.3 Put a gray textual watermark on document p
-ages
 Dissertation/dispackages.tex
 afterpage.sty    2023/07/04 v1.08 After-Page Package (DPC)
 enumitem.sty    2025/02/06 v3.11 Customized lists
@@ -4201,7 +3809,6 @@ dissertation.bbl
 common/renames.tex
 Dissertation/renames.tex
 Dissertation/title.tex
-images/logo.pdf
 Dissertation/contents.tex
 common/renames.tex
 Dissertation/renames.tex
@@ -4212,39 +3819,20 @@ Dissertation/02-model.tex
 images/fig_quadrotor_dynamics.tex
 Dissertation/03-architecture.tex
 images/fig-compare.tex
+images/two_regimes_comparison.png
 images/fig-arch.tex
-Dissertation/04-experiments.tex
+Dissertation/04-experiments_v1.tex
+images/fig-inference-time.tex
 ../src/plot.tex
 images/multy_2/plots/rmse_ate_rmse_by_profile.png
 images/multy_2/plots/rmse_ate_rmse_by_duration.png
-images/multy_2/plots/rmse_ate_rmse_by_profile.png
-images/multy_2/plots/rmse_ate_rmse_by_duration.png
+images/multy_2/plots/rmse_vs_duration.png
 Dissertation/conclusion.tex
 common/concl.tex
 Dissertation/acronyms.tex
 Dissertation/dictionary.tex
 Dissertation/references.tex
 Dissertation/lists.tex
-common/renames.tex
-Dissertation/renames.tex
-common/renames.tex
-Dissertation/renames.tex
-common/renames.tex
-Dissertation/renames.tex
-common/renames.tex
-Dissertation/renames.tex
-common/renames.tex
-Dissertation/renames.tex
-common/renames.tex
-Dissertation/renames.tex
-common/renames.tex
-Dissertation/renames.tex
-common/renames.tex
-Dissertation/renames.tex
-common/renames.tex
-Dissertation/renames.tex
-common/renames.tex
-Dissertation/renames.tex
 common/renames.tex
 Dissertation/renames.tex
 common/renames.tex
@@ -4305,29 +3893,22 @@ images/fig_dataflow.tex
  ***********
 
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 2.55002pt have occurred.
-
-
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'dissertation.run.xml'.
 \openout1 = `dissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 82996 strings out of 402982
- 2029003 string characters out of 5448462
- 3582496 words of memory out of 5000000
- 110464 multiletter control sequences out of 15000+600000
- 660023 words of font info for 226 fonts, out of 8000000 for 9000
+ 82583 strings out of 402982
+ 2013738 string characters out of 5448462
+ 3580095 words of memory out of 5000000
+ 110098 multiletter control sequences out of 15000+600000
+ 655347 words of font info for 202 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,19n,98p,1356b,5755s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,19n,98p,1287b,5773s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on dissertation.pdf (93 pages).
+Output written on dissertation.pdf (80 pages).
